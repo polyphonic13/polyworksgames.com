@@ -20,11 +20,11 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    
+
     /**
      * Source Maps
      */
-
+    productionGzip: true,
     // https://webpack.js.org/configuration/devtool/#development
     devtool: 'cheap-module-eval-source-map',
 
@@ -36,6 +36,11 @@ module.exports = {
     cssSourceMap: true
   },
 
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' for webpack 1
+    }
+  },
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
