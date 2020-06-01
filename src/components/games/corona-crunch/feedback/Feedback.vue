@@ -1,6 +1,7 @@
 <template>
     <div class="feedback">
-        <h1>feedback</h1>
+        <h1 class="wonkers">CORONA CRUNCH</h1>
+        <h2 class="wonkers">feedback</h2>
     </div>
 </template>
 

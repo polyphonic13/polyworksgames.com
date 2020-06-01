@@ -19,3 +19,12 @@ body {
     font-style: normal;
     font-size: 3.5em;
 }
+
+@font-face {
+    font-family: Wonkers;
+    src: url(/assets/fonts/Wonkers.ttf) format('ttf')
+}
+
+.wonkers {
+    font-family: Wonkers, cursive, sans-serif;
+}

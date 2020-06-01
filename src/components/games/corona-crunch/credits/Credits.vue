@@ -1,7 +1,7 @@
 <template>
     <div class="credits">
-        <h1>credits</h1>
-
+        <h1 class="wonkers">CORONA CRUNCH</h1>
+        <h2 class="wonkers">credits</h2>
     </div>
 </template>
 
