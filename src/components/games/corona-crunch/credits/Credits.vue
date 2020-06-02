@@ -5,5 +5,12 @@
     </div>
 </template>
 
-<script src="./Credits.js"></script>
-<style scoped src="./Credits.css"></style>
+<script>
+export default {
+    name: "Credits",
+    data() {
+        return {};
+    }
+};
+</script>
+<style scoped></style>

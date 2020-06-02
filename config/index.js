@@ -1,7 +1,7 @@
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
-
+const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
@@ -41,6 +41,12 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' for webpack 1
     }
   },
+  plugins: [
+    // ...
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
+  ],
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),

@@ -5,5 +5,12 @@
     </div>
 </template>
 
-<script src="./Feedback.js"></script>
-<style scoped src="./Feedback.css"></style>
+<script>
+export default {
+    name: "Feedback",
+    data() {
+        return {};
+    }
+};
+</script>
+<style scoped></style>
