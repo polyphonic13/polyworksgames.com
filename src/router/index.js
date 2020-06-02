@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/components/home/Home.vue';
+import Contact from '@/components/contact/Contact.vue';
+import Games from '@/components/games/Games.vue';
 import Credits from '@/components/games/corona-crunch/credits/Credits.vue';
 import Feedback from '@/components/games/corona-crunch/feedback/Feedback.vue';
 
@@ -15,6 +17,11 @@ export default new Router({
       component: Home,
     },
     {
+      path: '/games',
+      name: 'Games',
+      component: Games
+    },
+    {
       path: '/games/corona-crunch/credits',
       name: 'Credits',
       component: Credits,
@@ -23,6 +30,11 @@ export default new Router({
       path: '/games/corona-crunch/feedback',
       name: 'Feedback',
       component: Feedback,
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     },
   ]
 })

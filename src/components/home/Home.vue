@@ -18,16 +18,6 @@ export default {
 };
 </script>
 <style scoped>
-.home {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .polyworks {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 900;
