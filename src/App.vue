@@ -18,7 +18,14 @@ export default {
 <style>
 html,
 body {
-    background-color: #000000;
+    /* background-color: #000000; */
+    background: linear-gradient(
+        200deg,
+        rgba(0, 0, 0, 1) 0,
+        70%,
+        rgba(1, 35, 69, 1) 85%,
+        rgb(69, 1, 1) 100%
+    );
     color: #abcdef;
     width: 100%;
     height: 100%;
@@ -37,10 +44,8 @@ body {
     display: flex;
 }
 
-.home,
-.games,
-.contact {
-    width: 100%;
+.screen {
+    width: 75vw;
     height: 100%;
 
     display: flex;
@@ -56,5 +61,27 @@ body {
 
 .wonkers {
     font-family: Wonkers, cursive, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    html,
+    body {
+        background: linear-gradient(
+            -200deg,
+            rgba(0, 0, 0, 1) 0,
+            66%,
+            rgba(1, 35, 69, 1) 75%,
+            rgb(69, 1, 1) 100%
+        );
+    }
+
+    #app {
+        flex-direction: column-reverse;
+    }
+
+    .screen {
+        width: 100vw;
+        justify-content: flex-start;
+    }
 }
 </style>

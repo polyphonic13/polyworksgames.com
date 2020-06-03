@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="home screen">
         <img
             class="large-logo"
             src="../../assets/images/polyworks-icon-gradient-dark-xl.png"

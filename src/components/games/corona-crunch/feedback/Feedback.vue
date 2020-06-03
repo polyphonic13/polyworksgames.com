@@ -1,5 +1,5 @@
 <template>
-    <div class="feedback">
+    <div class="feedback screen">
         <h1 class="wonkers">CORONA CRUNCH</h1>
         <h2 class="wonkers">feedback</h2>
     </div>
