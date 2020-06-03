@@ -93,8 +93,13 @@ export default {
         flex-direction: row;
     }
 
+    .item-inner1 {
+        font-size: 1.5em;
+        padding: 1.5em;
+    }
+
     .item:hover > .item-inner1 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 }
 </style>
