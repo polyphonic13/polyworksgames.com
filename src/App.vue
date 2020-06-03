@@ -154,6 +154,11 @@ p {
     color: #abcdef;
 }
 
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 @media screen and (max-width: 600px) {
     html,
     body {
