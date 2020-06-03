@@ -1,6 +1,6 @@
 <template>
     <div class="games screen">
-        <h1>games</h1>
+        <h1 class="brandon text-xl">G A M E S</h1>
     </div>
 </template>
 <script>

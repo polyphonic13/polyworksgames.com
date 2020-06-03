@@ -18,15 +18,15 @@ export default {
             items: [
                 {
                     name: "about",
-                    link: "/"
+                    link: "/about"
                 },
                 {
                     name: "games",
                     link: "/games"
                 },
                 {
-                    name: "contact",
-                    link: "/contact"
+                    name: "connect",
+                    link: "/connect"
                 }
             ]
         };
@@ -41,6 +41,8 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-left: 1px #012345 solid;
+    border-bottom: none;
 }
 
 .item,
@@ -77,8 +79,8 @@ export default {
 
 .item-inner2 {
     background: linear-gradient(rgba(35, 69, 103, 1), rgba(52, 86, 120, 0));
-    width: 9.5vw;
-    height: 9.5vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
 }
 
@@ -91,6 +93,8 @@ export default {
         width: 100vw;
         height: 50vw;
         flex-direction: row;
+        border-left: none;
+        border-bottom: 1px #012345 solid;
     }
 
     .item-inner1 {

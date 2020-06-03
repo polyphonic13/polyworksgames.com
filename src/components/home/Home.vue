@@ -2,10 +2,8 @@
     <div class="home screen">
         <img
             class="large-logo"
-            src="../../assets/images/polyworks-icon-gradient-dark-xl.png"
+            src="../../assets/images/polyworks-logo-gradient-dark.png"
         >
-        <span class="polyworks">P O L Y W O R K S</span>
-
     </div>
 </template>
 
@@ -18,16 +16,17 @@ export default {
 };
 </script>
 <style scoped>
-.polyworks {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 1.5em;
+.large-logo {
+    width: 512px;
+    height: 512px;
+    padding: 32px;
 }
 
-.large-logo {
-    width: 256px;
-    height: 256px;
-    padding: 16px;
+@media screen and (max-width: 600px) {
+    .large-logo {
+        width: 364px;
+        height: 364px;
+        padding: 16px;
+    }
 }
 </style>
