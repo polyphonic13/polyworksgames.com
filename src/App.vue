@@ -188,4 +188,10 @@ p {
         left: 90vw;
     }
 }
+
+@media screen and (max-width: 299px) {
+    body {
+        display: none;
+    }
+}
 </style>
