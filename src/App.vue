@@ -175,9 +175,14 @@ p {
         flex-direction: column-reverse;
     }
 
+    a {
+        color: white;
+    }
     .screen {
         width: 100vw;
         justify-content: flex-start;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     .text-xl {

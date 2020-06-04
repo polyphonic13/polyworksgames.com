@@ -6,6 +6,7 @@ import Connect from '@/components/connect/Connect.vue';
 import Games from '@/components/games/Games.vue';
 import Credits from '@/components/games/corona-crunch/credits/Credits.vue';
 import Feedback from '@/components/games/corona-crunch/feedback/Feedback.vue';
+import PrivacyPolicy from '@/components/privacy/PrivacyPolicy.vue';
 
 Vue.use(Router);
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/connect',
       name: 'Connect',
       component: Connect
+    },
+    {
+      path: '/privacy',
+      name: 'Privacy',
+      component: PrivacyPolicy,
     },
   ]
 })
