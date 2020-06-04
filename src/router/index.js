@@ -29,6 +29,11 @@ export default new Router({
       component: Games
     },
     {
+      path: '/connect',
+      name: 'Connect',
+      component: Connect
+    },
+    {
       path: '/games/corona-crunch/credits',
       name: 'Credits',
       component: Credits,
@@ -39,12 +44,7 @@ export default new Router({
       component: Feedback,
     },
     {
-      path: '/connect',
-      name: 'Connect',
-      component: Connect
-    },
-    {
-      path: '/privacy',
+      path: '/games/corona-crunch/privacy',
       name: 'Privacy',
       component: PrivacyPolicy,
     },
