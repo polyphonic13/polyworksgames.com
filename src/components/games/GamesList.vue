@@ -15,10 +15,6 @@
                     :src="game.logo"
                 />
 
-                <!-- <div
-                    class="list-item-img"
-                    :style="getBackgroundImageStyle(game)"
-                ></div> -->
             </router-link>
         </div>
     </div>
@@ -83,10 +79,6 @@ export default {
 }
 
 .list-item-img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
     width: 100%;
     height: 100%;
 }

@@ -72,7 +72,7 @@ a {
 }
 
 .screen {
-    width: 70vw;
+    width: 80vw;
     height: 100%;
 
     display: flex;
@@ -132,6 +132,10 @@ a {
 
 .text-right {
     text-align: right;
+}
+
+.text-xxxl {
+    font-size: 3em;
 }
 
 .text-xxl {
@@ -198,6 +202,11 @@ a {
 
     .text-xl {
         font-size: 1.66em;
+    }
+
+    .text-lg {
+        font-weight: 200vw;
+        font-size: 1.25em;
     }
 
     .home-btn {

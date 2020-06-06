@@ -1,6 +1,7 @@
 <template>
     <div class="screen">
-        <h1 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h1>
+        <h1 class="wonkers text-xxxl">CORONA CRUNCH</h1>
+        <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <div class="text-md">
             <p>
                 Polyworks Games built the Corona Crunch app as

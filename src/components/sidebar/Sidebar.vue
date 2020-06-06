@@ -6,7 +6,12 @@
             class="item"
             :to="item.link"
         >
-            <div class="item-inner1"><span class="item-inner2">{{ item.name }}</span></div>
+            <div class="item-inner1">
+                <span
+                    class="item-inner2"
+                    :class="(item.isActive) ? 'active' : ''"
+                >{{ item.name }}</span>
+            </div>
         </router-link>
     </div>
 </template>
@@ -18,24 +23,44 @@ export default {
             items: [
                 {
                     name: "about",
-                    link: "/about"
+                    link: "/about",
+                    isActive: false
                 },
                 {
                     name: "games",
-                    link: "/games"
+                    link: "/games",
+                    isActive: false
                 },
                 {
                     name: "connect",
-                    link: "/connect"
+                    link: "/connect",
+                    isActive: false
                 }
             ]
         };
+    },
+    methods: {
+        setActiveLink() {
+            this.items = this.items.map(item => {
+                item.isActive = false;
+                if (this.$route.path.indexOf(item.name) > -1) {
+                    item.isActive = true;
+                }
+                return item;
+            });
+        }
+    },
+    created() {
+        this.setActiveLink();
+        this.$router.afterEach(() => {
+            this.setActiveLink();
+        });
     }
 };
 </script>
 <style scoped>
 .sidebar {
-    width: 30vw;
+    width: 20vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -87,6 +112,7 @@ export default {
     border-radius: 50%;
 }
 
+.active,
 .item:hover > .item-inner1 > .item-inner2 {
     /* background: linear-gradient(rgba(52, 86, 120, 1), rgba(86, 120, 154, 0)); */
     background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
