@@ -35,7 +35,7 @@ export default {
 </script>
 <style scoped>
 .sidebar {
-    width: 25vw;
+    width: 30vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -74,9 +74,9 @@ export default {
 .item:hover > .item-inner1 {
     background: linear-gradient(rgba(18, 52, 86, 1), rgba(69, 103, 152, 0));
     color: white;
-    width: 12vw;
-    height: 12vw;
-    font-size: 3em;
+    width: 11vw;
+    height: 11vw;
+    font-size: 2em;
 }
 
 .item-inner2 {

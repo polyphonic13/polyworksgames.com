@@ -3,7 +3,8 @@ import Router from 'vue-router';
 import Home from '@/components/home/Home.vue';
 import About from '@/components/about/About.vue';
 import Connect from '@/components/connect/Connect.vue';
-import Games from '@/components/games/Games.vue';
+import GamesList from '@/components/games/GamesList.vue';
+import CoronaCrunch from '@/components/games/corona-crunch/CoronaCrunch.vue';
 import Credits from '@/components/games/corona-crunch/credits/Credits.vue';
 import Feedback from '@/components/games/corona-crunch/feedback/Feedback.vue';
 import PrivacyPolicy from '@/components/privacy/PrivacyPolicy.vue';
@@ -25,13 +26,18 @@ export default new Router({
     },
     {
       path: '/games',
-      name: 'Games',
-      component: Games
+      name: 'GamesList',
+      component: GamesList
     },
     {
       path: '/connect',
       name: 'Connect',
       component: Connect
+    },
+    {
+      path: '/games/corona-crunch',
+      name: 'CoronaCrunch',
+      component: CoronaCrunch,
     },
     {
       path: '/games/corona-crunch/credits',

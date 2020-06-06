@@ -6,6 +6,7 @@
             class="home-btn"
             to="/"
         ></router-link>
+        <div class="invisible wonkers">hi</div>
     </div>
 </template>
 
@@ -71,7 +72,7 @@ a {
 }
 
 .screen {
-    width: 75vw;
+    width: 70vw;
     height: 100%;
 
     display: flex;
@@ -163,6 +164,10 @@ a {
 
 .text-blue1 {
     color: #abcdef;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 * {
