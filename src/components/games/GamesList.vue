@@ -30,12 +30,6 @@ export default {
         return {
             games: [
                 {
-                    name: "Keke and The Grey Expanse",
-                    logo: require("../../assets/images/games/keke/logo01.png"),
-                    path: "games/corona-crunch/",
-                    isActive: true
-                },
-                {
                     name: "Corona Crunch",
                     logo: require("../../assets/images/games/corona-crunch/logo01.png"),
                     path: "games/corona-crunch/",
@@ -45,13 +39,19 @@ export default {
                     name: "Farkle Safari",
                     logo: require("../../assets/images/games/farkle-safari/logo01.png"),
                     path: "games/corona-crunch/",
-                    isActive: true
+                    isActive: false
                 },
                 {
                     name: "Dreams of Yesterday",
                     logo: require("../../assets/images/games/doy/logo01.png"),
                     path: "games/corona-crunch/",
-                    isActive: true
+                    isActive: false
+                },
+                {
+                    name: "Keke and The Grey Expanse",
+                    logo: require("../../assets/images/games/keke/logo01.png"),
+                    path: "games/corona-crunch/",
+                    isActive: false
                 }
             ]
         };

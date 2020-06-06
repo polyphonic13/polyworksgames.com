@@ -63,8 +63,8 @@ export default {
     background: linear-gradient(rgba(1, 35, 69, 1), rgba(18, 52, 86, 0));
     color: #abcdef;
     text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789;
-    width: 10vw;
-    height: 10vw;
+    width: 9vw;
+    height: 9vw;
     font-size: 1.75em;
     padding: 1em;
     border-radius: 50%;
@@ -82,8 +82,8 @@ export default {
 .item-inner2 {
     /* background: linear-gradient(rgba(35, 69, 103, 1), rgba(52, 86, 120, 0)); */
     background: radial-gradient(circle at 3vw 3vw, #345678, #012345);
-    width: 10vw;
-    height: 10vw;
+    width: 9vw;
+    height: 9vw;
     border-radius: 50%;
 }
 
