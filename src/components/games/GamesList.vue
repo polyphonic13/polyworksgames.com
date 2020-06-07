@@ -2,10 +2,11 @@
     <div class="games screen">
         <h1 class="brandon text-xl">G A M E S</h1>
         <div class="list">
-            <router-link
+            <component
                 v-for="(game, g) in games"
                 :key="g"
                 :disabled="!game.isActive"
+                :is="(game.isActive) ? 'router-link' : 'div'"
                 :to="game.path"
                 class="list-item"
                 :class="getItemClasses(game)"
@@ -15,7 +16,7 @@
                     :src="game.logo"
                 />
 
-            </router-link>
+            </component>
         </div>
     </div>
 </template>

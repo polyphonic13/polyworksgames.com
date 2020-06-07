@@ -7,7 +7,7 @@ import GamesList from '@/components/games/GamesList.vue';
 import CoronaCrunch from '@/components/games/corona-crunch/CoronaCrunch.vue';
 import Credits from '@/components/games/corona-crunch/credits/Credits.vue';
 import Feedback from '@/components/games/corona-crunch/feedback/Feedback.vue';
-import PrivacyPolicy from '@/components/privacy/PrivacyPolicy.vue';
+import PrivacyPolicy from '@/components/games/corona-crunch/PrivacyPolicy.vue';
 
 Vue.use(Router);
 

@@ -1,6 +1,9 @@
 <template>
     <div class="screen">
-        <h1 class="wonkers text-xxxl">CORONA CRUNCH</h1>
+        <img
+            class="title-logo"
+            src="../../../assets/images/games/corona-crunch/logo01.png"
+        />
         <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <div class="text-md">
             <p>
@@ -147,4 +150,8 @@ export default {
 };
 </script>
 <style scoped>
+.title-logo {
+    width: 50%;
+    height: auto;
+}
 </style>

@@ -1,7 +1,9 @@
 <template>
     <div class="game screen">
-        <img src="" />
-        <h1 class="wonkers text-xxxl">CORONA CRUNCH</h1>
+        <img
+            class="title-logo"
+            src="../../../assets/images/games/corona-crunch/logo01.png"
+        />
         <h2 class="text-lg">Smash, slash and crush the invading Corona Viruses! Don't let them get to the ground.</h2>
         <p class="text-lg">Help battle the virus from the comfort of your phone--half of all proceeds will be donated to world-wide charities. Every ad viewed in the free version and procedes from sales of the premium version will help in the fight against the Corona Virus.</p>
         <h2 class="text-lg">Charities</h2>
@@ -107,7 +109,9 @@ export default {
 };
 </script>
 <style scoped>
-.game {
+.title-logo {
+    width: 50%;
+    height: auto;
 }
 
 .store-links {
