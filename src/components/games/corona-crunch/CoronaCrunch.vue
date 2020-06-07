@@ -20,7 +20,7 @@
                 >{{ charity.name }}</a>
             </li>
         </ul>
-        <h2 class="text-lg">Install from the Play or App Store</h2>
+        <!-- <h2 class="text-lg">Install from the Play or App Store</h2>
         <p class="store-links">
             <a
                 v-for="(link, l) in storeLinks"
@@ -31,7 +31,7 @@
             >
                 <img :src="link.image" />
             </a>
-        </p>
+        </p> -->
         <h2 class="text-lg">Credits</h2>
         <p class="soundtrack text-lg">Original Soundtrack from OGRE Sound <a
                 href="http://www.ogresound.co.uk/"
