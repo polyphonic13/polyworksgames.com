@@ -37,6 +37,10 @@
                 href="http://www.ogresound.co.uk/"
                 target="_blank"
             >http://www.ogresound.co.uk/</a></p>
+        <router-link
+            to="/games/corona-crunch/privacy"
+            class="privacy text-xl"
+        >Privacy Policy</router-link>
         <h2 class="text-lg">Screenshots</h2>
         <div class="screenshots">
             <img
@@ -46,10 +50,6 @@
                 class="screenshot"
             />
         </div>
-        <router-link
-            to="/games/corona-crunch/privacy"
-            class="privacy text-xl"
-        >Privacy Policy</router-link>
     </div>
 </template>
 <script>
@@ -116,6 +116,7 @@ export default {
 
 .store-links {
     width: 100%;
+    min-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;

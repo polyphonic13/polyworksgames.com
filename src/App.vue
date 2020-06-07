@@ -185,6 +185,7 @@ a {
 
 .screenshots {
     width: 100%;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
