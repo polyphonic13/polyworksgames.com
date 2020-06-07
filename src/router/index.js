@@ -8,6 +8,7 @@ import CoronaCrunch from '@/components/games/corona-crunch/CoronaCrunch.vue';
 import Credits from '@/components/games/corona-crunch/credits/Credits.vue';
 import Feedback from '@/components/games/corona-crunch/feedback/Feedback.vue';
 import PrivacyPolicy from '@/components/games/corona-crunch/PrivacyPolicy.vue';
+import Keke from '@/components/games/keke/Keke.vue';
 
 Vue.use(Router);
 
@@ -54,5 +55,10 @@ export default new Router({
       name: 'Privacy',
       component: PrivacyPolicy,
     },
+    {
+      path: '/games/keke',
+      name: 'Keke',
+      component: Keke
+    }
   ]
 })

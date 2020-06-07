@@ -1,7 +1,7 @@
 <template>
     <div class="screen">
         <img
-            class="title-logo"
+            class="game-title-logo"
             src="../../../assets/images/games/corona-crunch/logo01.png"
         />
         <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
@@ -150,7 +150,7 @@ export default {
 };
 </script>
 <style scoped>
-.title-logo {
+.game-title-logo {
     width: 50%;
     height: auto;
 }

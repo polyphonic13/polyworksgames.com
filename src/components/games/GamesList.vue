@@ -9,12 +9,16 @@
                 :is="(game.isActive) ? 'router-link' : 'div'"
                 :to="game.path"
                 class="list-item"
-                :class="getItemClasses(game)"
             >
                 <img
                     class="list-item-img"
                     :src="game.logo"
+                    :class="getItemClasses(game)"
                 />
+                <span
+                    v-if="!game.isActive"
+                    class="coming-soon-overlay brandon text-xxl"
+                >COMING SOON</span>
 
             </component>
         </div>
@@ -47,8 +51,8 @@ export default {
                 {
                     name: "Keke and The Grey Expanse",
                     logo: require("../../assets/images/games/keke/logo01.png"),
-                    path: "games/corona-crunch/",
-                    isActive: false
+                    path: "games/keke/",
+                    isActive: true
                 }
             ]
         };
@@ -77,11 +81,23 @@ export default {
     height: 25vw;
     padding: 1vw;
     margin: 2vw;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .list-item-img {
+    border: 2px solid #abcdef;
     width: 100%;
     height: 100%;
+}
+
+.coming-soon-overlay {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    z-index: 2;
 }
 
 @media screen and (max-width: 600px) {

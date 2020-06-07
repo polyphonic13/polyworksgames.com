@@ -179,6 +179,35 @@ a {
     -moz-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.game-title-logo {
+    margin-top: 1em;
+}
+
+.screenshots {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.screenshot {
+    border: 2px solid #abcdef;
+    width: 25%;
+    margin: 1em;
+    flex: 1;
+}
+
+@media screen and (max-width: 850px) {
+    .screenshot {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     html,
     body {
@@ -211,6 +240,14 @@ a {
 
     .home-btn {
         left: 90vw;
+    }
+
+    .game-title-logo {
+        width: 50%;
+    }
+
+    .screenshot {
+        width: 90%;
     }
 }
 

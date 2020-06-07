@@ -1,17 +1,18 @@
 <template>
     <div class="game screen">
         <img
-            class="title-logo"
+            class="game-title-logo"
             src="../../../assets/images/games/corona-crunch/logo01.png"
         />
         <h2 class="text-lg">Smash, slash and crush the invading Corona Viruses! Don't let them get to the ground.</h2>
         <p class="text-lg">Help battle the virus from the comfort of your phone--half of all proceeds will be donated to world-wide charities. Every ad viewed in the free version and procedes from sales of the premium version will help in the fight against the Corona Virus.</p>
         <h2 class="text-lg">Charities</h2>
-        <p class="text-lg text-left">The following charities will be receiving donations. Visit there links to find out more</p>
+        <p class="text-lg text-left">The following charities will be receiving donations from Corona Crunch proceeds. Visit the links to find out more.</p>
         <ul class="text-lg text-left">
             <li
                 v-for="(charity, c) in charities"
                 :key="c"
+                class="charity"
             >
                 <a
                     :href="charity.link"
@@ -109,9 +110,8 @@ export default {
 };
 </script>
 <style scoped>
-.title-logo {
-    width: 50%;
-    height: auto;
+.charity {
+    padding: 0.5em;
 }
 
 .store-links {
@@ -124,6 +124,7 @@ export default {
 
 .store-link {
     width: 33%;
+    margin: 1em 0;
     height: auto;
 }
 
@@ -133,37 +134,7 @@ export default {
     height: auto;
 }
 
-.screenshots {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1em;
-    box-sizing: border-box;
-}
-
-.screenshot {
-    border: 2px solid #abcdef;
-    width: 25%;
-    height: auto;
-    margin: 1em;
-}
-
 .privacy {
     margin-bottom: 1em;
-}
-
-@media screen and (max-width: 850px) {
-    .screenshot {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .screenshot {
-        width: 90%;
-    }
 }
 </style>
