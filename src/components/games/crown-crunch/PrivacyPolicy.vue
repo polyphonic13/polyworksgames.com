@@ -2,12 +2,12 @@
     <div class="screen">
         <img
             class="game-title-logo"
-            src="../../../assets/images/games/corona-crunch/logo01.png"
+            src="../../../assets/images/games/crown-crunch/logo01.png"
         />
         <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <div class="text-md">
             <p>
-                Polyworks Games built the Corona Crunch app as
+                Polyworks Games built the Crown Crunch app as
                 an Ad Supported app. This SERVICE is provided by
                 Polyworks Games at no cost and is intended for use as
                 is.
@@ -27,7 +27,7 @@
             <p>
                 The terms used in this Privacy Policy have the same meanings
                 as in our Terms and Conditions, which is accessible at
-                Corona Crunch unless otherwise defined in this Privacy Policy.
+                Crown Crunch unless otherwise defined in this Privacy Policy.
             </p>
             <p><strong>Information Collection and Use</strong></p>
             <p>

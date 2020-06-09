@@ -4,10 +4,10 @@ import Home from '@/components/home/Home.vue';
 import About from '@/components/about/About.vue';
 import Connect from '@/components/connect/Connect.vue';
 import GamesList from '@/components/games/GamesList.vue';
-import CoronaCrunch from '@/components/games/corona-crunch/CoronaCrunch.vue';
-import Credits from '@/components/games/corona-crunch/credits/Credits.vue';
-import Feedback from '@/components/games/corona-crunch/feedback/Feedback.vue';
-import PrivacyPolicy from '@/components/games/corona-crunch/PrivacyPolicy.vue';
+import CrownCrunch from '@/components/games/crown-crunch/CrownCrunch.vue';
+import Credits from '@/components/games/crown-crunch/credits/Credits.vue';
+import Feedback from '@/components/games/crown-crunch/feedback/Feedback.vue';
+import PrivacyPolicy from '@/components/games/crown-crunch/PrivacyPolicy.vue';
 import Keke from '@/components/games/keke/Keke.vue';
 
 Vue.use(Router);
@@ -36,22 +36,22 @@ export default new Router({
       component: Connect
     },
     {
-      path: '/games/corona-crunch',
-      name: 'CoronaCrunch',
-      component: CoronaCrunch,
+      path: '/games/crown-crunch',
+      name: 'CrownCrunch',
+      component: CrownCrunch,
     },
     {
-      path: '/games/corona-crunch/credits',
+      path: '/games/crown-crunch/credits',
       name: 'Credits',
       component: Credits,
     },
     {
-      path: '/games/corona-crunch/feedback',
+      path: '/games/crown-crunch/feedback',
       name: 'Feedback',
       component: Feedback,
     },
     {
-      path: '/games/corona-crunch/privacy',
+      path: '/games/crown-crunch/privacy',
       name: 'Privacy',
       component: PrivacyPolicy,
     },

@@ -2,12 +2,12 @@
     <div class="game screen">
         <img
             class="game-title-logo"
-            src="../../../assets/images/games/corona-crunch/logo01.png"
+            src="../../../assets/images/games/crown-crunch/logo01.png"
         />
-        <h2 class="text-lg">Smash, slash and crush the invading Corona Viruses! Don't let them get to the ground.</h2>
-        <p class="text-lg">Help battle the virus from the comfort of your phone--half of all proceeds will be donated to world-wide charities. Every ad viewed in the free version and procedes from sales of the premium version will help in the fight against the Corona Virus.</p>
+        <h2 class="text-lg">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
+        <p class="text-lg">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 50% of the proceeds to charity.</p>
         <h2 class="text-lg">Charities</h2>
-        <p class="text-lg text-left">The following charities will be receiving donations from Corona Crunch proceeds. Visit the links to find out more.</p>
+        <p class="text-lg text-left">The following charities will be receiving donations from Crown Crunch proceeds. Visit the links to find out more.</p>
         <ul class="text-lg text-left">
             <li
                 v-for="(charity, c) in charities"
@@ -38,7 +38,7 @@
                 target="_blank"
             >http://www.ogresound.co.uk/</a></p>
         <router-link
-            to="/games/corona-crunch/privacy"
+            to="/games/crown-crunch/privacy"
             class="privacy text-xl"
         >Privacy Policy</router-link>
         <h2 class="text-lg">Screenshots</h2>
@@ -54,7 +54,7 @@
 </template>
 <script>
 export default {
-    name: "CoronaCrunch",
+    name: "CrownCrunch",
     data() {
         return {
             charities: [
@@ -65,7 +65,7 @@ export default {
                 {
                     name: "UNICEF",
                     link:
-                        "https://donate.unicefusa.org/page/contribute/corona-virus-gen?_ga=2.265138951.989147882.1591480955-2042016180.1591480955&_gac=1.192991839.1591481091.Cj0KCQjw_ez2BRCyARIsAJfg-ksKZONE8taaXjqcl5tN64uej2R3eFaLTgRJKAH6esQ1DtgwGVY9cpAaArCNEALw_wcB"
+                        "https://donate.unicefusa.org/page/contribute/crown-virus-gen?_ga=2.265138951.989147882.1591480955-2042016180.1591480955&_gac=1.192991839.1591481091.Cj0KCQjw_ez2BRCyARIsAJfg-ksKZONE8taaXjqcl5tN64uej2R3eFaLTgRJKAH6esQ1DtgwGVY9cpAaArCNEALw_wcB"
                 },
                 {
                     name: "CDC Foundation",
@@ -87,22 +87,22 @@ export default {
             ],
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/corona-crunch/cc-ss-title.png")
+                    url: require("../../../assets/images/games/crown-crunch/cc-ss-title.png")
                 },
                 {
-                    url: require("../../../assets/images/games/corona-crunch/cc-ss-level12.png")
+                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level12.png")
                 },
                 {
-                    url: require("../../../assets/images/games/corona-crunch/cc-ss-level27.png")
+                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level27.png")
                 },
                 {
-                    url: require("../../../assets/images/games/corona-crunch/cc-ss-level38.png")
+                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level38.png")
                 },
                 {
-                    url: require("../../../assets/images/games/corona-crunch/cc-ss-level45.png")
+                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level45.png")
                 },
                 {
-                    url: require("../../../assets/images/games/corona-crunch/cc-ss-settings.png")
+                    url: require("../../../assets/images/games/crown-crunch/cc-ss-settings.png")
                 }
             ]
         };

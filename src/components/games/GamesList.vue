@@ -31,21 +31,21 @@ export default {
         return {
             games: [
                 {
-                    name: "Corona Crunch",
-                    logo: require("../../assets/images/games/corona-crunch/logo01.png"),
-                    path: "games/corona-crunch/",
+                    name: "Crown Crunch",
+                    logo: require("../../assets/images/games/crown-crunch/logo01.png"),
+                    path: "games/crown-crunch/",
                     isActive: true
                 },
                 {
                     name: "Farkle Safari",
                     logo: require("../../assets/images/games/farkle-safari/logo01.png"),
-                    path: "games/corona-crunch/",
+                    path: "games/crown-crunch/",
                     isActive: false
                 },
                 {
                     name: "Dreams of Yesterday",
                     logo: require("../../assets/images/games/doy/logo01.png"),
-                    path: "games/corona-crunch/",
+                    path: "games/crown-crunch/",
                     isActive: false
                 },
                 {
