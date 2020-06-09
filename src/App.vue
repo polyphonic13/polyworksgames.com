@@ -35,7 +35,6 @@ body {
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
 }
 
 p {
@@ -77,10 +76,12 @@ a {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 
     overflow-y: auto;
     overflow-x: hidden;
+
+    margin: 2em;
 }
 
 @font-face {
@@ -181,6 +182,8 @@ a {
 
 .game-title-logo {
     margin-top: 1em;
+    width: 50%;
+    align-self: center;
 }
 
 .screenshots {
@@ -201,6 +204,20 @@ a {
     width: 25%;
     margin: 1em;
     flex: 1;
+}
+
+section {
+    width: 100%;
+    padding: 1em;
+    text-align: left;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.border-top {
+    border-top: 1px solid #234567;
 }
 
 @media screen and (max-width: 850px) {
@@ -231,11 +248,11 @@ a {
     }
 
     .text-xl {
+        font-weight: 150;
         font-size: 1.66em;
     }
 
     .text-lg {
-        font-weight: 200vw;
         font-size: 1.25em;
     }
 

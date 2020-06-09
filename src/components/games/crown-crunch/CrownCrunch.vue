@@ -4,44 +4,49 @@
             class="game-title-logo"
             src="../../../assets/images/games/crown-crunch/logo01.png"
         />
-        <h2 class="text-lg">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
-        <p class="text-lg">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 50% of the proceeds to charity.</p>
-        <h2 class="text-lg">Charities</h2>
-        <p class="text-lg text-left">The following charities will be receiving donations from Crown Crunch proceeds. Visit the links to find out more.</p>
-        <ul class="text-lg text-left">
-            <li
-                v-for="(charity, c) in charities"
-                :key="c"
-                class="charity"
-            >
+        <section>
+            <h2 class="text-xl">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
+            <p class="text-xl">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 50% of the proceeds to charity.</p>
+            <h2 class="text-xl">Charities</h2>
+            <p class="text-xl text-left">The following charities will be receiving donations from Crown Crunch proceeds. Visit the links to find out more.</p>
+            <ul class="text-xl text-left list-style-none">
+                <li
+                    v-for="(charity, c) in charities"
+                    :key="c"
+                    class="charity"
+                >
+                    <a
+                        :href="charity.link"
+                        target="_blank"
+                    >{{ charity.name }}</a>
+                </li>
+            </ul>
+            <h2 class="text-xl">Install from the Play or App Store</h2>
+            <p class="store-links">
                 <a
-                    :href="charity.link"
+                    v-for="(link, l) in storeLinks"
+                    :key="l"
+                    href="link.url"
                     target="_blank"
-                >{{ charity.name }}</a>
-            </li>
-        </ul>
-        <!-- <h2 class="text-lg">Install from the Play or App Store</h2>
-        <p class="store-links">
-            <a
-                v-for="(link, l) in storeLinks"
-                :key="l"
-                href="link.url"
-                target="_blank"
-                class="store-link"
-            >
-                <img :src="link.image" />
-            </a>
-        </p> -->
-        <h2 class="text-lg">Credits</h2>
-        <p class="soundtrack text-lg">Original Soundtrack from OGRE Sound <a
-                href="http://www.ogresound.co.uk/"
-                target="_blank"
-            >http://www.ogresound.co.uk/</a></p>
-        <router-link
-            to="/games/crown-crunch/privacy"
-            class="privacy text-xl"
-        >Privacy Policy</router-link>
-        <h2 class="text-lg">Screenshots</h2>
+                    class="store-link"
+                >
+                    <img :src="link.image" />
+                </a>
+            </p>
+        </section>
+        <section class="">
+            <h2 class="text-xl">Credits</h2>
+            <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
+                    href="http://www.ogresound.co.uk/"
+                    target="_blank"
+                >http://www.ogresound.co.uk/</a></p>
+        </section>
+        <section class="">
+            <router-link
+                to="/games/crown-crunch/privacy"
+                class="privacy text-xl"
+            >Privacy Policy</router-link>
+        </section>
         <div class="screenshots">
             <img
                 v-for="(screenshot, s) in screenshots"
