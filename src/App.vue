@@ -35,6 +35,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 0;
+    margin: 0;
 }
 
 p {
@@ -80,8 +81,6 @@ a {
 
     overflow-y: auto;
     overflow-x: hidden;
-
-    margin: 2em;
 }
 
 @font-face {
