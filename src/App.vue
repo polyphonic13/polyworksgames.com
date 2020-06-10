@@ -182,6 +182,7 @@ a {
 .game-title-logo {
     margin-top: 1em;
     width: 50%;
+    max-width: 512px;
     align-self: center;
 }
 

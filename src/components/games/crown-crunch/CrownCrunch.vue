@@ -21,6 +21,8 @@
                     >{{ charity.name }}</a>
                 </li>
             </ul>
+        </section>
+        <!-- <section>
             <h2 class="text-xl">Install from the Play or App Store</h2>
             <p class="store-links">
                 <a
@@ -33,7 +35,7 @@
                     <img :src="link.image" />
                 </a>
             </p>
-        </section>
+        </section> -->
         <section class="">
             <h2 class="text-xl">Credits</h2>
             <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
