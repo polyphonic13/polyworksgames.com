@@ -220,6 +220,10 @@ section {
     border-top: 1px solid #234567;
 }
 
+.min-width-50per {
+    min-width: 50%;
+}
+
 @media screen and (max-width: 850px) {
     .screenshot {
         width: 40%;

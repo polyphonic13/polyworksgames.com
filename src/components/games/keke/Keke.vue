@@ -16,7 +16,7 @@
                 v-for="(screenshot, s) in screenshots"
                 :key="s"
                 :src="screenshot.url"
-                class="screenshot"
+                class="screenshot min-width-50per"
             />
         </div>
 

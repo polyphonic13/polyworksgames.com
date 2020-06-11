@@ -95,7 +95,7 @@ export default {
     width: 100%;
     height: 100%;
     left: 0;
-    top: 50%;
+    top: 45%;
     position: absolute;
     z-index: 2;
 }
