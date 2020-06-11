@@ -20,6 +20,7 @@ export default {
     width: 512px;
     height: 512px;
     padding: 32px;
+    align-self: center;
 }
 
 @media screen and (max-width: 600px) {
