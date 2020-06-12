@@ -41,19 +41,17 @@ export default new Router({
       component: CrownCrunch,
     },
     {
-      path: '/games/crown-crunch/credits',
-      name: 'Credits',
-      component: Credits,
-    },
-    {
-      path: '/games/crown-crunch/feedback',
-      name: 'Feedback',
-      component: Feedback,
+      path: '/games/corona-crunch',
+      redirect: '/games/crown-crunch'
     },
     {
       path: '/games/crown-crunch/privacy',
       name: 'Privacy',
       component: PrivacyPolicy,
+    },
+    {
+      path: '/games/corona-crunch/privacy',
+      redirect: '/games/crown-crunch/privacy',
     },
     {
       path: '/games/keke',

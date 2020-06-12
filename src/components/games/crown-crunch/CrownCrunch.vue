@@ -22,20 +22,20 @@
                 </li>
             </ul>
         </section>
-        <!-- <section>
+        <section>
             <h2 class="text-xl">Install from the Play or App Store</h2>
             <p class="store-links">
                 <a
                     v-for="(link, l) in storeLinks"
                     :key="l"
-                    href="link.url"
+                    :href="link.url"
                     target="_blank"
                     class="store-link"
                 >
                     <img :src="link.image" />
                 </a>
             </p>
-        </section> -->
+        </section>
         <section class="">
             <h2 class="text-xl">Credits</h2>
             <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
@@ -81,15 +81,16 @@ export default {
                 }
             ],
             storeLinks: [
-                {
-                    name: "google",
-                    image: require("../../../assets/images/store-logos-google.png"),
-                    url: ""
-                },
+                // {
+                //     name: "google",
+                //     image: require("../../../assets/images/store-logos-google.png"),
+                //     url: ""
+                // },
                 {
                     name: "apple",
                     image: require("../../../assets/images/store-logos-apple.png"),
-                    url: ""
+                    url:
+                        "https://apps.apple.com/us/app/crown-crunch/id1517903477?mt=8"
                 }
             ],
             screenshots: [
