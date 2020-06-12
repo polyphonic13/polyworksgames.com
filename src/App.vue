@@ -73,6 +73,7 @@ a {
 
 .screen {
     width: 80vw;
+    min-width: calc(100vw - 250px);
     height: 100%;
 
     display: flex;

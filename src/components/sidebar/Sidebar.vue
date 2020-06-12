@@ -61,6 +61,7 @@ export default {
 <style scoped>
 .sidebar {
     width: 20vw;
+    max-width: 250px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -90,6 +91,8 @@ export default {
     text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789;
     width: 9vw;
     height: 9vw;
+    max-width: 225px;
+    max-height: 225px;
     font-size: 1.75em;
     padding: 1em;
     border-radius: 50%;
@@ -109,6 +112,8 @@ export default {
     background: radial-gradient(circle at 3vw 3vw, #345678, #012345);
     width: 9vw;
     height: 9vw;
+    max-width: 150px;
+    max-height: 150px;
     border-radius: 50%;
 }
 
@@ -121,6 +126,7 @@ export default {
 @media screen and (max-width: 600px) {
     .sidebar {
         width: 100vw;
+        max-width: 100vw;
         height: 33vw;
         flex-direction: row;
         border-left: none;
