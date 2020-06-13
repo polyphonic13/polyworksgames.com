@@ -15,7 +15,9 @@
                 />
             </a>
         </div>
-        <p class="text-xl text-left"><a href="mailto:contact@polyworksgames.com">contact@polyworkgames.com</a></p>
+        <section>
+            <p class="text-xl text-left align-self-center"><a href="mailto:contact@polyworksgames.com">contact@polyworkgames.com</a></p>
+        </section>
     </div>
 </template>
 <script>

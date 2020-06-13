@@ -40,7 +40,7 @@ body {
 
 p {
     text-align: left;
-    padding: 1em;
+    padding: 0;
     margin: 0;
 }
 
@@ -57,6 +57,7 @@ a {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     width: 100%;
+    max-width: 1200px;
     height: 100%;
 
     display: flex;
@@ -175,6 +176,10 @@ a {
     visibility: hidden;
 }
 
+.align-self-center {
+    align-self: center;
+}
+
 * {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -moz-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -211,6 +216,7 @@ section {
     width: 100%;
     padding: 1em;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .list-style-none {
@@ -253,7 +259,6 @@ section {
     }
 
     .text-xl {
-        font-weight: 150;
         font-size: 1.66em;
     }
 
