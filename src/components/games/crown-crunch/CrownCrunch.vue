@@ -78,6 +78,15 @@ export default {
                     name: "CDC Foundation",
                     link:
                         "https://give.cdcfoundation.org/give/195963/#!/donation/checkout"
+                },
+                {
+                    name: "Give2Asia",
+                    link: "https://give2asia.org/donate-coronavirus-fund/"
+                },
+                {
+                    name: "Partners In Health",
+                    link:
+                        "https://donate.pih.org/page/contribute/coronavirus-response?utm_content=corona3&source=20200511_pdgg_glb_em_DELVE_allidgePlan_COVID_fnd__donation_0_0_all&gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxWnQDp6Vk-w0g6tRWuwKDB8P2AkwYFj1wqdaonj88-IbTYArs-TKDUaAmQCEALw_wcB"
                 }
             ],
             storeLinks: [
