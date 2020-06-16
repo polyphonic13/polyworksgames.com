@@ -22,8 +22,15 @@
                 </li>
             </ul>
         </section>
+        <section class="">
+            <h2 class="text-xl">Credits</h2>
+            <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
+                    href="http://www.ogresound.co.uk/"
+                    target="_blank"
+                >http://www.ogresound.co.uk/</a></p>
+        </section>
         <section>
-            <h2 class="text-xl">Install from the Play or App Store</h2>
+            <h2 class="text-xl">Links</h2>
             <p class="store-links">
                 <a
                     v-for="(link, l) in storeLinks"
@@ -35,15 +42,6 @@
                     <img :src="link.image" />
                 </a>
             </p>
-        </section>
-        <section class="">
-            <h2 class="text-xl">Credits</h2>
-            <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
-                    href="http://www.ogresound.co.uk/"
-                    target="_blank"
-                >http://www.ogresound.co.uk/</a></p>
-        </section>
-        <section class="">
             <router-link
                 to="/games/crown-crunch/privacy"
                 class="privacy text-xl"
@@ -90,11 +88,12 @@ export default {
                 }
             ],
             storeLinks: [
-                // {
-                //     name: "google",
-                //     image: require("../../../assets/images/store-logos-google.png"),
-                //     url: ""
-                // },
+                {
+                    name: "google",
+                    image: require("../../../assets/images/store-logos-google.png"),
+                    url:
+                        "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch"
+                },
                 {
                     name: "apple",
                     image: require("../../../assets/images/store-logos-apple.png"),
