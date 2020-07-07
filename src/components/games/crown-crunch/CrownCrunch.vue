@@ -97,8 +97,7 @@ export default {
                 {
                     name: "apple",
                     image: require("../../../assets/images/store-logos-apple.png"),
-                    url:
-                        "https://apps.apple.com/us/app/crown-crunch/id1517903477?mt=8"
+                    url: "https://apps.apple.com/us/app/id1518914882"
                 }
             ],
             screenshots: [
