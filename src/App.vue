@@ -57,7 +57,6 @@ a {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     width: 100%;
-    max-width: 1200px;
     height: 100%;
 
     display: flex;
@@ -73,13 +72,11 @@ a {
 }
 
 .screen {
-    width: 80vw;
-    min-width: calc(100vw - 250px);
+    width: calc(100vw - 250px);
     height: 100%;
 
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 
     overflow-y: auto;
     overflow-x: hidden;

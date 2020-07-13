@@ -60,8 +60,7 @@ export default {
 </script>
 <style scoped>
 .sidebar {
-    width: 20vw;
-    max-width: 250px;
+    width: 250px;
     height: 100vh;
     display: flex;
     flex-direction: column;
