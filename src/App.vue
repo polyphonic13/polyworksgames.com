@@ -16,8 +16,8 @@ import Sidebar from "./components/sidebar/Sidebar.vue";
 export default {
     name: "App",
     components: {
-        Sidebar
-    }
+        Sidebar,
+    },
 };
 </script>
 <style>
@@ -190,14 +190,12 @@ a {
 }
 
 .screenshots {
-    width: 100%;
     min-height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1em;
     box-sizing: border-box;
     flex: 1;
 }

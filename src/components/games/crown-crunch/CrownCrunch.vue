@@ -1,14 +1,17 @@
 <template>
     <div class="screen game crown-crunch">
         <div class="main">
-            <img
-                class="game-title-logo"
-                src="../../../assets/images/games/crown-crunch/logo01.png"
-            />
+            <section class="text-center">
+                <img
+                    class="game-title-logo"
+                    src="../../../assets/images/games/crown-crunch/logo01.png"
+                />
+            </section>
             <section>
                 <h2 class="text-xl">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
-                <p class="text-xl">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 50% of the proceeds to charity.</p>
+                <p class="text-xl">Don't let them reach the ground. Tap, swipe and double-tap your way to through these enemies. Save the city, town, farm and beyond. Great fun for young and old. Take a journey around the world in this simple, arcade style casual game. </p>
                 <h2 class="text-xl">Charities</h2>
+                <p class="text-xl">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 50% of the proceeds to charity.</p>
                 <p class="text-xl text-left">The following charities will be receiving donations from Crown Crunch proceeds. Visit the links to find out more.</p>
                 <ul class="text-xl text-left list-style-none">
                     <li
@@ -39,7 +42,7 @@
                     >http://www.ogresound.co.uk/</a></p>
             </section>
             <section>
-                <h2 class="text-xl">Links</h2>
+                <h2 class="text-xl">Store Links</h2>
                 <p class="store-links">
                     <a
                         v-for="(link, l) in storeLinks"
@@ -51,19 +54,21 @@
                         <img :src="link.image" />
                     </a>
                 </p>
-                <router-link
-                    to="/games/crown-crunch/privacy"
+                <h2 class="text-xl">Privacy Policy</h2>
+                <a
+                    :href="privacyLink"
+                    target="_blank"
                     class="privacy text-xl"
-                >Privacy Policy</router-link>
+                >{{ privacyLink }}</a>
             </section>
-            <div class="screenshots">
+            <section class="screenshots">
                 <img
                     v-for="(screenshot, s) in screenshots"
                     :key="s"
                     :src="screenshot.url"
                     class="screenshot"
                 />
-            </div>
+            </section>
         </div>
     </div>
 </template>
@@ -75,63 +80,65 @@ export default {
             charities: [
                 {
                     name: "World Health Organization",
-                    link: "https://covid19responsefund.org/en/"
+                    link: "https://covid19responsefund.org/en/",
                 },
                 {
                     name: "UNICEF",
                     link:
-                        "https://donate.unicefusa.org/page/contribute/crown-virus-gen?_ga=2.265138951.989147882.1591480955-2042016180.1591480955&_gac=1.192991839.1591481091.Cj0KCQjw_ez2BRCyARIsAJfg-ksKZONE8taaXjqcl5tN64uej2R3eFaLTgRJKAH6esQ1DtgwGVY9cpAaArCNEALw_wcB"
+                        "https://donate.unicefusa.org/page/contribute/crown-virus-gen?_ga=2.265138951.989147882.1591480955-2042016180.1591480955&_gac=1.192991839.1591481091.Cj0KCQjw_ez2BRCyARIsAJfg-ksKZONE8taaXjqcl5tN64uej2R3eFaLTgRJKAH6esQ1DtgwGVY9cpAaArCNEALw_wcB",
                 },
                 {
                     name: "CDC Foundation",
                     link:
-                        "https://give.cdcfoundation.org/give/195963/#!/donation/checkout"
+                        "https://give.cdcfoundation.org/give/195963/#!/donation/checkout",
                 },
                 {
                     name: "Give2Asia",
-                    link: "https://give2asia.org/donate-coronavirus-fund/"
+                    link: "https://give2asia.org/donate-coronavirus-fund/",
                 },
                 {
                     name: "Partners In Health",
                     link:
-                        "https://donate.pih.org/page/contribute/coronavirus-response?utm_content=corona3&source=20200511_pdgg_glb_em_DELVE_allidgePlan_COVID_fnd__donation_0_0_all&gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxWnQDp6Vk-w0g6tRWuwKDB8P2AkwYFj1wqdaonj88-IbTYArs-TKDUaAmQCEALw_wcB"
-                }
+                        "https://donate.pih.org/page/contribute/coronavirus-response?utm_content=corona3&source=20200511_pdgg_glb_em_DELVE_allidgePlan_COVID_fnd__donation_0_0_all&gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxWnQDp6Vk-w0g6tRWuwKDB8P2AkwYFj1wqdaonj88-IbTYArs-TKDUaAmQCEALw_wcB",
+                },
             ],
             storeLinks: [
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
                     url:
-                        "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch"
+                        "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
                 },
                 {
                     name: "apple",
                     image: require("../../../assets/images/store-logos-apple.png"),
-                    url: "https://apps.apple.com/us/app/id1518914882"
-                }
+                    url: "https://apps.apple.com/us/app/id1518914882",
+                },
             ],
+            privacyLink:
+                "http://www.polyworksgames.com/games/crown-crunch/privacy",
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/crown-crunch/cc-ss-title.png")
+                    url: require("../../../assets/images/games/crown-crunch/title.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level12.png")
+                    url: require("../../../assets/images/games/crown-crunch/level08.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level27.png")
+                    url: require("../../../assets/images/games/crown-crunch/level14.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level38.png")
+                    url: require("../../../assets/images/games/crown-crunch/level25.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/cc-ss-level45.png")
+                    url: require("../../../assets/images/games/crown-crunch/level45.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/cc-ss-settings.png")
-                }
-            ]
+                    url: require("../../../assets/images/games/crown-crunch/settings.png"),
+                },
+            ],
         };
-    }
+    },
 };
 </script>
 <style scoped>
@@ -150,7 +157,7 @@ export default {
 
 section,
 .screenshots {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .charity {

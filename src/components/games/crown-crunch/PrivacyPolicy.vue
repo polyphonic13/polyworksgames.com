@@ -5,7 +5,7 @@
             src="../../../assets/images/games/crown-crunch/logo01.png"
         />
         <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
-        <div class="text-md">
+        <section class="text-lg">
             <p>
                 Polyworks Games built the Crown Crunch app as
                 an Ad Supported app. This SERVICE is provided by
@@ -127,7 +127,7 @@
             <p><strong>Contact Us</strong></p>
             <p>
                 If you have any questions or suggestions about our
-                Privacy Policy, do not hesitate to contact us at feedback@polyworksgames.com.
+                Privacy Policy, do not hesitate to contact us at <a href="mailto:contact@polyworksgames.com">contact@polyworksgames.com</a>.
             </p>
             <p>
                 This privacy policy page was created at
@@ -140,13 +140,13 @@
                     href="https://app-privacy-policy-generator.firebaseapp.com/"
                     target="_blank"
                 >App Privacy Policy Generator</a></p>
-        </div>
+        </section>
     </div>
 
 </template>
 <script>
 export default {
-    name: "PrivacyPolicy"
+    name: "PrivacyPolicy",
 };
 </script>
 <style scoped>
