@@ -266,7 +266,7 @@ section {
     }
 
     .game-title-logo {
-        width: 50%;
+        width: 100%;
     }
 
     .screenshot {
