@@ -24,38 +24,38 @@ export default {
                 {
                     name: "about",
                     link: "/about",
-                    isActive: false
+                    isActive: false,
                 },
                 {
                     name: "games",
                     link: "/games",
-                    isActive: false
+                    isActive: false,
                 },
                 {
                     name: "connect",
                     link: "/connect",
-                    isActive: false
-                }
-            ]
+                    isActive: false,
+                },
+            ],
         };
     },
     methods: {
         setActiveLink() {
-            this.items = this.items.map(item => {
+            this.items = this.items.map((item) => {
                 item.isActive = false;
                 if (this.$route.path.indexOf(item.name) > -1) {
                     item.isActive = true;
                 }
                 return item;
             });
-        }
+        },
     },
     created() {
         this.setActiveLink();
         this.$router.afterEach(() => {
             this.setActiveLink();
         });
-    }
+    },
 };
 </script>
 <style scoped>
@@ -92,7 +92,7 @@ export default {
     height: 9vw;
     max-width: 225px;
     max-height: 225px;
-    font-size: 1.75em;
+    font-size: 1.5em;
     padding: 1em;
     border-radius: 50%;
     transition: all 0.5s linear;
