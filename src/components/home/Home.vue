@@ -2,7 +2,7 @@
     <div class="home screen">
         <img
             class="large-logo"
-            src="../../assets/images/polyworks-logo-gradient-dark.png"
+            src="../../assets/images/polyworks-logo-gradient-dark-2048x2048.png"
         >
     </div>
 </template>
@@ -12,7 +12,7 @@ export default {
     name: "Home",
     data() {
         return {};
-    }
+    },
 };
 </script>
 <style scoped>

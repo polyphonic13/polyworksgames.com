@@ -8,6 +8,19 @@
                 />
             </section>
             <section>
+                <p class="store-links">
+                    <a
+                        v-for="(link, l) in storeLinks"
+                        :key="l"
+                        :href="link.url"
+                        target="_blank"
+                        class="store-link"
+                    >
+                        <img :src="link.image" />
+                    </a>
+                </p>
+            </section>
+            <section>
                 <h2 class="text-xl">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
                 <p class="text-xl">Don't let them reach the ground. Tap, swipe and double-tap your way to through these enemies. Save the city, town, farm and beyond. Great fun for young and old. Take a journey around the world in this simple, arcade style casual game. </p>
                 <h2 class="text-xl">Charities</h2>
@@ -42,18 +55,6 @@
                     >http://www.ogresound.co.uk/</a></p>
             </section>
             <section>
-                <h2 class="text-xl">Store Links</h2>
-                <p class="store-links">
-                    <a
-                        v-for="(link, l) in storeLinks"
-                        :key="l"
-                        :href="link.url"
-                        target="_blank"
-                        class="store-link"
-                    >
-                        <img :src="link.image" />
-                    </a>
-                </p>
                 <h2 class="text-xl">Privacy Policy</h2>
                 <a
                     :href="privacyLink"

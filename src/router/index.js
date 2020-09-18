@@ -36,6 +36,30 @@ export default new Router({
       component: Connect
     },
     {
+      path: '/crown-crunch/*',
+      redirect: '/games/crown-crunch/*'
+    },
+    {
+      path: '/crown_crunch/*',
+      redirect: '/games/crown-crunch/*'
+    },
+    {
+      path: '/crowncrunch/*',
+      redirect: '/games/crown-crunch/*'
+    },
+    {
+      path: '/crown-crunch',
+      redirect: '/games/crown-crunch'
+    },
+    {
+      path: '/crown_crunch',
+      redirect: '/games/crown-crunch'
+    },
+    {
+      path: '/crowncrunch',
+      redirect: '/games/crown-crunch'
+    },
+    {
       path: '/games/crown-crunch',
       name: 'CrownCrunch',
       component: CrownCrunch,
