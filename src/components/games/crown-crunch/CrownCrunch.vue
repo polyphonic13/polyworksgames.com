@@ -79,10 +79,10 @@ export default {
     data() {
         return {
             charities: [
-                {
-                    name: "World Health Organization",
-                    link: "https://covid19responsefund.org/en/",
-                },
+                // {
+                //     name: "World Health Organization",
+                //     link: "https://covid19responsefund.org/en/",
+                // },
                 {
                     name: "UNICEF",
                     link:
