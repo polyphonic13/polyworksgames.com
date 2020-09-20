@@ -8,6 +8,28 @@
                 />
             </section>
             <section>
+                <h1 class="text-center text-xxxl">Easter Egg Challenge</h1>
+                <h2 class="text-center text-xxl">$100 Prize</h2>
+                <p class="text-xl">Be the first to beat the hidden <b>mini game</b>!</p>
+                <ol class="text-xl text-left">
+                    <li>Find the mini game</li>
+                    <li>Beat it</li>
+                    <li>Screenshot the completed game</li>
+                    <li>Share screenshot on <a
+                            href="https://www.facebook.com/polyworksgames"
+                            target="_blank"
+                        >Facebook</a>, <a
+                            href="https://www.instagram.com/polyworksgames/"
+                            target="_blank"
+                        >@polyworksgames</a> on Instagram or send an email to <a href="mailto:contact@polyworksgames.com">contact@polyworksgames.com</a></li>
+                    <li>Collect $100 *</li>
+                    <li>Brag!</li>
+                </ol>
+            </section>
+            <section>
+                <p class="text-xl">* Price will be given as a $100 VISA card or Amazon gift card.</p>
+            </section>
+            <section>
                 <p class="store-links">
                     <a
                         v-for="(link, l) in storeLinks"
@@ -20,62 +42,12 @@
                     </a>
                 </p>
             </section>
-            <section>
-                <h2 class="text-xl">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
-                <p class="text-xl">Don't let them reach the ground. Tap, swipe and double-tap your way to through these enemies. Save the city, town, farm and beyond. Great fun for young and old. Take a journey around the world in this simple, arcade style casual game.</p>
-                <h2 class="text-xl">Charities</h2>
-                <p class="text-xl">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 50% of the proceeds to charity.</p>
-                <p class="text-xl text-left">The following charities will be receiving donations from Crown Crunch proceeds. Visit the links to find out more.</p>
-                <ul class="text-xl text-left list-style-none">
-                    <li
-                        v-for="(charity, c) in charities"
-                        :key="c"
-                        class="charity"
-                    >
-                        <a
-                            :href="charity.link"
-                            target="_blank"
-                        >{{ charity.name }}</a>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2 class="text-xl">Reviews</h2>
-                <p class="text-xl">Games 1 News July 11, 2020: <a
-                        href="https://game1news.com/2020/07/11/crown-crunch/"
-                        target="_blank"
-                    >https://game1news.com/2020/07/11/crown-crunch/</a></p>
-            </section>
-
-            <section class="">
-                <h2 class="text-xl">Credits</h2>
-                <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
-                        href="http://www.ogresound.co.uk/"
-                        target="_blank"
-                    >http://www.ogresound.co.uk/</a></p>
-            </section>
-            <section>
-                <h2 class="text-xl">Privacy Policy</h2>
-                <a
-                    :href="privacyLink"
-                    target="_blank"
-                    class="privacy text-xl"
-                >{{ privacyLink }}</a>
-            </section>
-            <section class="screenshots">
-                <img
-                    v-for="(screenshot, s) in screenshots"
-                    :key="s"
-                    :src="screenshot.url"
-                    class="screenshot"
-                />
-            </section>
         </div>
     </div>
 </template>
 <script>
 export default {
-    name: "CrownCrunch",
+    name: "CrownCrunchEasterEgg",
     data() {
         return {
             charities: [

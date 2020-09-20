@@ -8,6 +8,7 @@ import CrownCrunch from '@/components/games/crown-crunch/CrownCrunch.vue';
 import Credits from '@/components/games/crown-crunch/credits/Credits.vue';
 import Feedback from '@/components/games/crown-crunch/feedback/Feedback.vue';
 import PrivacyPolicy from '@/components/games/crown-crunch/PrivacyPolicy.vue';
+import EasterEgg from '@/components/games/crown-crunch/EasterEgg.vue';
 import Keke from '@/components/games/keke/Keke.vue';
 
 Vue.use(Router);
@@ -35,7 +36,14 @@ export default new Router({
       name: 'Connect',
       component: Connect
     },
-
+    {
+      path: '/easteregg',
+      redirect: '/games/crown-crunch/easter-egg'
+    },
+    {
+      path: '/easter-egg',
+      redirect: '/games/crown-crunch/easter-egg'
+    },
     {
       path: '/crown-crunch',
       redirect: '/games/crown-crunch'
@@ -66,17 +74,14 @@ export default new Router({
       component: CrownCrunch,
     },
     {
-      path: '/games/corona-crunch',
-      redirect: '/games/crown-crunch'
-    },
-    {
       path: '/games/crown-crunch/privacy',
       name: 'Privacy',
       component: PrivacyPolicy,
     },
     {
-      path: '/games/corona-crunch/privacy',
-      redirect: '/games/crown-crunch/privacy',
+      path: '/games/crown-crunch/easter-egg',
+      name: 'EasterEgg',
+      component: EasterEgg,
     },
     {
       path: '/games/keke',
