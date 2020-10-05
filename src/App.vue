@@ -154,11 +154,11 @@ a {
 }
 
 .text-sm {
-    font-size: 0.5em;
+    font-size: 0.66em;
 }
 
 .text-xs {
-    font-size: 0.25em;
+    font-size: 0.33em;
 }
 
 .text-white {

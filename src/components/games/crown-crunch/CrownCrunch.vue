@@ -55,11 +55,17 @@
                     >http://www.ogresound.co.uk/</a></p>
             </section>
             <section>
+                <h2 class="text-xl">Challenges</h2>
+                <a
+                    :href="challengesLink"
+                    target="_blank"
+                    class="privacy text-md"
+                >{{ challengesLink }}</a>
                 <h2 class="text-xl">Privacy Policy</h2>
                 <a
                     :href="privacyLink"
                     target="_blank"
-                    class="privacy text-xl"
+                    class="privacy text-md"
                 >{{ privacyLink }}</a>
             </section>
             <section class="screenshots">
@@ -118,6 +124,8 @@ export default {
             ],
             privacyLink:
                 "http://www.polyworksgames.com/games/crown-crunch/privacy",
+            challengesLink:
+                "http://www.polyworksgames.com/games/crown-crunch/challenges",
             screenshots: [
                 {
                     url: require("../../../assets/images/games/crown-crunch/title.png"),

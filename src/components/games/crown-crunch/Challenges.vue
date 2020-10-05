@@ -8,36 +8,24 @@
                 />
             </section>
             <section>
-                <h1 class="text-center text-xxxl">Easter Egg Challenge</h1>
-                <h2 class="text-center text-xxl">$100 Prize</h2>
-                <p class="text-xl">Be the first to beat the hidden <b>mini game</b>!</p>
-                <ol class="text-xl text-left">
-                    <li>Download Crown Crunch for <a
-                            href="https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch"
-                            target="_blank"
-                        >Android</a> or <a
-                            href="https://apps.apple.com/us/app/id1518914882"
-                            target="_blank"
-                        >iPhone</a></li>
-                    <li>Find the mini game</li>
-                    <li>Beat it</li>
-                    <li>Screenshot the completed game</li>
-                    <li>Share screenshot on <a
-                            href="https://www.facebook.com/polyworksgames"
-                            target="_blank"
-                        >Facebook</a>, <a
-                            href="https://www.instagram.com/polyworksgames/"
-                            target="_blank"
-                        >@polyworksgames</a> on Instagram or send an email to <a
-                            href="mailto:contact@polyworksgames.com"
-                            class="text-sm"
-                        >contact@polyworksgames.com</a></li>
-                    <li>Collect $100 *</li>
-                    <li>Brag!</li>
-                </ol>
-            </section>
-            <section>
-                <p class="text-xl">* Price will be rewarded as a $100 VISA card or Amazon gift card.</p>
+                <h1 class="text-center text-xxxl">Challenges & Rewards</h1>
+                <h2 class="text-center text-xxl">Win a challenge to claim the reward!</h2>
+                <p class="text-left text-xxl">Visit this page regularly for updates on the latest Crown Crunch challenges or follow updates on <a
+                        href="https://www.facebook.com/polyworksgames"
+                        target="_blank"
+                    >Facebook</a>, <a
+                        href="https://www.instagram.com/polyworksgames/"
+                        target="_blank"
+                    >@polyworksgames</a> on Instagram.</p>
+                <h3 class="text-left">Coming Soon</h3>
+                <ul>
+                    <li>100 for 100</li>
+                    <li>Easter Egg Hunt</li>
+                </ul>
+                <!-- <h3 class="text-left">Active Challenges</h3>
+                <ul>
+                    <li></li>
+                </ul> -->
             </section>
             <section>
                 <p class="store-links">
