@@ -96,6 +96,12 @@
                 />
             </section>
         </div>
+        <!-- Facebook Pixel Code -->
+        <noscript> <img
+                height="1"
+                width="1"
+                src="https://www.facebook.com/tr?id=384713149357588&ev=PageView&noscript=1"
+            /></noscript><!-- End Facebook Pixel Code -->
     </div>
 </template>
 <script>
@@ -147,15 +153,15 @@ export default {
             pressLinks: [
                 {
                     name: "Game1News October 6th, 2020",
-                    url: "https://game1news.com/2020/10/06/crown-crunch-2/",
+                    link: "https://game1news.com/2020/10/06/crown-crunch-2/",
                 },
                 {
                     name: "The Great Apps October 5th, 2020",
-                    url: "https://www.thegreatapps.com/apps/crown-crunch",
+                    link: "https://www.thegreatapps.com/apps/crown-crunch",
                 },
                 {
                     name: "Game1News July 11th, 2020",
-                    url: "https://game1news.com/2020/07/11/crown-crunch/",
+                    link: "https://game1news.com/2020/07/11/crown-crunch/",
                 },
             ],
             screenshots: [
@@ -179,6 +185,33 @@ export default {
                 },
             ],
         };
+    },
+    created() {
+        !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod
+                    ? n.callMethod.apply(n, arguments)
+                    : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = "2.0";
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        })(
+            window,
+            document,
+            "script",
+            "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "384713149357588");
+        fbq("track", "PageView");
     },
 };
 </script>
