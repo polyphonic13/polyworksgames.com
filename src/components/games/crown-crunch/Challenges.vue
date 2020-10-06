@@ -18,7 +18,7 @@
                         target="_blank"
                     >@polyworksgames</a> on Instagram.</p>
                 <h3 class="text-left">Coming Soon</h3>
-                <ul>
+                <ul class="text-lg">
                     <li>100 for 100</li>
                     <li>Easter Egg Hunt</li>
                 </ul>

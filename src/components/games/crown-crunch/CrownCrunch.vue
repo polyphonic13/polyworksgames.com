@@ -39,14 +39,6 @@
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2 class="text-xl">Reviews</h2>
-                <p class="text-xl">Games 1 News July 11, 2020: <a
-                        href="https://game1news.com/2020/07/11/crown-crunch/"
-                        target="_blank"
-                    >https://game1news.com/2020/07/11/crown-crunch/</a></p>
-            </section>
-
             <section class="">
                 <h2 class="text-xl">Credits</h2>
                 <p class="soundtrack text-xl">Original Soundtrack from OGRE Sound <a
@@ -56,11 +48,28 @@
             </section>
             <section>
                 <h2 class="text-xl">Challenges</h2>
-                <a
-                    :href="challengesLink"
-                    target="_blank"
-                    class="privacy text-md"
-                >{{ challengesLink }}</a>
+                <p class="text-xl">Click <router-link
+                        :to="challengesLink"
+                        class="privacy text-md"
+                    >here</router-link> to see current and upcoming Crown Crunch challenges!</p>
+
+            </section>
+            <section>
+                <h2 class="text-xl">Press</h2>
+                <ul class="text-xl text-left list-style-none">
+                    <li
+                        v-for="(press, p) in pressLinks"
+                        :key="p"
+                        class="charity"
+                    >
+                        <a
+                            :href="press.link"
+                            target="_blank"
+                        >{{ press.name }}</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
                 <h2 class="text-xl">Privacy Policy</h2>
                 <a
                     :href="privacyLink"
@@ -124,8 +133,21 @@ export default {
             ],
             privacyLink:
                 "http://www.polyworksgames.com/games/crown-crunch/privacy",
-            challengesLink:
-                "http://www.polyworksgames.com/games/crown-crunch/challenges",
+            challengesLink: "/challenges",
+            pressLinks: [
+                {
+                    name: "Game1News October 6th, 2020",
+                    url: "https://game1news.com/2020/10/06/crown-crunch-2/",
+                },
+                {
+                    name: "The Great Apps October 5th, 2020",
+                    url: "https://www.thegreatapps.com/apps/crown-crunch",
+                },
+                {
+                    name: "Game1News July 11th, 2020",
+                    url: "https://game1news.com/2020/07/11/crown-crunch/",
+                },
+            ],
             screenshots: [
                 {
                     url: require("../../../assets/images/games/crown-crunch/title.png"),
