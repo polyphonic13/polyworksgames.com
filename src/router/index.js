@@ -83,6 +83,10 @@ export default new Router({
             component: PrivacyPolicy,
         },
         {
+            path: '/games/crown-crunch/privacy/',
+            redirect: '/games/crown-crunch/privacy',
+        },
+        {
             path: '/games/crown-crunch/easter-egg',
             name: 'EasterEgg',
             component: EasterEgg,
