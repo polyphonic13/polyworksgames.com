@@ -60,14 +60,24 @@ export default {
 </script>
 <style scoped>
 .sidebar {
+    border-left: 1px #012345 solid;
+    border-bottom: none;
+
     width: 250px;
     height: 100vh;
+
     display: flex;
+
+    position: fixed;
+    right: 0;
+
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border-left: 1px #012345 solid;
-    border-bottom: none;
+
+    max-width: 250px;
+    padding: 16px;
+    margin: auto;
 }
 
 .item,
@@ -90,8 +100,8 @@ export default {
     text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789;
     width: 9vw;
     height: 9vw;
-    max-width: 225px;
-    max-height: 225px;
+    max-width: 150px;
+    max-height: 150px;
     font-size: 1.5em;
     padding: 1em;
     border-radius: 50%;
@@ -101,9 +111,11 @@ export default {
 .item:hover > .item-inner1 {
     background: linear-gradient(rgba(18, 52, 86, 1), rgba(69, 103, 152, 0));
     color: white;
-    width: 11vw;
-    height: 11vw;
-    font-size: 2em;
+    /* width: 8vw;
+    height: 8vw; */
+    /* max-width: 200px;
+    max-height: 200px; */
+    /* font-size: 1.66em; */
 }
 
 .item-inner2 {
