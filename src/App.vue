@@ -40,8 +40,8 @@ body {
 
 p {
     text-align: left;
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 
 a {

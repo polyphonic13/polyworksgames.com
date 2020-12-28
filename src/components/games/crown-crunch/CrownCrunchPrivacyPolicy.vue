@@ -146,7 +146,7 @@
 </template>
 <script>
 export default {
-    name: "PrivacyPolicy",
+    name: "CrownCrunchPrivacyPolicy",
 };
 </script>
 <style scoped>

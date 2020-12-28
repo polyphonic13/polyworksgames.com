@@ -5,12 +5,12 @@ import About from '@/components/about/About.vue';
 import Connect from '@/components/connect/Connect.vue';
 import GamesList from '@/components/games/GamesList.vue';
 import CrownCrunch from '@/components/games/crown-crunch/CrownCrunch.vue';
-import Credits from '@/components/games/crown-crunch/credits/Credits.vue';
-import Feedback from '@/components/games/crown-crunch/feedback/Feedback.vue';
-import PrivacyPolicy from '@/components/games/crown-crunch/PrivacyPolicy.vue';
+import CrownCrunchPrivacyPolicy from '@/components/games/crown-crunch/CrownCrunchPrivacyPolicy.vue';
 import EasterEgg from '@/components/games/crown-crunch/EasterEgg.vue';
 import Challenges from '@/components/games/crown-crunch/Challenges.vue';
 import Keke from '@/components/games/keke/Keke.vue';
+import FarkleSafari from '@/components/games/farkle-safari/FarkleSafari.vue';
+import FarkleSafariPrivacyPolicy from '@/components/games/farkle-safari/FarkleSafariPrivacyPolicy.vue';
 
 Vue.use(Router);
 
@@ -80,7 +80,7 @@ export default new Router({
         {
             path: '/games/crown-crunch/privacy',
             name: 'Privacy',
-            component: PrivacyPolicy,
+            component: CrownCrunchPrivacyPolicy,
         },
         {
             path: '/games/crown-crunch/privacy/',
@@ -101,6 +101,44 @@ export default new Router({
             path: '/games/keke',
             name: 'Keke',
             component: Keke
-        }
+        },
+        {
+            path: '/farkle-safari',
+            redirect: '/games/farkle-safari'
+        },
+        {
+            path: '/farkle_safari',
+            redirect: '/games/farkle-safari'
+        },
+        {
+            path: '/farklesafari',
+            redirect: '/games/farkle-safari'
+        },
+        {
+            path: '/farkle-safari/*',
+            redirect: '/games/farkle-safari/*'
+        },
+        {
+            path: '/farkle_safari/*',
+            redirect: '/games/farkle-safari/*'
+        },
+        {
+            path: '/farklesafari/*',
+            redirect: '/games/farkle-safari/*'
+        },
+        {
+            path: '/games/farkle-safari',
+            name: 'FarkleSafari',
+            component: FarkleSafari,
+        },
+                {
+            path: '/games/farkle-safari/privacy',
+            name: 'FarkleSafariPrivacy',
+            component: FarkleSafariPrivacyPolicy,
+        },
+        {
+            path: '/games/farkle-safari/privacy/',
+            redirect: '/games/farkle-safari/privacy',
+        },
     ]
 })

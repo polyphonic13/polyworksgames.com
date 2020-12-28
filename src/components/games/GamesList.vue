@@ -34,27 +34,27 @@ export default {
                     name: "Crown Crunch",
                     logo: require("../../assets/images/games/crown-crunch/logo01.png"),
                     path: "games/crown-crunch/",
-                    isActive: true
+                    isActive: true,
                 },
                 {
                     name: "Farkle Safari",
                     logo: require("../../assets/images/games/farkle-safari/logo01.png"),
-                    path: "games/crown-crunch/",
-                    isActive: false
+                    path: "games/farkle-safari/",
+                    isActive: true,
                 },
                 {
                     name: "Dreams of Yesterday",
                     logo: require("../../assets/images/games/doy/logo01.png"),
-                    path: "games/crown-crunch/",
-                    isActive: false
+                    path: "games/dreams-of-yesterday/",
+                    isActive: false,
                 },
                 {
                     name: "Keke and The Grey Expanse",
                     logo: require("../../assets/images/games/keke/logo01.png"),
                     path: "games/keke/",
-                    isActive: true
-                }
-            ]
+                    isActive: true,
+                },
+            ],
         };
     },
     methods: {
