@@ -228,7 +228,7 @@ section {
     min-width: 50%;
 }
 
-@media screen and (max-width: 1475px) {
+@media screen and (min-width: 1200px) {
     #app {
             margin: auto;
     }

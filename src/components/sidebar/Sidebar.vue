@@ -66,7 +66,11 @@ export default {
 
     width: 250px;
     height: 100vh;
+    max-width: 250px;
+    padding: 16px;
+    margin: auto;
 
+    box-sizing: border-box;
     display: flex;
 
     position: fixed;
@@ -76,9 +80,6 @@ export default {
     align-items: center;
     justify-content: space-evenly;
 
-    max-width: 250px;
-    padding: 16px;
-    margin: auto;
 }
 
 .item,
