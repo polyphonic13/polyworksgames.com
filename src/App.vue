@@ -61,8 +61,6 @@ a {
     height: 100%;
     max-width: 1200px;
 
-    margin: auto;
-
     display: flex;
 }
 
@@ -228,6 +226,12 @@ section {
 
 .min-width-50per {
     min-width: 50%;
+}
+
+@media screen and (max-width: 1475px) {
+    #app {
+            margin: auto;
+    }
 }
 
 @media screen and (max-width: 850px) {

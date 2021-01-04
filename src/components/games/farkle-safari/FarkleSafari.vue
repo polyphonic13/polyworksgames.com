@@ -41,10 +41,10 @@
             </section>
             <section class="">
                 <h2 class="text-xl">Credits</h2>
-                <p class="soundtrack text-xl">Original Soundtrack from Tyler Beckwitth <a
-                        href="https://soundcloud.com/tyler-beckwith"
+                <p class="soundtrack text-xl">Original Soundtrack from Tyler Beckwitth Music Production <a
+                        href="https://www.tylerbeckwithmusic.com/"
                         target="_blank"
-                    >https://soundcloud.com/tyler-beckwith</a></p>
+                    >https://www.tylerbeckwithmusic.com/</a></p>
             </section>
             <!-- <section>
                 <h2 class="text-xl">Challenges</h2>
@@ -115,7 +115,13 @@ export default {
                         "https://act.ran.org/page/24255/donate/1?en_og_source=ad_gad&gclid=Cj0KCQiAoab_BRCxARIsANMx4S65k3O7HP0k9aknhEpRZFNiS-Pz1jIthuHLkfdo9JvYYt2gme1S7t0aAtPwEALw_wcB",
                 },
             ],
-            storeLinks: [],
+            storeLinks: [
+                {
+                    name: "google",
+                    image: require("../../../assets/images/store-logos-google.png"),
+                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
+                },
+            ],
             privacyLink:
                 "http://www.polyworksgames.com/games/farkle-safari/privacy",
             challengesLink: "/challenges",
