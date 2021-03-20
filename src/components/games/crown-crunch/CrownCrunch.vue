@@ -138,7 +138,8 @@ export default {
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
-                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
+                    url:
+                        "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
                 },
                 {
                     name: "apple",
@@ -150,6 +151,10 @@ export default {
                 "http://www.polyworksgames.com/games/crown-crunch/privacy",
             challengesLink: "/challenges",
             pressLinks: [
+                {
+                    name: "GameKeys March 6th, 2021",
+                    link: "https://gameskeys.net/product/crown-crunch/",
+                },
                 {
                     name: "Game1News October 6th, 2020",
                     link: "https://game1news.com/2020/10/06/crown-crunch-2/",

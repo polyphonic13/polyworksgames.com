@@ -119,13 +119,36 @@ export default {
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
-                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
+                    url:
+                        "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
+                },
+                {
+                    name: "apple",
+                    image: require("../../../assets/images/store-logos-apple.png"),
+                    url:
+                        "https://apps.apple.com/us/app/farkle-safari/id1546560307",
                 },
             ],
             privacyLink:
                 "http://www.polyworksgames.com/games/farkle-safari/privacy",
             challengesLink: "/challenges",
-            pressLinks: [],
+            pressLinks: [
+                {
+                    name: "GLYFE",
+                    link:
+                        "https://gaminglyfe.com/farkle-safari-lands-on-mobile-today/",
+                },
+                {
+                    name: "Playstation Bit",
+                    link:
+                        "https://www.playstationbit.com/mobile/farkle-safari-gratis-su-android-e-ios",
+                },
+                {
+                    name: "Game1News",
+                    link:
+                        "https://game1news.com/farkle-safari-royal-dice-number-merge/",
+                },
+            ],
             screenshots: [
                 // {
                 //     url: require("../../../assets/images/games/farkle-safari/ss01.png"),
@@ -178,9 +201,7 @@ export default {
             ],
         };
     },
-    created() {
-
-    },
+    created() {},
 };
 </script>
 <style scoped>
@@ -192,7 +213,7 @@ export default {
 
     text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789;
 
-    color: #F7E2C1;
+    color: #f7e2c1;
 }
 
 .main {
@@ -231,5 +252,11 @@ section,
 
 .privacy {
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    .store-link {
+        width: 50%;
+    }
 }
 </style>
