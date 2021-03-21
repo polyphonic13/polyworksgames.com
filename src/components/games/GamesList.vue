@@ -43,6 +43,12 @@ export default {
                     isActive: true,
                 },
                 {
+                    name: "Rickle",
+                    logo: require("../../assets/images/games/rickle/logo01.png"),
+                    path: "games/rickle/",
+                    isActive: true,
+                },
+                {
                     name: "Dreams of Yesterday",
                     logo: require("../../assets/images/games/doy/logo01.png"),
                     path: "games/dreams-of-yesterday/",
@@ -60,8 +66,8 @@ export default {
     methods: {
         getItemClasses(game) {
             return game.isActive ? [] : ["translucent"];
-        }
-    }
+        },
+    },
 };
 </script>
 <style scoped>
