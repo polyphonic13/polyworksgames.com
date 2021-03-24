@@ -105,13 +105,13 @@ export default {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
                     url:
-                        "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
+                        "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
                 },
-                {
-                    name: "apple",
-                    image: require("../../../assets/images/store-logos-apple.png"),
-                    url: "https://apps.apple.com/us/app/rickle/id1546560307",
-                },
+                // {
+                //     name: "apple",
+                //     image: require("../../../assets/images/store-logos-apple.png"),
+                //     url: "https://apps.apple.com/us/app/rickle/id1546560307",
+                // },
             ],
             privacyLink: "http://www.polyworksgames.com/games/rickle/privacy",
             challengesLink: "/challenges",
