@@ -134,6 +134,21 @@ export default {
             challengesLink: "/challenges",
             pressLinks: [
                 {
+                    name: "Pocket Gamer",
+                    link:
+                        "https://www.pocketgamer.com/articles/086133/pocket-gamer-farkle-safari-lets-you-play-the-classic-dice-game-and-save-wildlife-at-the-same-time/",
+                },
+                {
+                    name: "App Spy",
+                    link:
+                        "https://www.appspy.com/preferred/12314/farkle-safari-polyworks-games-indie-dice-adventure-lets-you-do-your-part-to-save-animals-in-real-life",
+                },
+                {
+                    name: "148 Apps",
+                    link:
+                        "https://www.148apps.com/news/play-farkle-safari-the-dice-game-out-now-on-ios-and-android-that-gives-back/",
+                },
+                {
                     name: "GLYFE",
                     link:
                         "https://gaminglyfe.com/farkle-safari-lands-on-mobile-today/",

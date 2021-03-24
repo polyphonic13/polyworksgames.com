@@ -31,9 +31,9 @@ export default {
         return {
             games: [
                 {
-                    name: "Crown Crunch",
-                    logo: require("../../assets/images/games/crown-crunch/logo01.png"),
-                    path: "games/crown-crunch/",
+                    name: "Rickle",
+                    logo: require("../../assets/images/games/rickle/logo01.png"),
+                    path: "games/rickle/",
                     isActive: true,
                 },
                 {
@@ -43,9 +43,9 @@ export default {
                     isActive: true,
                 },
                 {
-                    name: "Rickle",
-                    logo: require("../../assets/images/games/rickle/logo01.png"),
-                    path: "games/rickle/",
+                    name: "Crown Crunch",
+                    logo: require("../../assets/images/games/crown-crunch/logo01.png"),
+                    path: "games/crown-crunch/",
                     isActive: true,
                 },
                 {

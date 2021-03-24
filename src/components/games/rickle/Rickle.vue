@@ -152,8 +152,8 @@ export default {
 </script>
 <style scoped>
 .rickle {
-    /* background-image: url(../../../assets/images/games/rickle/forest-bg-tall.png); */
-    background-position: bottom center;
+    background-image: url(../../../assets/images/games/rickle/desert-background.png);
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 

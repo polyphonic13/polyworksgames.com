@@ -37,7 +37,7 @@
                 </ol>
             </section>
             <section>
-                <p class="text-xl">* Price will be rewarded as a $100 VISA card or Amazon gift card.</p>
+                <p class="text-xl">* Price will be rewarded as a $100 VISA card or Amazon gift card, or via PayPal or Venmo transfer. All rewards in USD. Your privacy is important to us. Emails or other personal information used to complete exchange will not be stored or shared with 3rd parties.</p>
             </section>
             <section>
                 <p class="store-links">

@@ -17,10 +17,17 @@
                         href="https://www.instagram.com/polyworksgames/"
                         target="_blank"
                     >@polyworksgames</a> on Instagram.</p>
+                <h3 class="text-left">Active</h3>
+                <ul class="text-lg">
+                    <router-link
+                        as="li"
+                        to="/easter-egg"
+                    >Crown Crunch: Easter Egg Hunt</router-link>
+                </ul>
                 <h3 class="text-left">Coming Soon</h3>
                 <ul class="text-lg">
-                    <li>100 for 100</li>
-                    <li>Easter Egg Hunt</li>
+                    <li>Crown Crunch: 100 for 100</li>
+                    <li>Farkle Safari: Beat the Bear</li>
                 </ul>
                 <!-- <h3 class="text-left">Active Challenges</h3>
                 <ul>
