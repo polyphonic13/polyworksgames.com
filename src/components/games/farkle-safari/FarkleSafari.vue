@@ -134,6 +134,11 @@ export default {
             challengesLink: "/challenges",
             pressLinks: [
                 {
+                    name: "Pocket Gamer (Interview)",
+                    link:
+                        "https://www.pocketgamer.com/articles/086164/interview-farkle-safaris-developer-discusses-its-adaptation-of-the-classic-dice-game/",
+                },
+                {
                     name: "Pocket Gamer",
                     link:
                         "https://www.pocketgamer.com/articles/086133/pocket-gamer-farkle-safari-lets-you-play-the-classic-dice-game-and-save-wildlife-at-the-same-time/",
