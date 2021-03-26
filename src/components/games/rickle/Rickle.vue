@@ -99,7 +99,20 @@ export default {
     name: "Rickle",
     data() {
         return {
-            charities: [],
+            charities: [
+                {
+                    name: "Natrual Resources Defense Counsel",
+                    link: "https://www.nrdc.org/",
+                },
+                {
+                    name: "Union of Concerned Scientists",
+                    link: "https://www.ucsusa.org/",
+                },
+                {
+                    name: "Environmental Working Group",
+                    link: "https://www.ewg.org/",
+                },
+            ],
             storeLinks: [
                 {
                     name: "google",
