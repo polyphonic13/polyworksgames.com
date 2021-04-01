@@ -120,11 +120,11 @@ export default {
                     url:
                         "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
                 },
-                // {
-                //     name: "apple",
-                //     image: require("../../../assets/images/store-logos-apple.png"),
-                //     url: "https://apps.apple.com/us/app/rickle/id1546560307",
-                // },
+                {
+                    name: "apple",
+                    image: require("../../../assets/images/store-logos-apple.png"),
+                    url: "https://apps.apple.com/us/app/rickle/id1560862955",
+                },
             ],
             privacyLink: "http://www.polyworksgames.com/games/rickle/privacy",
             challengesLink: "/challenges",
