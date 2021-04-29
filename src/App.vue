@@ -230,7 +230,7 @@ section {
 
 @media screen and (min-width: 1200px) {
     #app {
-            margin: auto;
+        margin: auto;
     }
 }
 
@@ -252,11 +252,22 @@ section {
         );
     }
 
+    p,
+    li {
+        font-weight: 350;
+    }
+
+    ul,
+    ol {
+        padding-inline-start: 16px;
+    }
+
     #app {
         flex-direction: column-reverse;
     }
 
     .screen {
+        margin-top: 130px;
         width: 100vw;
         justify-content: flex-start;
     }

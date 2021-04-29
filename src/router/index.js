@@ -13,6 +13,7 @@ import FarkleSafari from '@/components/games/farkle-safari/FarkleSafari.vue';
 import FarkleSafariPrivacyPolicy from '@/components/games/farkle-safari/FarkleSafariPrivacyPolicy.vue';
 import Rickle from '@/components/games/rickle/Rickle.vue';
 import RicklePrivacyPolicy from '@/components/games/rickle/RicklePrivacyPolicy.vue';
+import Sunflowers from '@/components/games/rickle/Sunflowers.vue';
 
 Vue.use(Router);
 
@@ -172,7 +173,24 @@ export default new Router({
         component: Rickle,
     },
     {
-        path: '/games/rickles/privacy',
+        path: '/sunflower',
+        redirect: '/games/rickle/sunflowers',
+    },
+    {
+        path: '/sunflowers',
+        redirect: '/games/rickle/sunflowers',
+    },
+    {
+        path: '/games/rickle/sunflower',
+        redirect: '/games/rickle/sunflowers',
+    },
+    {
+        path: '/games/rickle/sunflowers',
+        name: 'Sunflowers',
+        component: Sunflowers,
+    },
+    {
+        path: '/games/rickle/privacy',
         name: 'RicklePrivacyPolicy',
         component: RicklePrivacyPolicy,
     },

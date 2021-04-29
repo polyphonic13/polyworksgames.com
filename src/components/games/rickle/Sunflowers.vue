@@ -4,7 +4,7 @@
             <section class="text-center">
                 <img
                     class="game-title-logo"
-                    src="../../../assets/images/games/rickle/logo01.png"
+                    src="../../../assets/images/games/rickle/logo02-sunflowers.png"
                 />
             </section>
             <section>
@@ -19,88 +19,46 @@
                         <img :src="link.image" />
                     </a>
                 </p>
-            </section>
-            <section>
-                <h2 class="text-xl">Build your Rickle of stones!</h2>
-                <p class="text-lg">Top your high score, earn gems, buy power-ups and unlock new locations while building the highest RICKLE of stones! In this simple, ultra-casual game, your goal is to drop stones into towering piles. A single tap is all you need to sit back, relax and stack. Or, aim higher with the Precision, Grow and Slow power-ups. Collect gems every round, trading them in for refills of your favorite power-ups.</p>
-                <h2 class="text-xl">Charities</h2>
-                <p class="text-lg">It's all about giving back. For every ad viewed, or purchase of the premium version, we will donate 10% of the proceeds to charity.</p>
-                <p class="text-lg text-left">The following charities will be receiving donations from Rickle proceeds. Visit the links to find out more.</p>
+                <h2 class="text-xl text-center">Rickle Sunflower Race</h2>
+                <p class="text-lg">The race is on! Be the first to get to the Sunflowers Location. The race will run from May 1st 2021 to July 1st 2021. Hurry to beat your competitors to the goal and claim a prize.</p>
+                <h2 class="text-xl">Prizes</h2>
                 <ul class="text-xl text-left list-style-none">
-                    <li
-                        v-for="(charity, c) in charities"
-                        :key="c"
-                        class="charity"
-                    >
-                        <a
-                            :href="charity.link"
+                    <li>1st place: $500</li>
+                    <li>2nd place: $350</li>
+                    <li>3rd place: $150</li>
+                </ul>
+                <h2 class="text-xl">Rules</h2>
+                <ol class="text-lg text-left">
+                    <li>Download game (see above for links)</li>
+                    <li>Stack stones, accumulating higher and higher total count</li>
+                    <li>Unlock new locations until reaching the Sunflower field</li>
+                    <li>Take a screenshot of a game in the Sunflower location</li>
+                    <li>Share screenshot on <a
+                            href="https://www.facebook.com/polyworksgames"
                             target="_blank"
-                        >{{ charity.name }}</a>
-                    </li>
-                </ul>
-            </section>
-            <!-- <section class="">
-                <h2 class="text-xl">Credits</h2>
-            </section> -->
-            <section>
-                <h2 class="text-xl">Challenges</h2>
-                <p class="text-lg text-left">Win cash prizes in Rickle Challenges! Visit below to see specifics and check regularly for new additions.</p>
-                <ul class="text-xl text-left list-style-none">
-                    <li
-                        v-for="(challenge, c) in challengeLinks"
-                        :key="c"
-                    >
-                        <router-link :to="challenge.link">{{ challenge.name }}</router-link>
-                    </li>
-                </ul>
-            </section>
-            <!-- <section>
-                <h2 class="text-xl">Press</h2>
-                <ul class="text-xl text-left list-style-none">
-                    <li
-                        v-for="(press, p) in pressLinks"
-                        :key="p"
-                        class="charity"
-                    >
-                        <a
-                            :href="press.link"
+                        >Facebook</a>, <a
+                            href="https://www.instagram.com/polyworksgames/"
                             target="_blank"
-                        >{{ press.name }}</a>
+                        >@polyworksgames</a> on Instagram or send an email to <a
+                            href="mailto:contact@polyworksgames.com"
+                            class="text-sm"
+                        >contact@polyworksgames.com</a>
                     </li>
-                </ul>
-            </section> -->
-            <section class="video text-center">
-                <iframe
-                    width="320"
-                    height="315"
-                    src="https://www.youtube.com/embed/3lB-u1YAW1I"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                ></iframe>
-            </section>
-            <section class="screenshots">
-                <img
-                    v-for="(screenshot, s) in screenshots"
-                    :key="s"
-                    :src="screenshot.url"
-                    class="screenshot"
-                />
+                    <li>Be the 1st, 2nd or 3rd player to win and collect the prize. *</li>
+                    <li>BRAG!</li>
+                </ol>
+                <p class="text-md">* Prizes will be rewarded via PayPal or Venmo transfer. All rewards in USD.</p>
+                <p class="text-md">Your privacy is important to us. <i>Emails or other personal information used to complete exchange will not be stored or shared with 3rd parties.</i></p>
             </section>
             <section>
-                <h2 class="text-xl">Privacy Policy</h2>
-                <a
-                    :href="privacyLink"
-                    target="_blank"
-                    class="privacy text-md"
-                >{{ privacyLink }}</a>
+                <p class="text-lg">Be sure to visit <a href="http://www.polyworksgames.com/games/rickle">polyworksgames.com/games/rickle</a> often to find out about other Rickle Challenges!</p>
             </section>
         </div>
     </div>
 </template>
 <script>
 export default {
-    name: "Rickle",
+    name: "Sunflowers",
     data() {
         return {
             charities: [
@@ -133,12 +91,6 @@ export default {
             privacyLink: "http://www.polyworksgames.com/games/rickle/privacy",
             challengesLink: "/challenges",
             pressLinks: [],
-            challengeLinks: [
-                {
-                    name: "Sunflower Race (May 2021)",
-                    link: "/games/rickle/sunflowers",
-                },
-            ],
             screenshots: [
                 {
                     url: require("../../../assets/images/games/rickle/ss01.png"),
@@ -175,7 +127,7 @@ export default {
 </script>
 <style scoped>
 .rickle {
-    background-image: url(../../../assets/images/games/rickle/desert-background.png);
+    background-image: url(../../../assets/images/games/rickle/sunflowers-background.png);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -79,7 +79,6 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .item,
@@ -140,7 +139,8 @@ export default {
     .sidebar {
         width: 100vw;
         max-width: 100vw;
-        height: 33vw;
+        top: 0;
+        height: 130px;
         flex-direction: row;
         border-left: none;
         /* border-bottom: 1px #012345 solid; */
