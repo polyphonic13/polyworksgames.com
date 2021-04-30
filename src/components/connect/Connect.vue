@@ -29,16 +29,21 @@ export default {
                 {
                     name: "facebook",
                     link: "https://www.facebook.com/polyworksgames",
-                    logo: require("../../assets/images/social/facebook03.png")
+                    logo: require("../../assets/images/social/facebook03.png"),
                 },
                 {
                     name: "instagram",
                     link: "https://www.instagram.com/polyworksgames/",
-                    logo: require("../../assets/images/social/instagram03.png")
-                }
-            ]
+                    logo: require("../../assets/images/social/instagram03.png"),
+                },
+                {
+                    name: "twitter",
+                    link: "https://www.twitter.com/PolyworksGames",
+                    logo: require("../../assets/images/social/twitter01.png"),
+                },
+            ],
         };
-    }
+    },
 };
 </script>
 <style scoped>
