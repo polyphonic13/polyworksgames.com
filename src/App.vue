@@ -26,12 +26,12 @@ body {
     /* background-color: #000000; */
     background: linear-gradient(
         200deg,
-        rgba(0, 0, 0, 1) 0,
+        rgba(255, 255, 255, 1) 0,
         80%,
-        rgba(1, 35, 69, 1) 90%,
-        rgb(69, 1, 1) 100%
+        rgba(171, 205, 239, 1) 90%,
+        rgb(171, 239, 228) 100%
     );
-    color: white;
+    color: #123456;
     width: 100%;
     height: 100%;
     padding: 0;
@@ -45,14 +45,14 @@ p {
 }
 
 a {
-    color: white;
+    color: #456789;
     font-weight: 500;
     text-decoration: none;
 }
 
 #app {
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -99,7 +99,7 @@ a {
 @font-face {
     font-family: "Lato";
     src: url(/assets/fonts/Lato-Light.otf) format("otf");
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @font-face {
@@ -121,6 +121,10 @@ a {
 
 .wonkers {
     font-family: Wonkers, cursive, sans-serif;
+}
+
+.spacer {
+    flex-grow: 1;
 }
 
 .text-left {
@@ -161,14 +165,6 @@ a {
 
 .text-xs {
     font-size: 0.33em;
-}
-
-.text-white {
-    color: white;
-}
-
-.text-blue1 {
-    color: #abcdef;
 }
 
 .invisible {
@@ -245,16 +241,16 @@ section {
     body {
         background: linear-gradient(
             -200deg,
-            rgba(0, 0, 0, 1) 0,
+            rgba(255, 255, 255, 1) 0,
             70%,
-            rgba(1, 35, 69, 1) 85%,
-            rgb(69, 1, 1) 100%
+            rgba(171, 205, 239, 1) 85%,
+            rgb(171, 239, 228) 100%
         );
     }
 
     p,
     li {
-        font-weight: 350;
+        font-weight: 400;
     }
 
     ul,

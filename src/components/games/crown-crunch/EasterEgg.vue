@@ -131,7 +131,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
 
-    text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789;
+    /* text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789; */
 }
 
 .main {
@@ -140,7 +140,7 @@ export default {
 
 section,
 .screenshots {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .charity {

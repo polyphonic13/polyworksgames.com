@@ -21,6 +21,7 @@
                 >COMING SOON</span>
 
             </component>
+            <div class="spacer list-item"></div>
         </div>
     </div>
 </template>
@@ -84,6 +85,7 @@ export default {
 
 .list-item {
     width: 25vw;
+    max-width: 25vw;
     height: 25vw;
     padding: 1vw;
     margin: 2vw;
@@ -92,7 +94,7 @@ export default {
 }
 
 .list-item-img {
-    border: 2px solid #abcdef;
+    border: 2px solid #123456;
     width: 100%;
     height: 100%;
 }
@@ -109,6 +111,7 @@ export default {
 @media screen and (max-width: 600px) {
     .list-item {
         width: 90vw;
+        max-width: 90vw;
         height: 90vw;
         margin: 5vw;
     }

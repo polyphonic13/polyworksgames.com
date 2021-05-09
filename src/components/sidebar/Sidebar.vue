@@ -10,7 +10,7 @@
                 <span
                     class="item-inner2"
                     :class="(item.isActive) ? 'active' : ''"
-                >{{ item.name }}</span>
+                >{{ item.label }}</span>
             </div>
         </router-link>
     </div>
@@ -22,17 +22,17 @@ export default {
         return {
             items: [
                 {
-                    name: "about",
+                    label: "about",
                     link: "/about",
                     isActive: false,
                 },
                 {
-                    name: "games",
+                    label: "games",
                     link: "/games",
                     isActive: false,
                 },
                 {
-                    name: "connect",
+                    label: "connect",
                     link: "/connect",
                     isActive: false,
                 },
@@ -60,7 +60,7 @@ export default {
 </script>
 <style scoped>
 .sidebar {
-    background-color: black;
+    /* background-color: #ffffff; */
     border-left: 1px #012345 solid;
     border-bottom: none;
 
@@ -98,7 +98,7 @@ export default {
 .item-inner1 {
     background: linear-gradient(rgba(1, 35, 69, 1), rgba(18, 52, 86, 0));
     color: #abcdef;
-    text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789;
+    /* text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789; */
     width: 9vw;
     height: 9vw;
     max-width: 150px;
@@ -151,12 +151,27 @@ export default {
     }
 
     .item-inner1 {
-        font-size: 1.5em;
+        width: 13vw;
+        height: 13vw;
+        min-width: 13vw;
+        max-width: 13vw;
+        min-height: 13vw;
+        max-height: 13vw;
+        font-size: 1.2em;
         padding: 1.5em;
     }
 
     .item:hover > .item-inner1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .item-inner2 {
+        width: 20vw;
+        height: 20vw;
+        min-width: 20vw;
+        max-width: 20vw;
+        min-height: 20vw;
+        max-height: 20vw;
     }
 }
 </style>
