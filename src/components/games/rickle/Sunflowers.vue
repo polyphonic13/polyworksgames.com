@@ -20,7 +20,7 @@
                     </a>
                 </p>
                 <h2 class="text-xl text-center">Rickle Sunflower Race</h2>
-                <p class="text-lg">The race is on! Be the first to get to the Sunflowers Location. The race will run from May 1st 2021 to July 1st 2021. Hurry to beat your competitors to the goal and claim a prize.</p>
+                <p class="text-lg">The race is on! Be the first to get to the Sunflowers Location. The race will run from June 1st 2021 to August 1st 2021. Hurry to beat your competitors to the goal and claim a prize.</p>
                 <h2 class="text-xl">Prizes</h2>
                 <ul class="text-xl text-left list-style-none">
                     <li>1st place: $500</li>
@@ -32,23 +32,35 @@
                     <li>Download game (see above for links)</li>
                     <li>Stack stones, accumulating higher and higher total count</li>
                     <li>Unlock new locations until reaching the Sunflower field</li>
-                    <li>Take a screenshot of a game in the Sunflower location</li>
-                    <li>Share screenshot on <a
+                    <li>Take a screenshot of the game in the Sunflower location of the Title screen with the goal icon and total blocks count visible (see below)</li>
+                    <li>Share the screenshot on
+                        <a
                             href="https://www.facebook.com/polyworksgames"
                             target="_blank"
                         >Facebook</a>, <a
                             href="https://www.instagram.com/polyworksgames/"
                             target="_blank"
-                        >@polyworksgames</a> on Instagram or send an email to <a
+                        >@polyworksgames</a> on Instagram,
+                        <a
+                            href="https://twitter.com/PolyworksGames"
+                            target="_bank"
+                        >Twitter</a> or send an email to <a
                             href="mailto:contact@polyworksgames.com"
                             class="text-sm"
                         >contact@polyworksgames.com</a>
                     </li>
-                    <li>Be the 1st, 2nd or 3rd player to win and collect the prize. *</li>
+                    <li>Be the 1st, 2nd or 3rd player to win and collect the prize *</li>
                     <li>BRAG!</li>
                 </ol>
                 <p class="text-md">* Prizes will be rewarded via PayPal or Venmo transfer. All rewards in USD.</p>
-                <p class="text-md">Your privacy is important to us. <i>Emails or other personal information used to complete exchange will not be stored or shared with 3rd parties.</i></p>
+                <p class="text-md">Your privacy is important to us. <i>Emails or other personal information used to complete exchange will not be shared with or sold to 3rd parties.</i></p>
+            </section>
+            <section>
+                <h1>Screenshot Example</h1>
+                <img
+                    :src="screenshots[0].url"
+                    class="screenshot"
+                />
             </section>
             <section>
                 <p class="text-lg">Be sure to visit <a href="http://www.polyworksgames.com/games/rickle">polyworksgames.com/games/rickle</a> often to find out about other Rickle Challenges!</p>
@@ -93,7 +105,7 @@ export default {
             pressLinks: [],
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/rickle/ss01.png"),
+                    url: require("../../../assets/images/games/rickle/ss01-alt.png"),
                 },
                 {
                     url: require("../../../assets/images/games/rickle/ss02.png"),
