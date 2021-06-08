@@ -172,23 +172,23 @@ export default new Router({
         name: 'Rickle',
         component: Rickle,
     },
-    {
-        path: '/sunflower',
-        redirect: '/games/rickle/sunflowers',
-    },
-    {
-        path: '/sunflowers',
-        redirect: '/games/rickle/sunflowers',
-    },
-    {
-        path: '/games/rickle/sunflower',
-        redirect: '/games/rickle/sunflowers',
-    },
-    {
-        path: '/games/rickle/sunflowers',
-        name: 'Sunflowers',
-        component: Sunflowers,
-    },
+    // {
+    //     path: '/sunflower',
+    //     redirect: '/games/rickle/sunflowers',
+    // },
+    // {
+    //     path: '/sunflowers',
+    //     redirect: '/games/rickle/sunflowers',
+    // },
+    // {
+    //     path: '/games/rickle/sunflower',
+    //     redirect: '/games/rickle/sunflowers',
+    // },
+    // {
+    //     path: '/games/rickle/sunflowers',
+    //     name: 'Sunflowers',
+    //     component: Sunflowers,
+    // },
     {
         path: '/games/rickle/privacy',
         name: 'RicklePrivacyPolicy',

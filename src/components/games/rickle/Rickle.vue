@@ -42,7 +42,7 @@
             <!-- <section class="">
                 <h2 class="text-xl">Credits</h2>
             </section> -->
-            <section>
+            <!-- <section>
                 <h2 class="text-xl">Challenges</h2>
                 <p class="text-lg text-left">Win cash prizes in Rickle Challenges! Visit below to see specifics and check regularly for new additions.</p>
                 <ul class="text-xl text-left list-style-none">
@@ -53,7 +53,7 @@
                         <router-link :to="challenge.link">{{ challenge.name }}</router-link>
                     </li>
                 </ul>
-            </section>
+            </section> -->
             <!-- <section>
                 <h2 class="text-xl">Press</h2>
                 <ul class="text-xl text-left list-style-none">
