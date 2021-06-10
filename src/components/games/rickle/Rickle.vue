@@ -54,7 +54,7 @@
                     </li>
                 </ul>
             </section> -->
-            <!-- <section>
+            <section>
                 <h2 class="text-xl">Press</h2>
                 <ul class="text-xl text-left list-style-none">
                     <li
@@ -68,7 +68,7 @@
                         >{{ press.name }}</a>
                     </li>
                 </ul>
-            </section> -->
+            </section>
             <section class="video text-center">
                 <iframe
                     width="320"
@@ -132,7 +132,28 @@ export default {
             ],
             privacyLink: "http://www.polyworksgames.com/games/rickle/privacy",
             challengesLink: "/challenges",
-            pressLinks: [],
+            pressLinks: [
+                {
+                    name: "Droid Games",
+                    link:
+                        "https://www.droidgamers.com/2021/06/10/rickle-is-an-addictive-tower-building-casual-game-out-now/",
+                },
+                {
+                    name: "Gamezebo",
+                    link:
+                        "https://www.gamezebo.com/2021/06/10/rickle-is-a-charitable-twist-on-the-tower-building-genre/",
+                },
+                {
+                    name: "iFanzine",
+                    link:
+                        "https://ifanzine.com/rickle-is-a-casual-tower-building-game-with-an-environmental-mission/",
+                },
+                {
+                    name: "Kongbakpao",
+                    link:
+                        "https://kongbakpao.com/addictive-casual-game-rickle-is-raising-money-for-environmental-charities/",
+                },
+            ],
             challengeLinks: [
                 {
                     name: "Sunflower Race (May 2021)",
