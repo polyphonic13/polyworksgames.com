@@ -263,7 +263,7 @@ section {
     }
 
     .screen {
-        margin-top: 130px;
+        margin-top: 100px;
         width: 100vw;
         justify-content: flex-start;
     }

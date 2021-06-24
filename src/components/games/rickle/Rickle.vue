@@ -134,9 +134,23 @@ export default {
             challengesLink: "/challenges",
             pressLinks: [
                 {
-                    name: "Droid Games",
+                    name: "App Advice",
+                    link: "https://appadvice.com/post/rickle-stacking-game-supports-charitable-causes/771139",
+                },
+                {
+                    name: "Droid Gamers (Interview)",
+                    link:
+                        "https://www.droidgamers.com/2021/06/12/interview-how-rickle-sees-you-build-towers-and-help-fund-charities/",
+                },
+                {
+                    name: "Droid Gamers",
                     link:
                         "https://www.droidgamers.com/2021/06/10/rickle-is-an-addictive-tower-building-casual-game-out-now/",
+                },
+                {
+                    name: "Gamezebo (Interview)",
+                    link:
+                        "https://www.gamezebo.com/2021/06/12/interview-rickle-creator-paul-hoover-on-how-his-game-towers-over-the-competition/",
                 },
                 {
                     name: "Gamezebo",

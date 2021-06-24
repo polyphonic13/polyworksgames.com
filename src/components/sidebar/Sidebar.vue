@@ -60,8 +60,8 @@ export default {
 </script>
 <style scoped>
 .sidebar {
-    /* background-color: #ffffff; */
-    border-left: 1px #012345 solid;
+    background-color: #010f1d;
+    border-left: 1px #123456 solid;
     border-bottom: none;
 
     width: 250px;
