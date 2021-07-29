@@ -134,12 +134,19 @@ export default {
             challengesLink: "/challenges",
             pressLinks: [
                 {
+                    name: "Android Games Review (Instagram)",
+                    link:
+                        "https://www.instagram.com/p/CR57E2EHhDZ/?utm_medium=share_sheet",
+                },
+                {
                     name: "App Advice",
-                    link: "https://appadvice.com/post/rickle-stacking-game-supports-charitable-causes/771139",
+                    link:
+                        "https://appadvice.com/post/rickle-stacking-game-supports-charitable-causes/771139",
                 },
                 {
                     name: "App Advice (Review)",
-                    link: "https://appadvice.com/post/rickle-review/1560862955/948439524",
+                    link:
+                        "https://appadvice.com/post/rickle-review/1560862955/948439524",
                 },
                 {
                     name: "Droid Gamers",
