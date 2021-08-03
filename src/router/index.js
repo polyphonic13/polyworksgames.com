@@ -14,6 +14,7 @@ import FarkleSafariPrivacyPolicy from '@/components/games/farkle-safari/FarkleSa
 import Rickle from '@/components/games/rickle/Rickle.vue';
 import RicklePrivacyPolicy from '@/components/games/rickle/RicklePrivacyPolicy.vue';
 import Sunflowers from '@/components/games/rickle/Sunflowers.vue';
+import NewsWatch from '@/components/news-watch/NewsWatch.vue';
 
 Vue.use(Router);
 
@@ -189,6 +190,11 @@ export default new Router({
     //     name: 'Sunflowers',
     //     component: Sunflowers,
     // },
+    {
+        path: '/newswatch',
+        name: 'NewsWatchLandingPage',
+        component: NewsWatch,
+    },
     {
         path: '/games/rickle/privacy',
         name: 'RicklePrivacyPolicy',
