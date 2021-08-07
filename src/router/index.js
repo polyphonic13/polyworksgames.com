@@ -12,6 +12,7 @@ import Keke from '@/components/games/keke/Keke.vue';
 import FarkleSafari from '@/components/games/farkle-safari/FarkleSafari.vue';
 import FarkleSafariPrivacyPolicy from '@/components/games/farkle-safari/FarkleSafariPrivacyPolicy.vue';
 import Rickle from '@/components/games/rickle/Rickle.vue';
+import RickleSocial from '@/components/games/rickle/RickleSocial.vue';
 import RicklePrivacyPolicy from '@/components/games/rickle/RicklePrivacyPolicy.vue';
 import Sunflowers from '@/components/games/rickle/Sunflowers.vue';
 import NewsWatch from '@/components/news-watch/NewsWatch.vue';
@@ -147,6 +148,11 @@ export default new Router({
     {
         path: '/rickle',
         redirect: '/games/rickle'
+    },
+    {
+        path: '/rickle-social',
+        name: 'RickleSocial',
+        component: RickleSocial,
     },
     {
         path: '/farkle_safari',
