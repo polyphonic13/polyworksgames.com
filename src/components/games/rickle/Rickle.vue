@@ -112,10 +112,6 @@ export default {
                     name: "Union of Concerned Scientists",
                     link: "https://www.ucsusa.org/",
                 },
-                {
-                    name: "Environmental Working Group",
-                    link: "https://www.ewg.org/",
-                },
             ],
             storeLinks: [
                 {
