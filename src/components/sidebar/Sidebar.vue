@@ -32,6 +32,11 @@ export default {
                     isActive: false,
                 },
                 {
+                    label: "robots",
+                    link: "/robots",
+                    isActive: false,
+                },
+                {
                     label: "connect",
                     link: "/connect",
                     isActive: false,
@@ -60,8 +65,8 @@ export default {
 </script>
 <style scoped>
 .sidebar {
-    background-color: #010f1d;
-    border-left: 1px #123456 solid;
+    /* background-color: #010f1d;
+    border-left: 1px #123456 solid; */
     border-bottom: none;
 
     width: 250px;
@@ -96,7 +101,7 @@ export default {
 }
 
 .item-inner1 {
-    background: linear-gradient(rgba(1, 35, 69, 1), rgba(18, 52, 86, 0));
+    background: linear-gradient(rgba(1, 35, 69, 1), rgba(18, 52, 86, 0.1));
     color: #abcdef;
     /* text-shadow: 1px 1px 1px #123456, 3px 3px 5px #456789; */
     width: 9vw;
@@ -151,27 +156,28 @@ export default {
     }
 
     .item-inner1 {
-        width: 13vw;
-        height: 13vw;
-        min-width: 13vw;
-        max-width: 13vw;
-        min-height: 13vw;
-        max-height: 13vw;
-        font-size: 1.2em;
+        width: 8vw;
+        height: 8vw;
+        min-width: 8vw;
+        max-width: 8vw;
+        min-height: 8vw;
+        max-height: 8vw;
+        font-size: 1.1em;
         padding: 1.5em;
+        margin: 2px;
     }
 
     .item:hover > .item-inner1 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .item-inner2 {
-        width: 20vw;
-        height: 20vw;
-        min-width: 20vw;
-        max-width: 20vw;
-        min-height: 20vw;
-        max-height: 20vw;
+        width: 18vw;
+        height: 18vw;
+        min-width: 18vw;
+        max-width: 18vw;
+        min-height: 18vw;
+        max-height: 18vw;
     }
 }
 </style>

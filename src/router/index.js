@@ -14,7 +14,7 @@ import FarkleSafariPrivacyPolicy from '@/components/games/farkle-safari/FarkleSa
 import Rickle from '@/components/games/rickle/Rickle.vue';
 import RickleSocial from '@/components/games/rickle/RickleSocial.vue';
 import RicklePrivacyPolicy from '@/components/games/rickle/RicklePrivacyPolicy.vue';
-import Sunflowers from '@/components/games/rickle/Sunflowers.vue';
+import RobotsList from '@/components/robots/RobotsList.vue';
 import NewsWatch from '@/components/news-watch/NewsWatch.vue';
 
 Vue.use(Router);
@@ -34,48 +34,53 @@ export default new Router({
     {
         path: '/games',
         name: 'GamesList',
-        component: GamesList
+        component: GamesList,
+    },
+    {
+        path: '/robots',
+        name: 'RobotsList',
+        component: RobotsList,
     },
     {
         path: '/connect',
         name: 'Connect',
-        component: Connect
+        component: Connect,
     },
     {
         path: '/easteregg',
-        redirect: '/games/crown-crunch/easter-egg'
+        redirect: '/games/crown-crunch/easter-egg',
     },
     {
         path: '/easter-egg',
-        redirect: '/games/crown-crunch/easter-egg'
+        redirect: '/games/crown-crunch/easter-egg',
     },
     {
         path: '/challenges',
-        redirect: '/games/crown-crunch/challenges'
+        redirect: '/games/crown-crunch/challenges',
     },
     {
         path: '/crown-crunch',
-        redirect: '/games/crown-crunch'
+        redirect: '/games/crown-crunch',
     },
     {
         path: '/crown_crunch',
-        redirect: '/games/crown-crunch'
+        redirect: '/games/crown-crunch',
     },
     {
         path: '/crowncrunch',
-        redirect: '/games/crown-crunch'
+        redirect: '/games/crown-crunch',
     },
     {
         path: '/crown-crunch/*',
-        redirect: '/games/crown-crunch/*'
+        redirect: '/games/crown-crunch/*',
     },
     {
         path: '/crown_crunch/*',
-        redirect: '/games/crown-crunch/*'
+        redirect: '/games/crown-crunch/*',
     },
     {
         path: '/crowncrunch/*',
-        redirect: '/games/crown-crunch/*'
+        redirect: '/games/crown-crunch/*',
     },
     {
         path: '/games/crown-crunch',
@@ -105,31 +110,31 @@ export default new Router({
     {
         path: '/games/keke',
         name: 'Keke',
-        component: Keke
+        component: Keke,
     },
     {
         path: '/farkle-safari',
-        redirect: '/games/farkle-safari'
+        redirect: '/games/farkle-safari',
     },
     {
         path: '/farkle_safari',
-        redirect: '/games/farkle-safari'
+        redirect: '/games/farkle-safari',
     },
     {
         path: '/farklesafari',
-        redirect: '/games/farkle-safari'
+        redirect: '/games/farkle-safari',
     },
     {
         path: '/farkle-safari/*',
-        redirect: '/games/farkle-safari/*'
+        redirect: '/games/farkle-safari/*',
     },
     {
         path: '/farkle_safari/*',
-        redirect: '/games/farkle-safari/*'
+        redirect: '/games/farkle-safari/*',
     },
     {
         path: '/farklesafari/*',
-        redirect: '/games/farkle-safari/*'
+        redirect: '/games/farkle-safari/*',
     },
     {
         path: '/games/farkle-safari',
@@ -147,7 +152,7 @@ export default new Router({
     },
     {
         path: '/rickle',
-        redirect: '/games/rickle'
+        redirect: '/games/rickle',
     },
     {
         path: '/rickle-social',
@@ -156,23 +161,23 @@ export default new Router({
     },
     {
         path: '/farkle_safari',
-        redirect: '/games/rickle'
+        redirect: '/games/rickle',
     },
     {
         path: '/farklesafari',
-        redirect: '/games/rickle'
+        redirect: '/games/rickle',
     },
     {
         path: '/rickle/*',
-        redirect: '/games/rickle/*'
+        redirect: '/games/rickle/*',
     },
     {
         path: '/farkle_safari/*',
-        redirect: '/games/rickle/*'
+        redirect: '/games/rickle/*',
     },
     {
         path: '/farklesafari/*',
-        redirect: '/games/rickle/*'
+        redirect: '/games/rickle/*',
     },
     {
         path: '/games/rickle',

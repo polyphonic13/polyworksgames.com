@@ -74,7 +74,7 @@ a {
 }
 
 .screen {
-    width: calc(100vw - 250px);
+    width: calc(100% - 250px);
     height: 100%;
 
     display: flex;
