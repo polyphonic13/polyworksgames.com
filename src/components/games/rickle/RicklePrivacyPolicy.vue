@@ -6,6 +6,12 @@
         />
         <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <p>
+            Polyworks Games LLC built the Rickle app as
+            a Free app. This SERVICE is provided by
+            Polyworks Games LLC at no cost and is intended for use as
+            is.
+        </p>
+        <p>
             This page is used to inform visitors regarding our
             policies with the collection, use, and disclosure of Personal
             Information if anyone decided to use our Service.
@@ -19,7 +25,7 @@
         </p>
         <p>
             The terms used in this Privacy Policy have the same meanings
-            as in our Terms and Conditions, which is accessible at
+            as in our Terms and Conditions, which are accessible at
             Rickle unless otherwise defined in this Privacy Policy.
         </p>
         <p><strong>Information Collection and Use</strong></p>
@@ -29,57 +35,12 @@
             identifiable information. The information that
             we request will be retained by us and used as described in this privacy policy.
         </p>
-        <div>
-            <p>
-                The app does use third party services that may collect
-                information used to identify you.
-            </p>
-            <p>
-                Link to privacy policy of third party service providers used
-                by the app
-            </p>
-            <ul>
-                <li><a
-                        href="https://www.google.com/policies/privacy/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >Google Play Services</a></li>
-                <li><a
-                        href="https://support.google.com/admob/answer/6128543?hl=en"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >AdMob</a></li>
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-            </ul>
-        </div>
+        <!---->
         <p><strong>Log Data</strong></p>
         <p>
             We want to inform you that whenever you
             use our Service, in a case of an error in the app
-            we collect data and information (through third party
+            we collect data and information (through third-party
             products) on your phone called Log Data. This Log Data may
             include information such as your device Internet Protocol
             (“IP”) address, device name, operating system version, the
@@ -96,7 +57,7 @@
         </p>
         <p>
             This Service does not use these “cookies” explicitly. However,
-            the app may use third party code and libraries that use
+            the app may use third-party code and libraries that use
             “cookies” to collect information and improve their services.
             You have the option to either accept or refuse these cookies
             and know when a cookie is being sent to your device. If you
@@ -116,7 +77,7 @@
         </ul>
         <p>
             We want to inform users of this Service
-            that these third parties have access to your Personal
+            that these third parties have access to their Personal
             Information. The reason is to perform the tasks assigned to
             them on our behalf. However, they are obligated not to
             disclose or use the information for any other purpose.
@@ -142,17 +103,23 @@
             services.
         </p>
         <p><strong>Children’s Privacy</strong></p>
-        <p>
-            These Services do not address anyone under the age of 13.
-            We do not knowingly collect personally
-            identifiable information from children under 13 years of age. In the case
-            we discover that a child under 13 has provided
-            us with personal information, we immediately
-            delete this from our servers. If you are a parent or guardian
-            and you are aware that your child has provided us with
-            personal information, please contact us so that
-            we will be able to do necessary actions.
-        </p>
+        <!---->
+        <div>
+            <p>
+                We do not knowingly collect personally
+                identifiable information from children. We
+                encourage all children to never submit any personally
+                identifiable information through
+                the Application and/or Services.
+                We encourage parents and legal guardians to monitor
+                their children's Internet usage and to help enforce this Policy by instructing
+                their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child
+                has provided personally identifiable information to us through the Application and/or Services,
+                please contact us. You must also be at least 16 years of age to consent to the processing
+                of your personally identifiable information in your country (in some countries we may allow your parent
+                or guardian to do so on your behalf).
+            </p>
+        </div>
         <p><strong>Changes to This Privacy Policy</strong></p>
         <p>
             We may update our Privacy Policy from
@@ -161,11 +128,11 @@
             notify you of any changes by posting the new Privacy Policy on
             this page.
         </p>
-        <p>This policy is effective as of 2021-03-17</p>
+        <p>This policy is effective as of 2022-08-01</p>
         <p><strong>Contact Us</strong></p>
         <p>
             If you have any questions or suggestions about our
-            Privacy Policy, do not hesitate to contact us at contact@polyworksgames.com.
+            Privacy Policy, do not hesitate to contact us at <a href="mailto:contact@polyworksgames.com">contact@polyworksgames.com.</a>
         </p>
         <p>This privacy policy page was created at <a
                 href="https://privacypolicytemplate.net"
@@ -176,7 +143,6 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >App Privacy Policy Generator</a></p>
-    </div>
 
 </template>
 <script>
