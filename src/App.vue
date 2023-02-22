@@ -25,10 +25,10 @@ html,
 body {
     /* background-color: #000000; */
     background: linear-gradient(
-        200deg,
+        190deg,
         rgba(255, 255, 255, 1) 0,
-        80%,
-        rgba(171, 205, 239, 1) 90%,
+        85%,
+        rgba(171, 205, 239, 1) 95%,
         rgb(171, 239, 228) 100%
     );
     color: #123456;
@@ -245,10 +245,6 @@ section {
 }
 
 @media screen and (max-width: 700px) {
-    .title {
-        margin-top: 0;
-    }
-
     p,
     li {
         font-weight: 400;

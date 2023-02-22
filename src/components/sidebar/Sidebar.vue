@@ -67,6 +67,10 @@ export default {
 .sidebar {
     border-bottom: none;
 
+    background-color: #ffffff;
+    /* box-shadow: -5px 0 25px 10px rgba(52, 86, 120, 0.15); */
+    box-shadow: -5px 0 25px 10px rgba(171, 205, 239, 0.25);
+
     width: 200px;
     height: 100vh;
     max-width: 200px;
@@ -174,6 +178,10 @@ export default {
 }
 
 @media screen and (max-width: 400px) {
+    .sidebar {
+        box-shadow: -5px 0 50px 10px rgba(171, 205, 239, 0.5);
+    }
+
     .item-inner1 {
         width: 18vw;
         height: 18vw;

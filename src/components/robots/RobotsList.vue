@@ -35,7 +35,7 @@ export default {
         return {
             items: [
                 {
-                    name: "Polybot",
+                    name: "Polybot (Jorge 5000)",
                     logo: require("../../assets/images/robots/jorge5000/logo01.png"),
                     path: "robots/jorge5000/",
                     isActive: true,
