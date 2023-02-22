@@ -4,7 +4,7 @@
             class="game-title-logo"
             src="../../../assets/images/games/farkle-safari/logo01.png"
         />
-        <h2 class="brandon title text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
+        <h2 class="brandon title text-xxl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <p>
             Polyworks Games built the Farkle Safari app as
             an Ad Supported app. This SERVICE is provided by

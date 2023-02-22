@@ -1,26 +1,28 @@
 <template>
     <div class="robots screen">
-        <h1 class="brandon title text-xl">R O B O T S</h1>
-        <h2>...coming soon</h2>
+        <h1 class="brandon title text-xxl">R O B O T S</h1>
         <div class="list">
             <component
-                v-for="(game, g) in robots"
-                :key="g"
-                :disabled="!game.isActive"
-                :is="(game.isActive) ? 'router-link' : 'div'"
-                :to="game.path"
+                v-for="(item, i) in items"
+                :key="i"
+                :disabled="!item.isActive"
+                :is="(item.isActive) ? 'router-link' : 'div'"
+                :to="item.path"
                 class="list-item"
             >
                 <img
                     class="list-item-img"
-                    :src="game.logo"
-                    :class="getItemClasses(game)"
+                    :src="item.logo"
+                    :class="getItemClasses(item)"
                 />
                 <span
-                    v-if="!game.isActive"
-                    class="coming-soon-overlay brandon text-xxl"
+                    v-if="!item.isActive"
+                    class="coming-soon-overlay brandon text-xl"
                 >COMING SOON</span>
-
+                <span
+                    v-else
+                    class="brandon text-xl"
+                >{{item.name}}</span>
             </component>
             <div class="spacer list-item"></div>
         </div>
@@ -31,12 +33,19 @@ export default {
     name: "RobotsList",
     data() {
         return {
-            robots: [],
+            items: [
+                {
+                    name: "Polybot",
+                    logo: require("../../assets/images/robots/jorge5000/logo01.png"),
+                    path: "robots/jorge5000/",
+                    isActive: true,
+                },
+            ],
         };
     },
     methods: {
-        getItemClasses(game) {
-            return game.isActive ? [] : ["translucent"];
+        getItemClasses(item) {
+            return item.isActive ? [] : ["translucent"];
         },
     },
 };
@@ -64,9 +73,16 @@ export default {
 }
 
 .list-item-img {
+    background-color: #ffffff;
     border: 2px solid #123456;
     width: 100%;
     height: 100%;
+    transition: all 0.25s linear;
+}
+
+.list-item-img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
 }
 
 .coming-soon-overlay {

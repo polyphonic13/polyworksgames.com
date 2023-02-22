@@ -1,6 +1,6 @@
 <template>
     <div class="connect screen">
-        <h1 class="brandon title text-xl">S O C I A L</h1>
+        <h1 class="brandon title text-xxl">S O C I A L</h1>
         <div class="networks">
             <a
                 v-for="(network, n) in networks"
@@ -16,7 +16,10 @@
             </a>
         </div>
         <section>
-            <p class="text-xl text-center align-self-center"><a href="mailto:contact@polyworksgames.com">contact@polyworkgames.com</a></p>
+            <p class="text-xl text-center align-self-center"><a
+                    href="mailto:contact@polyworksgames.com"
+                    target="blank"
+                >contact@polyworkgames.com</a></p>
         </section>
     </div>
 </template>

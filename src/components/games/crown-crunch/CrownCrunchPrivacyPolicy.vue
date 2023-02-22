@@ -4,7 +4,7 @@
             class="game-title-logo"
             src="../../../assets/images/games/crown-crunch/logo01.png"
         />
-        <h2 class="brandon title text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
+        <h2 class="brandon title text-xxl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <section class="text-lg">
             <p>
                 Polyworks Games built the Crown Crunch app as

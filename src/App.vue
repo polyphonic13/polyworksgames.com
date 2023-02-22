@@ -245,17 +245,6 @@ section {
 }
 
 @media screen and (max-width: 700px) {
-    html,
-    body {
-        background: linear-gradient(
-            -200deg,
-            rgba(255, 255, 255, 1) 0,
-            70%,
-            rgba(171, 205, 239, 1) 85%,
-            rgb(171, 239, 228) 100%
-        );
-    }
-
     .title {
         margin-top: 0;
     }
@@ -286,10 +275,6 @@ section {
 
     .text-lg {
         font-size: 1.25em;
-    }
-
-    .home-btn {
-        left: 90vw;
     }
 
     .game-title-logo {

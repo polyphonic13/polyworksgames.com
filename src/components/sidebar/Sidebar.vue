@@ -164,6 +164,13 @@ export default {
         width: 12.5vw;
         height: 12.5vw;
     }
+
+    .active,
+    .item:hover > .item-inner1 > .item-inner2 {
+        background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
+        width: 12.5vw;
+        height: 12.5vw;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -174,6 +181,13 @@ export default {
 
     .item-inner2 {
         font-size: 0.6em;
+        width: 17vw;
+        height: 17vw;
+    }
+
+    .active,
+    .item:hover > .item-inner1 > .item-inner2 {
+        background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
         width: 17vw;
         height: 17vw;
     }

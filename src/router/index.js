@@ -15,6 +15,7 @@ import Rickle from '@/components/games/rickle/Rickle.vue';
 import RickleSocial from '@/components/games/rickle/RickleSocial.vue';
 import RicklePrivacyPolicy from '@/components/games/rickle/RicklePrivacyPolicy.vue';
 import RobotsList from '@/components/robots/RobotsList.vue';
+import Jorge5000 from '@/components/robots/jorge5000/Jorge5000.vue';
 import NewsWatch from '@/components/news-watch/NewsWatch.vue';
 
 Vue.use(Router);
@@ -35,16 +36,6 @@ export default new Router({
         path: '/games',
         name: 'GamesList',
         component: GamesList,
-    },
-    {
-        path: '/robots',
-        name: 'RobotsList',
-        component: RobotsList,
-    },
-    {
-        path: '/connect',
-        name: 'Connect',
-        component: Connect,
     },
     {
         path: '/easteregg',
@@ -214,6 +205,21 @@ export default new Router({
     {
         path: '/games/rickle/privacy/',
         redirect: '/games/rickle/privacy',
+    },
+    {
+        path: '/robots',
+        name: 'RobotsList',
+        component: RobotsList,
+    },
+    {
+        path: '/robots/jorge5000',
+        name: 'Jorge5000',
+        component: Jorge5000,
+    },
+    {
+        path: '/connect',
+        name: 'Connect',
+        component: Connect,
     },
     ]
 })

@@ -1,6 +1,6 @@
 <template>
     <div class="about screen">
-        <h1 class="brandon title text-xl">A B O U T</h1>
+        <h1 class="brandon title text-xxl">A B O U T</h1>
         <section>
             <p class="text-lg text-left">Polyworks is a software and hardware development company. The company's vision is building enjoyable, entertaining and useful products for our users. Whether it's a virtual experience or a home assistant, the intent remains the same: provide something positive. Our focuses include:</p>
             <br />
