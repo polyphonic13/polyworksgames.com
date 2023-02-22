@@ -91,8 +91,7 @@ export default {
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
-                    url:
-                        "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
+                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
                 },
                 {
                     name: "apple",
@@ -187,7 +186,7 @@ section,
     margin-bottom: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .store-link {
         width: 50%;
     }

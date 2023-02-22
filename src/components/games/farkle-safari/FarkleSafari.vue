@@ -106,27 +106,23 @@ export default {
             charities: [
                 {
                     name: "WORLD WILDLIFE FUND",
-                    link:
-                        "https://support.worldwildlife.org/site/Donation2?df_id=14597&14597.donation=form1&s_src=AWE2005OQ18491A03788RX&gclid=Cj0KCQiAoab_BRCxARIsANMx4S4IRxJTgm-mXunPU-U1xkgGFx6fgxjRLTEPRUY-WQ7CU6awF-Aqar0aAqvPEALw_wcB",
+                    link: "https://support.worldwildlife.org/site/Donation2?df_id=14597&14597.donation=form1&s_src=AWE2005OQ18491A03788RX&gclid=Cj0KCQiAoab_BRCxARIsANMx4S4IRxJTgm-mXunPU-U1xkgGFx6fgxjRLTEPRUY-WQ7CU6awF-Aqar0aAqvPEALw_wcB",
                 },
                 {
                     name: "RAINFOREST ACTION NETWORK",
-                    link:
-                        "https://act.ran.org/page/24255/donate/1?en_og_source=ad_gad&gclid=Cj0KCQiAoab_BRCxARIsANMx4S65k3O7HP0k9aknhEpRZFNiS-Pz1jIthuHLkfdo9JvYYt2gme1S7t0aAtPwEALw_wcB",
+                    link: "https://act.ran.org/page/24255/donate/1?en_og_source=ad_gad&gclid=Cj0KCQiAoab_BRCxARIsANMx4S65k3O7HP0k9aknhEpRZFNiS-Pz1jIthuHLkfdo9JvYYt2gme1S7t0aAtPwEALw_wcB",
                 },
             ],
             storeLinks: [
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
-                    url:
-                        "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
+                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
                 },
                 {
                     name: "apple",
                     image: require("../../../assets/images/store-logos-apple.png"),
-                    url:
-                        "https://apps.apple.com/us/app/farkle-safari/id1546560307",
+                    url: "https://apps.apple.com/us/app/farkle-safari/id1546560307",
                 },
             ],
             privacyLink:
@@ -135,43 +131,35 @@ export default {
             pressLinks: [
                 {
                     name: "Pocket Gamer (Interview)",
-                    link:
-                        "https://www.pocketgamer.com/articles/086164/interview-farkle-safaris-developer-discusses-its-adaptation-of-the-classic-dice-game/",
+                    link: "https://www.pocketgamer.com/articles/086164/interview-farkle-safaris-developer-discusses-its-adaptation-of-the-classic-dice-game/",
                 },
                 {
                     name: "Pocket Gamer (Reasons to Play)",
-                    link:
-                        "https://www.pocketgamer.com/articles/086219/4-reasons-to-play-farkle-safari-the-charitable-dice-adventure-game/",
+                    link: "https://www.pocketgamer.com/articles/086219/4-reasons-to-play-farkle-safari-the-charitable-dice-adventure-game/",
                 },
                 {
                     name: "Pocket Gamer",
-                    link:
-                        "https://www.pocketgamer.com/articles/086133/pocket-gamer-farkle-safari-lets-you-play-the-classic-dice-game-and-save-wildlife-at-the-same-time/",
+                    link: "https://www.pocketgamer.com/articles/086133/pocket-gamer-farkle-safari-lets-you-play-the-classic-dice-game-and-save-wildlife-at-the-same-time/",
                 },
                 {
                     name: "App Spy",
-                    link:
-                        "https://www.appspy.com/preferred/12314/farkle-safari-polyworks-games-indie-dice-adventure-lets-you-do-your-part-to-save-animals-in-real-life",
+                    link: "https://www.appspy.com/preferred/12314/farkle-safari-polyworks-games-indie-dice-adventure-lets-you-do-your-part-to-save-animals-in-real-life",
                 },
                 {
                     name: "148 Apps",
-                    link:
-                        "https://www.148apps.com/news/play-farkle-safari-the-dice-game-out-now-on-ios-and-android-that-gives-back/",
+                    link: "https://www.148apps.com/news/play-farkle-safari-the-dice-game-out-now-on-ios-and-android-that-gives-back/",
                 },
                 {
                     name: "GLYFE",
-                    link:
-                        "https://gaminglyfe.com/farkle-safari-lands-on-mobile-today/",
+                    link: "https://gaminglyfe.com/farkle-safari-lands-on-mobile-today/",
                 },
                 {
                     name: "Playstation Bit",
-                    link:
-                        "https://www.playstationbit.com/mobile/farkle-safari-gratis-su-android-e-ios",
+                    link: "https://www.playstationbit.com/mobile/farkle-safari-gratis-su-android-e-ios",
                 },
                 {
                     name: "Game1News",
-                    link:
-                        "https://game1news.com/farkle-safari-royal-dice-number-merge/",
+                    link: "https://game1news.com/farkle-safari-royal-dice-number-merge/",
                 },
             ],
             screenshots: [
@@ -279,7 +267,7 @@ section,
     margin-bottom: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .store-link {
         width: 50%;
     }

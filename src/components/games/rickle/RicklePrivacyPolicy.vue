@@ -4,7 +4,7 @@
             class="game-title-logo"
             src="../../../assets/images/games/farkle-safari/logo01.png"
         />
-        <h2 class="brandon text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
+        <h2 class="brandon title text-xl">P R I V A C Y&nbsp;&nbsp;P O L I C Y</h2>
         <p>
             Polyworks Games LLC built the Rickle app as
             a Free app. This SERVICE is provided by
@@ -143,7 +143,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >App Privacy Policy Generator</a></p>
-
+    </div>
 </template>
 <script>
 export default {

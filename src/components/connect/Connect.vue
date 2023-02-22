@@ -1,6 +1,6 @@
 <template>
     <div class="connect screen">
-        <h1 class="brandon text-xl">C O N N E C T</h1>
+        <h1 class="brandon title text-xl">S O C I A L</h1>
         <div class="networks">
             <a
                 v-for="(network, n) in networks"

@@ -1,10 +1,16 @@
 <template>
-    <div class="games screen">
-        <h1 class="brandon text-xl">A B O U T</h1>
+    <div class="about screen">
+        <h1 class="brandon title text-xl">A B O U T</h1>
         <section>
-            <p class="text-lg text-left">We build games. Mobile Games. Desktop Games. HTML5 Games. Console and VR. Games to make you think. Explore. Search. Discover. Solve Mysteries. Solve Puzzles. Experience other worlds. Defend other worlds. Make friends. Defeat enemies. Laugh. Cry. Feel. Think. Triumph. Win.</p>
+            <p class="text-lg text-left">Polyworks is a software and hardware development company. The company's vision is building enjoyable, entertaining and useful products for our users. Whether it's a virtual experience or a home assistant, the intent remains the same: provide something positive. Our focuses include:</p>
             <br />
-            <p class="text-lg text-left">A portion of all proceeds is given back to charities. We feel strongly about game play being both enjoyable and having real-world impact. See individual game pages for more information.</p>
+            <ul class="text-lg padding-32">
+                <li>Mobile, Desktop and VR Games (as Polyworks Games)</li>
+                <li>IoT and Smart Homes</li>
+                <li>Robotics</li>
+            </ul>
+            <br />
+            <p class="text-lg text-left">A portion of all game proceeds is given back to charities. We feel strongly about game play being both enjoyable and having real-world impact. See individual game pages for more information.</p>
         </section>
     </div>
 </template>
@@ -14,4 +20,7 @@ export default {
 };
 </script>
 <style scoped>
+.padding-32 {
+    padding: 32px;
+}
 </style>

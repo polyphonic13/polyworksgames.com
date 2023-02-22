@@ -1,6 +1,6 @@
 <template>
     <div class="robots screen">
-        <h1 class="brandon text-xl">R O B O T S</h1>
+        <h1 class="brandon title text-xl">R O B O T S</h1>
         <h2>...coming soon</h2>
         <div class="list">
             <component
@@ -78,7 +78,7 @@ export default {
     z-index: 2;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .list-item {
         width: 90vw;
         max-width: 90vw;

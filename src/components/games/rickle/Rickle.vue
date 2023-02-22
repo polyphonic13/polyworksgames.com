@@ -117,8 +117,7 @@ export default {
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
-                    url:
-                        "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
+                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
                 },
                 {
                     name: "apple",
@@ -131,48 +130,39 @@ export default {
             pressLinks: [
                 {
                     name: "Android Games Review (Instagram)",
-                    link:
-                        "https://www.instagram.com/p/CR57E2EHhDZ/?utm_medium=share_sheet",
+                    link: "https://www.instagram.com/p/CR57E2EHhDZ/?utm_medium=share_sheet",
                 },
                 {
                     name: "App Advice",
-                    link:
-                        "https://appadvice.com/post/rickle-stacking-game-supports-charitable-causes/771139",
+                    link: "https://appadvice.com/post/rickle-stacking-game-supports-charitable-causes/771139",
                 },
                 {
                     name: "App Advice (Review)",
-                    link:
-                        "https://appadvice.com/post/rickle-review/1560862955/948439524",
+                    link: "https://appadvice.com/post/rickle-review/1560862955/948439524",
                 },
                 {
                     name: "Droid Gamers",
-                    link:
-                        "https://www.droidgamers.com/2021/06/10/rickle-is-an-addictive-tower-building-casual-game-out-now/",
+                    link: "https://www.droidgamers.com/2021/06/10/rickle-is-an-addictive-tower-building-casual-game-out-now/",
                 },
                 {
                     name: "Droid Gamers (Interview)",
-                    link:
-                        "https://www.droidgamers.com/2021/06/12/interview-how-rickle-sees-you-build-towers-and-help-fund-charities/",
+                    link: "https://www.droidgamers.com/2021/06/12/interview-how-rickle-sees-you-build-towers-and-help-fund-charities/",
                 },
                 {
                     name: "Gamezebo",
-                    link:
-                        "https://www.gamezebo.com/2021/06/10/rickle-is-a-charitable-twist-on-the-tower-building-genre/",
+                    link: "https://www.gamezebo.com/2021/06/10/rickle-is-a-charitable-twist-on-the-tower-building-genre/",
                 },
                 {
                     name: "Gamezebo (Interview)",
-                    link:
-                        "https://www.gamezebo.com/2021/06/12/interview-rickle-creator-paul-hoover-on-how-his-game-towers-over-the-competition/",
+                    link: "https://www.gamezebo.com/2021/06/12/interview-rickle-creator-paul-hoover-on-how-his-game-towers-over-the-competition/",
                 },
                 {
                     name: "iFanzine",
-                    link:
-                        "https://ifanzine.com/rickle-is-a-casual-tower-building-game-with-an-environmental-mission/",
+                    link: "https://ifanzine.com/rickle-is-a-casual-tower-building-game-with-an-environmental-mission/",
                 },
                 {
                     name: "Kongbakpao",
-                    link:
-                        "https://kongbakpao.com/addictive-casual-game-rickle-is-raising-money-for-environmental-charities/",
+                    link: "https://kongbakpao.com/addictive-casual-game-rickle-is-raising-money-for-environmental-charities/",
                 },
             ],
             challengeLinks: [
@@ -265,7 +255,7 @@ section,
     margin-bottom: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .store-link {
         width: 50%;
     }

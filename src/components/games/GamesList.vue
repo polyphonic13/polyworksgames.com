@@ -1,6 +1,6 @@
 <template>
     <div class="games screen">
-        <h1 class="brandon text-xl">G A M E S</h1>
+        <h1 class="brandon title text-xl">G A M E S</h1>
         <div class="list">
             <component
                 v-for="(game, g) in games"
@@ -108,7 +108,7 @@ export default {
     z-index: 2;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .list-item {
         width: 90vw;
         max-width: 90vw;

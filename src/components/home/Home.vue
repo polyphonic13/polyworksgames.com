@@ -23,7 +23,7 @@ export default {
     align-self: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .large-logo {
         width: 364px;
         height: 364px;

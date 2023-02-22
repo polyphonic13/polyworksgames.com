@@ -61,6 +61,8 @@ a {
     height: 100%;
     max-width: 1200px;
 
+    overflow: hidden;
+
     display: flex;
 }
 
@@ -74,14 +76,20 @@ a {
 }
 
 .screen {
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     height: 100%;
 
     display: flex;
     flex-direction: column;
 
+    overflow: hidden;
+
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+.title {
+    margin-top: 64px;
 }
 
 @font-face {
@@ -236,7 +244,7 @@ section {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     html,
     body {
         background: linear-gradient(
@@ -246,6 +254,10 @@ section {
             rgba(171, 205, 239, 1) 85%,
             rgb(171, 239, 228) 100%
         );
+    }
+
+    .title {
+        margin-top: 0;
     }
 
     p,
