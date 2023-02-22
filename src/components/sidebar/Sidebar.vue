@@ -8,7 +8,7 @@
         >
             <div class="item-inner1">
                 <span
-                    class="item-inner2"
+                    class="item-inner2 brandon"
                     :class="(item.isActive) ? 'active' : ''"
                 >{{ item.label }}</span>
             </div>

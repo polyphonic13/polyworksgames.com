@@ -6,7 +6,7 @@
             <br />
             <ul class="text-lg padding-32">
                 <li>Mobile, Desktop and VR Games (as Polyworks Games)</li>
-                <li>IoT and Smart Homes</li>
+                <li>IoT / Smart Home</li>
                 <li>Robotics</li>
             </ul>
             <br />
