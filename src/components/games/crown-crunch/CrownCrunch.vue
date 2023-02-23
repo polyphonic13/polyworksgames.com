@@ -116,13 +116,11 @@ export default {
                 // },
                 {
                     name: "UNICEF",
-                    link:
-                        "https://donate.unicefusa.org/page/contribute/crown-virus-gen?_ga=2.265138951.989147882.1591480955-2042016180.1591480955&_gac=1.192991839.1591481091.Cj0KCQjw_ez2BRCyARIsAJfg-ksKZONE8taaXjqcl5tN64uej2R3eFaLTgRJKAH6esQ1DtgwGVY9cpAaArCNEALw_wcB",
+                    link: "https://donate.unicefusa.org/page/contribute/crown-virus-gen?_ga=2.265138951.989147882.1591480955-2042016180.1591480955&_gac=1.192991839.1591481091.Cj0KCQjw_ez2BRCyARIsAJfg-ksKZONE8taaXjqcl5tN64uej2R3eFaLTgRJKAH6esQ1DtgwGVY9cpAaArCNEALw_wcB",
                 },
                 {
                     name: "CDC Foundation",
-                    link:
-                        "https://give.cdcfoundation.org/give/195963/#!/donation/checkout",
+                    link: "https://give.cdcfoundation.org/give/195963/#!/donation/checkout",
                 },
                 {
                     name: "Give2Asia",
@@ -130,16 +128,14 @@ export default {
                 },
                 {
                     name: "Partners In Health",
-                    link:
-                        "https://donate.pih.org/page/contribute/coronavirus-response?utm_content=corona3&source=20200511_pdgg_glb_em_DELVE_allidgePlan_COVID_fnd__donation_0_0_all&gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxWnQDp6Vk-w0g6tRWuwKDB8P2AkwYFj1wqdaonj88-IbTYArs-TKDUaAmQCEALw_wcB",
+                    link: "https://donate.pih.org/page/contribute/coronavirus-response?utm_content=corona3&source=20200511_pdgg_glb_em_DELVE_allidgePlan_COVID_fnd__donation_0_0_all&gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxWnQDp6Vk-w0g6tRWuwKDB8P2AkwYFj1wqdaonj88-IbTYArs-TKDUaAmQCEALw_wcB",
                 },
             ],
             storeLinks: [
                 {
                     name: "google",
                     image: require("../../../assets/images/store-logos-google.png"),
-                    url:
-                        "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
+                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
                 },
                 {
                     name: "apple",
@@ -221,6 +217,7 @@ export default {
 </script>
 <style scoped>
 .crown-crunch {
+    background-color: #000;
     background-image: url(../../../assets/images/games/crown-crunch/city.png);
     background-position: bottom center;
     background-size: cover;
@@ -253,6 +250,7 @@ section,
 
 .store-link {
     width: 33%;
+    max-width: 300px;
     margin: 1em 0;
     height: auto;
 }

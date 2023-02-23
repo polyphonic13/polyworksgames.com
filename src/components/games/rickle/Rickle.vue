@@ -241,6 +241,7 @@ section,
 
 .store-link {
     width: 33%;
+    max-width: 300px;
     margin: 1em 0;
     height: auto;
 }

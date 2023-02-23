@@ -1,33 +1,24 @@
 <template>
     <div id="app">
         <router-view />
-        <!-- <div class="machinery">
-            <img
-                class="machinery-bg"
-                :src="machineryImage"
-            />
-        </div> -->
+        <machinery></machinery>
         <sidebar></sidebar>
         <router-link
             class="home-btn"
             to="/"
         ></router-link>
-        <div class="invisible wonkers">hi</div>
     </div>
 </template>
 
 <script>
 import Sidebar from "./components/sidebar/Sidebar.vue";
+import Machinery from "./components/Machinery.vue";
 
 export default {
     name: "App",
     components: {
         Sidebar,
-    },
-    data() {
-        return {
-            machineryImage: require("./assets/images/polyworks-games-gears01.png"),
-        };
+        Machinery,
     },
     computed: {
         currentRouteName() {
@@ -75,24 +66,11 @@ a {
 
     width: 100%;
     height: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 
     overflow: hidden;
 
     display: flex;
-}
-
-.machinery {
-    width: 100%;
-    height: 256px;
-    bottom: 0;
-
-    position: fixed;
-}
-
-.machinery-bg {
-    object-fit: contain;
-    object-position: left center;
 }
 
 .home-btn {
@@ -261,10 +239,12 @@ section {
     min-width: 50%;
 }
 
-@media screen and (min-width: 1200px) {
-    #app {
-        /* margin: auto; */
-    }
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 @media screen and (max-width: 850px) {
