@@ -24,17 +24,17 @@ export default new Router({
     mode: 'history',
     routes: [{
         path: '/',
-        name: 'Home',
+        name: 'home',
         component: Home,
     },
     {
         path: '/about',
-        name: 'About',
+        name: 'about',
         component: About,
     },
     {
         path: '/games',
-        name: 'GamesList',
+        name: 'gamesList',
         component: GamesList,
     },
     {
@@ -80,7 +80,7 @@ export default new Router({
     },
     {
         path: '/games/crown-crunch/privacy',
-        name: 'Privacy',
+        name: 'privacy',
         component: CrownCrunchPrivacyPolicy,
     },
     {
@@ -89,18 +89,18 @@ export default new Router({
     },
     {
         path: '/games/crown-crunch/easter-egg',
-        name: 'EasterEgg',
+        name: 'easterEgg',
         component: EasterEgg,
     },
     {
         path: '/games/crown-crunch/challenges',
-        name: 'Challenges',
+        name: 'challenges',
         component: Challenges,
 
     },
     {
         path: '/games/keke',
-        name: 'Keke',
+        name: 'keke',
         component: Keke,
     },
     {
@@ -129,12 +129,12 @@ export default new Router({
     },
     {
         path: '/games/farkle-safari',
-        name: 'FarkleSafari',
+        name: 'farkleSafari',
         component: FarkleSafari,
     },
     {
         path: '/games/farkle-safari/privacy',
-        name: 'FarkleSafariPrivacy',
+        name: 'farkleSafariPrivacy',
         component: FarkleSafariPrivacyPolicy,
     },
     {
@@ -147,7 +147,7 @@ export default new Router({
     },
     {
         path: '/rickle-social',
-        name: 'RickleSocial',
+        name: 'rickleSocial',
         component: RickleSocial,
     },
     {
@@ -172,34 +172,17 @@ export default new Router({
     },
     {
         path: '/games/rickle',
-        name: 'Rickle',
+        name: 'rickle',
         component: Rickle,
     },
-    // {
-    //     path: '/sunflower',
-    //     redirect: '/games/rickle/sunflowers',
-    // },
-    // {
-    //     path: '/sunflowers',
-    //     redirect: '/games/rickle/sunflowers',
-    // },
-    // {
-    //     path: '/games/rickle/sunflower',
-    //     redirect: '/games/rickle/sunflowers',
-    // },
-    // {
-    //     path: '/games/rickle/sunflowers',
-    //     name: 'Sunflowers',
-    //     component: Sunflowers,
-    // },
     {
         path: '/newswatch',
-        name: 'NewsWatchLandingPage',
+        name: 'newsWatchLandingPage',
         component: NewsWatch,
     },
     {
         path: '/games/rickle/privacy',
-        name: 'RicklePrivacyPolicy',
+        name: 'ricklePrivacyPolicy',
         component: RicklePrivacyPolicy,
     },
     {
@@ -208,17 +191,17 @@ export default new Router({
     },
     {
         path: '/robots',
-        name: 'RobotsList',
+        name: 'robotsList',
         component: RobotsList,
     },
     {
         path: '/robots/jorge5000',
-        name: 'Jorge5000',
+        name: 'jorge5000',
         component: Jorge5000,
     },
     {
         path: '/connect',
-        name: 'Connect',
+        name: 'connect',
         component: Connect,
     },
     ]

@@ -1,6 +1,12 @@
 <template>
     <div id="app">
         <router-view />
+        <!-- <div class="machinery">
+            <img
+                class="machinery-bg"
+                :src="machineryImage"
+            />
+        </div> -->
         <sidebar></sidebar>
         <router-link
             class="home-btn"
@@ -17,6 +23,16 @@ export default {
     name: "App",
     components: {
         Sidebar,
+    },
+    data() {
+        return {
+            machineryImage: require("./assets/images/polyworks-games-gears01.png"),
+        };
+    },
+    computed: {
+        currentRouteName() {
+            return this.$route.name;
+        },
     },
 };
 </script>
@@ -64,6 +80,19 @@ a {
     overflow: hidden;
 
     display: flex;
+}
+
+.machinery {
+    width: 100%;
+    height: 256px;
+    bottom: 0;
+
+    position: fixed;
+}
+
+.machinery-bg {
+    object-fit: contain;
+    object-position: left center;
 }
 
 .home-btn {
@@ -234,7 +263,7 @@ section {
 
 @media screen and (min-width: 1200px) {
     #app {
-        margin: auto;
+        /* margin: auto; */
     }
 }
 

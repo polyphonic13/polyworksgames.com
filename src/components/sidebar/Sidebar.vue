@@ -25,32 +25,41 @@ export default {
                     label: "ABOUT",
                     link: "/about",
                     isActive: false,
+                    activeRoutes: ["about"],
                 },
                 {
                     label: "GAMES",
                     link: "/games",
                     isActive: false,
+                    activeRoutes: [
+                        "gamesList",
+                        "rickle",
+                        "farkleSafari",
+                        "crownCrunch",
+                        "keke",
+                        "dreamsOfYesterday",
+                    ],
                 },
                 {
                     label: "ROBOTS",
                     link: "/robots",
                     isActive: false,
+                    activeRoutes: ["robotsList", "jorge5000"],
                 },
                 {
                     label: "SOCIAL",
                     link: "/connect",
                     isActive: false,
+                    activeRoutes: ["connect"],
                 },
             ],
         };
     },
     methods: {
         setActiveLink() {
+            const routeName = this.$route.name;
             this.items = this.items.map((item) => {
-                item.isActive = false;
-                if (this.$route.path.indexOf(item.name) > -1) {
-                    item.isActive = true;
-                }
+                item.isActive = item.activeRoutes.includes(routeName);
                 return item;
             });
         },
@@ -138,6 +147,10 @@ export default {
     background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
     width: 10vw;
     height: 10vw;
+}
+
+.active {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 700px) {
