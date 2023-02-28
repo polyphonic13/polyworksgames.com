@@ -32,11 +32,11 @@ html,
 body {
     /* background-color: #000000; */
     background: linear-gradient(
-        190deg,
+        183deg,
         rgba(255, 255, 255, 1) 0,
         85%,
-        rgba(171, 205, 239, 1) 95%,
-        rgb(171, 239, 228) 100%
+        rgb(102, 147, 192) 95%,
+        rgb(94, 158, 146) 100%
     );
     color: #123456;
     width: 100%;
@@ -71,6 +71,7 @@ a {
     overflow: hidden;
 
     display: flex;
+    position: relative;
 }
 
 .home-btn {
@@ -79,17 +80,21 @@ a {
     height: 10vw;
     left: 0;
     bottom: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .screen {
     width: calc(100% - 200px);
-    height: 100%;
 
     display: flex;
     flex-direction: column;
 
-    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+}
+
+.scrolling-screen {
+    height: 100%;
 
     overflow-y: auto;
     overflow-x: hidden;
@@ -269,8 +274,8 @@ section {
     }
 
     .screen {
-        margin-top: 100px;
         width: 100vw;
+        top: 130px;
         justify-content: flex-start;
     }
 

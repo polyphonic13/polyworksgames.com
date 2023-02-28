@@ -1,5 +1,5 @@
 <template>
-    <div class="screen game rickle">
+    <div class="screen scrolling-screen game rickle">
         <div class="main">
             <section class="text-center">
                 <img

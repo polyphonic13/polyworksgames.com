@@ -1,5 +1,5 @@
 <template>
-    <div class="game screen">
+    <div class="game screen scrolling-screen">
         <img
             class="game-title-logo"
             src="../../../assets/images/games/keke/logo01.png"
@@ -30,17 +30,17 @@ export default {
         return {
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/keke/keke-ss-01.png")
+                    url: require("../../../assets/images/games/keke/keke-ss-01.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/keke/keke-ss-02.png")
+                    url: require("../../../assets/images/games/keke/keke-ss-02.png"),
                 },
                 {
-                    url: require("../../../assets/images/games/keke/keke-ss-03.png")
-                }
-            ]
+                    url: require("../../../assets/images/games/keke/keke-ss-03.png"),
+                },
+            ],
         };
-    }
+    },
 };
 </script>
 <style scoped>

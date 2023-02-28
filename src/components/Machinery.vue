@@ -6,17 +6,18 @@
         <div
             v-if="isRendered"
             class="machinery"
+            ref="machinery"
         >
             <div
-                v-for="i in machineryItemCount"
+                v-for="i in itemCount"
                 :key="i"
                 class="machinery-item"
                 @click="onItemClicked($event)"
                 style="top:10px;left:20px;"
                 :style="{
-                        top: `${((i % 8) * 16) - Math.floor(Math.random() * (64 - 16) + 16)}px`,
-                        left: `${Math.random() * elWidth}px`,
-                        scale: `${((i % 8) * 0.1) + 0.5}`,
+                        top: `${200 - ((i % 8) * 32) - Math.floor(Math.random() * (64 - 16) + 16)}px`,
+                        left: `${(Math.random() * elWidth + 36) - 64}px`,
+                        scale: `${((i % 8) * 0.1) + 0.15}`,
                         transform: `rotate(${getRandomRotationStyle()}deg)` }"
             ></div>
         </div>
@@ -29,7 +30,7 @@ export default {
     data() {
         return {
             // machineryImage: require("./assets/images/polyworks-games-gears01.png"),
-            machineryItemCount: 300,
+            // machineryItemCount: 1000,
             isRendered: false,
             routesVisible: ["home", "about", "social", "connect"],
         };
@@ -41,13 +42,32 @@ export default {
         isVisible() {
             return this.routesVisible.includes(this.$route.name);
         },
+        itemCount() {
+            return Math.ceil(this.$el.clientWidth * 0.75);
+        },
     },
     mounted() {
         this.isRendered = true;
+        this.$nextTick(() => {
+            const children = Array.from(this.$refs.machinery.children);
+            children.forEach((child, c) => {
+                const delay = Math.floor(Math.random() * 5000);
+                setTimeout(() => {
+                    child.classList.add("spin-animation");
+                }, delay);
+            });
+        });
+        this.$router.afterEach(() => {
+            this.isRendered = false;
+            if (!this.isVisible) {
+                return;
+            }
+            this.isRendered = true;
+        });
     },
     methods: {
         getRandomRotationStyle() {
-            return Math.floor(Math.random() * 350);
+            return Math.floor(Math.random() * 360);
         },
         onItemClicked(evt) {
             const target = evt.currentTarget;
@@ -83,40 +103,57 @@ export default {
 .machinery-item {
     position: absolute;
     background-color: rgba(255, 255, 255, 0);
-    border: 1px rgba(255, 255, 255, 0.2) solid;
+    border: 1px rgba(255, 255, 255, 0.75) solid;
+    /* border: 1px rgba(255, 0, 255, 0.75) solid; */
     width: 64px;
     height: 64px;
 
-    transition: all 1s linear;
+    transition: all 0.3s linear;
 }
 
 .machinery-item:hover {
     background-color: rgba(255, 255, 255, 1);
-    border: 1px rgba(171, 205, 239, 0.9) solid;
+    border: 1px rgba(171, 205, 239, 0.95) solid;
     cursor: pointer;
 }
 
 .spin-animation {
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
 }
 
 @-moz-keyframes spin {
-    100% {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
         -moz-transform: rotate(360deg);
     }
 }
 @-webkit-keyframes spin {
-    100% {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
         -webkit-transform: rotate(360deg);
     }
 }
-
 @keyframes spin {
+    0% {
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
     100% {
-        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
         transform: rotate(360deg);
+        opacity: 1;
     }
 }
 </style>

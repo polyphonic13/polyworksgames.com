@@ -1,5 +1,5 @@
 <template>
-    <div class="games screen">
+    <div class="games screen scrolling-screen">
         <h1 class="brandon title text-xxl">G A M E S</h1>
         <div class="list">
             <component

@@ -1,5 +1,5 @@
 <template>
-    <div class="screen">
+    <div class="screen scrolling-screen">
         <img
             class="game-title-logo"
             src="../../../assets/images/games/crown-crunch/logo01.png"

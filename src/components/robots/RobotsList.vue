@@ -1,5 +1,5 @@
 <template>
-    <div class="robots screen">
+    <div class="robots screen scrolling-screen">
         <h1 class="brandon title text-xxl">R O B O T S</h1>
         <div class="list">
             <component

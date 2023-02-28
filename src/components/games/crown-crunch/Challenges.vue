@@ -1,5 +1,5 @@
 <template>
-    <div class="screen game crown-crunch">
+    <div class="screen scrolling-screen game crown-crunch">
         <div class="main">
             <section class="text-center">
                 <img

@@ -78,7 +78,7 @@ export default {
 
     background-color: #ffffff;
     /* box-shadow: -5px 0 25px 10px rgba(52, 86, 120, 0.15); */
-    box-shadow: -5px 0 25px 10px rgba(171, 205, 239, 0.25);
+    box-shadow: -5px 0 25px 10px rgba(102, 147, 192, 0.25);
 
     width: 200px;
     height: 100vh;
@@ -113,7 +113,7 @@ export default {
 
 .item-inner1 {
     background: linear-gradient(
-        rgba(171, 205, 239, 0.5),
+        rgba(102, 147, 192, 0.5),
         rgba(255, 255, 255, 0.1)
     );
     color: #abcdef;

@@ -1,5 +1,5 @@
 <template>
-    <div class="screen game farkle-safari">
+    <div class="screen scrolling-screen game farkle-safari">
         <div class="main">
             <section class="text-center">
                 <img

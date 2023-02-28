@@ -1,5 +1,5 @@
 <template>
-    <div class="credits screen">
+    <div class="credits screen scrolling-screen">
         <h1 class="wonkers">CORONA CRUNCH</h1>
         <h2 class="wonkers">credits</h2>
         <router-link to="/privacy">Privacy Policy</router-link>
@@ -11,7 +11,7 @@ export default {
     name: "Credits",
     data() {
         return {};
-    }
+    },
 };
 </script>
 <style scoped></style>
