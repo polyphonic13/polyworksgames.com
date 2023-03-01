@@ -7,6 +7,11 @@
             class="home-btn"
             to="/"
         ></router-link>
+        <div
+            v-if="isFirstLoad"
+            ref="whiteOut"
+            class="white-out"
+        ></div>
     </div>
 </template>
 
@@ -20,10 +25,20 @@ export default {
         Sidebar,
         Machinery,
     },
+    data() {
+        return {
+            isFirstLoad: true,
+        };
+    },
     computed: {
         currentRouteName() {
             return this.$route.name;
         },
+    },
+    mounted() {
+        setTimeout(() => {
+            this.isFirstLoad = false;
+        }, 5001);
     },
 };
 </script>
@@ -101,6 +116,48 @@ a {
 
 .title {
     margin-top: 64px;
+}
+
+.white-out {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    position: absolute;
+    z-index: 1001;
+
+    -webkit-animation: fadeOut 5s linear forwards;
+    -moz-animation: fadeOut 5s linear forwards;
+    animation: fadeOut 5s linear forwards;
+}
+
+@-moz-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 @font-face {

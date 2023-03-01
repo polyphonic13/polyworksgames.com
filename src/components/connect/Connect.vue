@@ -1,5 +1,5 @@
 <template>
-    <div class="connect screen">
+    <div class="connect screen scrolling-screen">
         <h1 class="brandon title text-xxl">S O C I A L</h1>
         <div class="networks">
             <a
