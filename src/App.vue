@@ -30,7 +30,6 @@ export default {
 <style>
 html,
 body {
-    /* background-color: #000000; */
     background: linear-gradient(
         183deg,
         rgba(255, 255, 255, 1) 0,
@@ -259,6 +258,16 @@ section {
 }
 
 @media screen and (max-width: 700px) {
+    body {
+        background: linear-gradient(
+            190deg,
+            rgba(255, 255, 255, 1) 0,
+            85%,
+            rgb(68, 108, 147) 95%,
+            rgb(94, 158, 146) 100%
+        );
+    }
+
     p,
     li {
         font-weight: 400;

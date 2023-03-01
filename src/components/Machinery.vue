@@ -15,7 +15,7 @@
                 @click="onItemClicked($event)"
                 style="top:10px;left:20px;"
                 :style="{
-                        top: `${200 - ((i % 8) * 32) - Math.floor(Math.random() * (64 - 16) + 16)}px`,
+                        top: `${150 - ((i % 8) * 32) - Math.floor(Math.random() * (64 - 16) + 16)}px`,
                         left: `${(Math.random() * elWidth + 36) - 64}px`,
                         scale: `${((i % 8) * 0.1) + 0.15}`,
                         transform: `rotate(${getRandomRotationStyle()}deg)` }"
@@ -29,10 +29,15 @@ export default {
     name: "Machinery",
     data() {
         return {
-            // machineryImage: require("./assets/images/polyworks-games-gears01.png"),
-            // machineryItemCount: 1000,
             isRendered: false,
-            routesVisible: ["home", "about", "social", "connect"],
+            routesVisible: [
+                "home",
+                "about",
+                "social",
+                "connect",
+                "gamesList",
+                "robotsList",
+            ],
         };
     },
     computed: {
@@ -49,13 +54,7 @@ export default {
     mounted() {
         this.isRendered = true;
         this.$nextTick(() => {
-            const children = Array.from(this.$refs.machinery.children);
-            children.forEach((child, c) => {
-                const delay = Math.floor(Math.random() * 5000);
-                setTimeout(() => {
-                    child.classList.add("spin-animation");
-                }, delay);
-            });
+            this.initAnimation();
         });
         this.$router.afterEach(() => {
             this.isRendered = false;
@@ -63,9 +62,67 @@ export default {
                 return;
             }
             this.isRendered = true;
+            this.$nextTick(() => {
+                this.initAnimation();
+            });
         });
+        window.addEventListener("blur", this.blurHandler);
+        window.addEventListener("focus", this.focusHandler);
+    },
+    onDestroy() {
+        this.removeAnimation();
+        window.removeEventListener("blur", this.blurHandler);
+        window.removeEventListener("focus", this.focusHandler);
     },
     methods: {
+        blurHandler() {
+            this.pauseAnimation();
+        },
+        focusHandler() {
+            this.resumeAnimation();
+        },
+        initAnimation() {
+            if (!this.$refs.machinery) {
+                return;
+            }
+            const children = Array.from(this.$refs.machinery.children);
+            children.forEach((child) => {
+                const delay = Math.floor(Math.random() * 5000);
+                setTimeout(() => {
+                    child.classList.add("spin-animation");
+                }, delay);
+            });
+        },
+        pauseAnimation() {
+            if (!this.$refs.machinery) {
+                return;
+            }
+            const children = Array.from(this.$refs.machinery.children);
+            children.forEach((child) => {
+                child.style.animationPlayState = "paused";
+            });
+        },
+        resumeAnimation() {
+            if (!this.$refs.machinery) {
+                return;
+            }
+            const children = Array.from(this.$refs.machinery.children);
+            children.forEach((child) => {
+                child.style.animationPlayState = "running";
+            });
+        },
+        removeAnimation() {
+            if (!this.$refs.machinery) {
+                return;
+            }
+            const children = Array.from(this.$refs.machinery.children);
+            children.forEach((child) => {
+                const delay = Math.floor(Math.random() * 5000);
+                setTimeout(() => {
+                    child.classList.remove("spin-animation");
+                }, delay);
+            });
+        },
         getRandomRotationStyle() {
             return Math.floor(Math.random() * 360);
         },
@@ -102,8 +159,8 @@ export default {
 
 .machinery-item {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px rgba(255, 255, 255, 0.75) solid;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* border: 1px rgba(255, 255, 255, 0.25) solid; */
     /* border: 1px rgba(255, 0, 255, 0.75) solid; */
     width: 64px;
     height: 64px;
@@ -114,13 +171,14 @@ export default {
 .machinery-item:hover {
     background-color: rgba(255, 255, 255, 1);
     border: 1px rgba(171, 205, 239, 0.95) solid;
+    animation-play-state: paused;
     cursor: pointer;
 }
 
 .spin-animation {
-    -webkit-animation: spin 5s linear infinite;
-    -moz-animation: spin 5s linear infinite;
-    animation: spin 5s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
 }
 
 @-moz-keyframes spin {
@@ -144,16 +202,19 @@ export default {
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
-        opacity: 1;
+        opacity: 0.8;
     }
-    50% {
+    33% {
+        opacity: 0;
+    }
+    66% {
         opacity: 0;
     }
     100% {
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
         transform: rotate(360deg);
-        opacity: 1;
+        opacity: 0.8;
     }
 }
 </style>

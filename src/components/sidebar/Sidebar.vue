@@ -78,7 +78,7 @@ export default {
 
     background-color: #ffffff;
     /* box-shadow: -5px 0 25px 10px rgba(52, 86, 120, 0.15); */
-    box-shadow: -5px 0 25px 10px rgba(102, 147, 192, 0.25);
+    box-shadow: -5px 0 25px 10px rgba(68, 108, 147, 0.25);
 
     width: 200px;
     height: 100vh;
@@ -192,7 +192,7 @@ export default {
 
 @media screen and (max-width: 400px) {
     .sidebar {
-        box-shadow: -5px 0 50px 10px rgba(171, 205, 239, 0.5);
+        box-shadow: -5px 0 30px 10px rgba(68, 108, 147, 0.33);
     }
 
     .item-inner1 {
