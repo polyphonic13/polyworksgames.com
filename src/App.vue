@@ -38,7 +38,7 @@ export default {
     mounted() {
         setTimeout(() => {
             this.isFirstLoad = false;
-        }, 5001);
+        }, 2501);
     },
 };
 </script>
@@ -47,12 +47,12 @@ html,
 body {
     background: linear-gradient(
         183deg,
-        rgba(255, 255, 255, 1) 0,
+        rgba(10, 15, 25, 1) 0,
         85%,
-        rgb(102, 147, 192) 95%,
-        rgb(94, 158, 146) 100%
+        rgb(40, 60, 85) 95%,
+        rgb(50, 70, 95) 100%
     );
-    color: #123456;
+    color: #e0e8f0;
     width: 100%;
     height: 100%;
     padding: 0;
@@ -66,7 +66,7 @@ p {
 }
 
 a {
-    color: #456789;
+    color: #90b4d8;
     font-weight: 500;
     text-decoration: none;
 }
@@ -119,7 +119,7 @@ a {
 }
 
 .white-out {
-    background: #fff;
+    background: #000;
     width: 100%;
     height: 100%;
     top: 0;
@@ -128,9 +128,9 @@ a {
     position: absolute;
     z-index: 1001;
 
-    -webkit-animation: fadeOut 5s linear forwards;
-    -moz-animation: fadeOut 5s linear forwards;
-    animation: fadeOut 5s linear forwards;
+    -webkit-animation: fadeOut 2.5s linear forwards;
+    -moz-animation: fadeOut 2.5s linear forwards;
+    animation: fadeOut 2.5s linear forwards;
 }
 
 @-moz-keyframes fadeOut {
@@ -318,10 +318,10 @@ section {
     body {
         background: linear-gradient(
             190deg,
-            rgba(255, 255, 255, 1) 0,
+            rgba(10, 15, 25, 1) 0,
             85%,
-            rgb(68, 108, 147) 95%,
-            rgb(94, 158, 146) 100%
+            rgb(35, 55, 75) 95%,
+            rgb(45, 65, 85) 100%
         );
     }
 

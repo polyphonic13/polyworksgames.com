@@ -42,7 +42,7 @@ export default {
                     ],
                 },
                 {
-                    label: "ROBOTS",
+                    label: "I O T",
                     link: "/robots",
                     isActive: false,
                     activeRoutes: ["robotsList", "jorge5000"],
@@ -77,9 +77,8 @@ export default {
 .sidebar {
     border-bottom: none;
 
-    background-color: #ffffff;
-    /* box-shadow: -5px 0 25px 10px rgba(52, 86, 120, 0.15); */
-    box-shadow: -5px 0 25px 10px rgba(68, 108, 147, 0.25);
+    background-color: rgba(15, 25, 40, 0.95);
+    box-shadow: -5px 0 25px 10px rgba(10, 20, 35, 0.5);
 
     width: 200px;
     height: 100vh;
@@ -92,6 +91,7 @@ export default {
 
     position: fixed;
     right: 0;
+    z-index: 1000;
 
     flex-direction: column;
     align-items: center;
@@ -114,10 +114,10 @@ export default {
 
 .item-inner1 {
     background: linear-gradient(
-        rgba(102, 147, 192, 0.5),
-        rgba(255, 255, 255, 0.1)
+        rgba(40, 60, 90, 0.5),
+        rgba(20, 30, 50, 0.1)
     );
-    color: #abcdef;
+    color: #7a9fc4;
     width: 10vw;
     height: 10vw;
     max-width: 118px;
@@ -129,11 +129,11 @@ export default {
 }
 
 .item:hover > .item-inner1 {
-    color: white;
+    color: #b0d0f0;
 }
 
 .item-inner2 {
-    background: radial-gradient(circle at 3vw 3vw, #345678, #012345);
+    background: radial-gradient(circle at 3vw 3vw, #2a4060, #0f1a2a);
     width: 9.5vw;
     height: 9.5vw;
     max-width: 108px;
@@ -145,13 +145,13 @@ export default {
 
 .active,
 .item:hover > .item-inner1 > .item-inner2 {
-    background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
+    background: radial-gradient(circle at 3vw 3vw, #4a6a8a, #1a2a3a);
     width: 10vw;
     height: 10vw;
 }
 
 .active {
-    color: #ffffff;
+    color: #d0e8ff;
 }
 
 @media screen and (max-width: 700px) {
@@ -169,49 +169,50 @@ export default {
     }
 
     .item-inner1 {
-        width: 13vw;
-        height: 13vw;
+        width: 16vw;
+        height: 16vw;
+        font-size: 1.25em;
     }
 
     .item-inner2 {
-        width: 12vw;
-        height: 12vw;
+        width: 15vw;
+        height: 15vw;
     }
 
     .item-inner2:hover {
-        width: 12.5vw;
-        height: 12.5vw;
+        width: 15.5vw;
+        height: 15.5vw;
     }
 
     .active,
     .item:hover > .item-inner1 > .item-inner2 {
-        background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
-        width: 12.5vw;
-        height: 12.5vw;
+        background: radial-gradient(circle at 3vw 3vw, #4a6a8a, #1a2a3a);
+        width: 15.5vw;
+        height: 15.5vw;
     }
 }
 
 @media screen and (max-width: 400px) {
     .sidebar {
-        box-shadow: -5px 0 30px 10px rgba(68, 108, 147, 0.33);
+        box-shadow: -5px 0 30px 10px rgba(10, 20, 35, 0.5);
     }
 
     .item-inner1 {
-        width: 18vw;
-        height: 18vw;
+        width: 20vw;
+        height: 20vw;
+        font-size: 0.575em;
     }
 
     .item-inner2 {
-        font-size: 0.6em;
-        width: 17vw;
-        height: 17vw;
+        width: 19vw;
+        height: 19vw;
     }
 
     .active,
     .item:hover > .item-inner1 > .item-inner2 {
-        background: radial-gradient(circle at 3vw 3vw, #6789ab, #123456);
-        width: 17vw;
-        height: 17vw;
+        background: radial-gradient(circle at 3vw 3vw, #4a6a8a, #1a2a3a);
+        width: 19vw;
+        height: 19vw;
     }
 }
 </style>

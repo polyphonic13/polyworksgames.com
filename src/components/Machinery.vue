@@ -141,14 +141,17 @@ export default {
 <style scoped>
 .machinery-container {
     background: linear-gradient(
-        rgba(255, 255, 255, 0),
-        rgba(171, 205, 239, 0.5)
+        rgba(0, 0, 0, 0),
+        rgba(30, 40, 50, 0.3)
     );
-    width: 100%;
+    width: 100vw;
     height: 256px;
     bottom: 0;
+    left: 0;
+    right: 0;
 
     position: fixed;
+    z-index: 1;
 }
 
 .machinery {
@@ -159,9 +162,7 @@ export default {
 
 .machinery-item {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.25);
-    /* border: 1px rgba(255, 255, 255, 0.25) solid; */
-    /* border: 1px rgba(255, 0, 255, 0.75) solid; */
+    background-color: rgba(10, 15, 25, 0.25);
     width: 64px;
     height: 64px;
 
@@ -169,8 +170,8 @@ export default {
 }
 
 .machinery-item:hover {
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px rgba(171, 205, 239, 0.95) solid;
+    background-color: rgba(25, 35, 55, 0.8);
+    border: 1px rgba(40, 60, 90, 0.95) solid;
     animation-play-state: paused;
     cursor: pointer;
 }
