@@ -139,52 +139,52 @@ export default {
             ],
             screenshots: [
                 // {
-                //     url: require("../../../assets/images/games/farkle-safari/ss01.png"),
+                //     url: "/assets/images/games/farkle-safari/ss01.png",
                 // },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss02.png"),
+                    url: "/assets/images/games/farkle-safari/ss02.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss03.png"),
+                    url: "/assets/images/games/farkle-safari/ss03.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss04.png"),
+                    url: "/assets/images/games/farkle-safari/ss04.png",
                 },
                 // {
-                //     url: require("../../../assets/images/games/farkle-safari/ss05.png"),
+                //     url: "/assets/images/games/farkle-safari/ss05.png",
                 // },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss06.png"),
+                    url: "/assets/images/games/farkle-safari/ss06.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss07.png"),
+                    url: "/assets/images/games/farkle-safari/ss07.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss08.png"),
+                    url: "/assets/images/games/farkle-safari/ss08.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss09.png"),
+                    url: "/assets/images/games/farkle-safari/ss09.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss10.png"),
+                    url: "/assets/images/games/farkle-safari/ss10.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss11.png"),
+                    url: "/assets/images/games/farkle-safari/ss11.png",
                 },
                 // {
-                //     url: require("../../../assets/images/games/farkle-safari/ss12.png"),
+                //     url: "/assets/images/games/farkle-safari/ss12.png",
                 // },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss13.png"),
+                    url: "/assets/images/games/farkle-safari/ss13.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss14.png"),
+                    url: "/assets/images/games/farkle-safari/ss14.png",
                 },
                 {
-                    url: require("../../../assets/images/games/farkle-safari/ss15.png"),
+                    url: "/assets/images/games/farkle-safari/ss15.png",
                 },
                 // {
-                //     url: require("../../../assets/images/games/farkle-safari/ss16.png"),
+                //     url: "/assets/images/games/farkle-safari/ss16.png",
                 // },
             ],
         };

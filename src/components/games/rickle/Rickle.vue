@@ -148,31 +148,31 @@ export default {
             ],
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/rickle/ss01.png"),
+                    url: "/assets/images/games/rickle/ss01.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss02.png"),
+                    url: "/assets/images/games/rickle/ss02.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss03.png"),
+                    url: "/assets/images/games/rickle/ss03.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss04.png"),
+                    url: "/assets/images/games/rickle/ss04.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss05.png"),
+                    url: "/assets/images/games/rickle/ss05.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss06.png"),
+                    url: "/assets/images/games/rickle/ss06.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss07.png"),
+                    url: "/assets/images/games/rickle/ss07.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss08.png"),
+                    url: "/assets/images/games/rickle/ss08.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss09.png"),
+                    url: "/assets/images/games/rickle/ss09.png",
                 },
             ],
         };

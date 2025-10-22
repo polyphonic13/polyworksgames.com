@@ -86,7 +86,7 @@ export default {
     name: "RobotsList",
     data() {
         return {
-            polybotLogo: require("../../assets/images/robots/jorge5000/logo01.png"),
+            polybotLogo: "/assets/images/robots/jorge5000/logo01.png",
         };
     },
 };

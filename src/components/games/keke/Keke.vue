@@ -30,13 +30,13 @@ export default {
         return {
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/keke/keke-ss-01.png"),
+                    url: "/assets/images/games/keke/keke-ss-01.png",
                 },
                 {
-                    url: require("../../../assets/images/games/keke/keke-ss-02.png"),
+                    url: "/assets/images/games/keke/keke-ss-02.png",
                 },
                 {
-                    url: require("../../../assets/images/games/keke/keke-ss-03.png"),
+                    url: "/assets/images/games/keke/keke-ss-03.png",
                 },
             ],
         };

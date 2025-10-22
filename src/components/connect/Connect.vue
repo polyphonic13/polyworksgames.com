@@ -58,19 +58,19 @@ export default {
                     name: "facebook",
                     displayName: "Facebook",
                     link: "https://www.facebook.com/polyworksgames",
-                    logo: require("../../assets/images/social/facebook03.png"),
+                    logo: "/assets/images/social/facebook03.png",
                 },
                 {
                     name: "instagram",
                     displayName: "Instagram",
                     link: "https://www.instagram.com/polyworksgames/",
-                    logo: require("../../assets/images/social/instagram03.png"),
+                    logo: "/assets/images/social/instagram03.png",
                 },
                 {
                     name: "twitter",
                     displayName: "Twitter",
                     link: "https://www.twitter.com/PolyworksGames",
-                    logo: require("../../assets/images/social/twitter01.png"),
+                    logo: "/assets/images/social/twitter01.png",
                 },
             ],
         };

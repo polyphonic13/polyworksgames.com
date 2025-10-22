@@ -238,44 +238,44 @@ export default {
             soundtracks: [
                 {
                     title: "Neon Shadows II",
-                    url: require("../../../assets/audio/fallen-metal/Neon Shadows II.mp3"),
+                    url: "/assets/audio/fallen-metal/Neon Shadows II.mp3",
                 },
                 {
                     title: "The Void Beckons",
-                    url: require("../../../assets/audio/fallen-metal/The Void Beckons.mp3"),
+                    url: "/assets/audio/fallen-metal/The Void Beckons.mp3",
                 },
                 {
                     title: "Echoes of the Abyss",
-                    url: require("../../../assets/audio/fallen-metal/Echoes of the Abyss.mp3"),
+                    url: "/assets/audio/fallen-metal/Echoes of the Abyss.mp3",
                 },
             ],
             heroScreenshots: [
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-09_at_1.10.00_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-09_at_1.10.00_PM.png",
                 },
             ],
             featureScreenshots1: [
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.19.07_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.19.07_PM.png",
                 },
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.19.41_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.19.41_PM.png",
                 },
             ],
             featureScreenshots2: [
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.20.00_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.20.00_PM.png",
                 },
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.20.24_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.20.24_PM.png",
                 },
             ],
             remainingScreenshots: [
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-09_at_1.10.20_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-09_at_1.10.20_PM.png",
                 },
                 {
-                    url: require("../../../assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.21.59_PM.png"),
+                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.21.59_PM.png",
                 },
             ],
         };

@@ -80,12 +80,12 @@ export default {
             storeLinks: [
                 {
                     name: "google",
-                    image: require("../../../assets/images/store-logos-google.png"),
+                    image: "/assets/images/store-logos-google.png",
                     url: "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
                 },
                 {
                     name: "apple",
-                    image: require("../../../assets/images/store-logos-apple.png"),
+                    image: "/assets/images/store-logos-apple.png",
                     url: "https://apps.apple.com/us/app/id1518914882",
                 },
             ],
@@ -93,22 +93,22 @@ export default {
                 "http://www.polyworksgames.com/games/crown-crunch/privacy",
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/crown-crunch/title.png"),
+                    url: "/assets/images/games/crown-crunch/title.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level08.png"),
+                    url: "/assets/images/games/crown-crunch/level08.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level14.png"),
+                    url: "/assets/images/games/crown-crunch/level14.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level25.png"),
+                    url: "/assets/images/games/crown-crunch/level25.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level45.png"),
+                    url: "/assets/images/games/crown-crunch/level45.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/settings.png"),
+                    url: "/assets/images/games/crown-crunch/settings.png",
                 },
             ],
         };

@@ -1,5 +1,4 @@
-import Vue from 'vue';
-import Router from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/components/home/Home.vue';
 import About from '@/components/about/About.vue';
 import Connect from '@/components/connect/Connect.vue';
@@ -19,10 +18,8 @@ import RobotsList from '@/components/robots/RobotsList.vue';
 import Jorge5000 from '@/components/robots/jorge5000/Jorge5000.vue';
 import NewsWatch from '@/components/news-watch/NewsWatch.vue';
 
-Vue.use(Router);
-
-export default new Router({
-    mode: 'history',
+export default createRouter({
+    history: createWebHistory(),
     routes: [{
         path: '/',
         name: 'home',

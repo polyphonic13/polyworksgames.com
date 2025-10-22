@@ -90,12 +90,12 @@ export default {
             storeLinks: [
                 {
                     name: "google",
-                    image: require("../../../assets/images/store-logos-google.png"),
+                    image: "/assets/images/store-logos-google.png",
                     url: "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
                 },
                 {
                     name: "apple",
-                    image: require("../../../assets/images/store-logos-apple.png"),
+                    image: "/assets/images/store-logos-apple.png",
                     url: "https://apps.apple.com/us/app/rickle/id1560862955",
                 },
             ],
@@ -104,31 +104,31 @@ export default {
             pressLinks: [],
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/rickle/ss01-alt.png"),
+                    url: "/assets/images/games/rickle/ss01-alt.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss02.png"),
+                    url: "/assets/images/games/rickle/ss02.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss03.png"),
+                    url: "/assets/images/games/rickle/ss03.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss04.png"),
+                    url: "/assets/images/games/rickle/ss04.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss05.png"),
+                    url: "/assets/images/games/rickle/ss05.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss06.png"),
+                    url: "/assets/images/games/rickle/ss06.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss07.png"),
+                    url: "/assets/images/games/rickle/ss07.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss08.png"),
+                    url: "/assets/images/games/rickle/ss08.png",
                 },
                 {
-                    url: require("../../../assets/images/games/rickle/ss09.png"),
+                    url: "/assets/images/games/rickle/ss09.png",
                 },
             ],
         };

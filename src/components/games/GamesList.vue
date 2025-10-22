@@ -71,42 +71,42 @@ export default {
             games: [
                 {
                     name: "FALLEN METAL",
-                    logo: require("../../assets/images/games/fallen-metal/fallen-metal-logo04a.png"),
+                    logo: "/assets/images/games/fallen-metal/fallen-metal-logo04a.png",
                     path: "games/fallen-metal/",
                     tagline: "A cyberpunk noir RPG",
                     inDevelopment: true,
                 },
                 {
                     name: "Dreams of Yesterday",
-                    logo: require("../../assets/images/games/doy/logo01.png"),
+                    logo: "/assets/images/games/doy/logo01.png",
                     path: "games/dreams-of-yesterday/",
                     tagline: "",
                     inDevelopment: true,
                 },
                 {
                     name: "Rickle",
-                    logo: require("../../assets/images/games/rickle/logo01.png"),
+                    logo: "/assets/images/games/rickle/logo01.png",
                     path: "games/rickle/",
                     tagline: "Physics-based arcade puzzle",
                     inDevelopment: false,
                 },
                 {
                     name: "Farkle Safari",
-                    logo: require("../../assets/images/games/farkle-safari/logo01.png"),
+                    logo: "/assets/images/games/farkle-safari/logo01.png",
                     path: "games/farkle-safari/",
                     tagline: "Dice rolling adventure",
                     inDevelopment: false,
                 },
                 {
                     name: "Crown Crunch",
-                    logo: require("../../assets/images/games/crown-crunch/logo01.png"),
+                    logo: "/assets/images/games/crown-crunch/logo01.png",
                     path: "games/crown-crunch/",
-                    tagline: "Match-3 puzzle game",
+                    tagline: "Arcade defense tapper",
                     inDevelopment: false,
                 },
                 {
                     name: "Keke and The Grey Expanse",
-                    logo: require("../../assets/images/games/keke/logo01.png"),
+                    logo: "/assets/images/games/keke/logo01.png",
                     path: "games/keke/",
                     tagline: "Platformer adventure",
                     inDevelopment: false,
@@ -203,9 +203,9 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
+    background: #0a1423;
     border-radius: 8px;
-    padding: 1em;
+    padding: 0.3em;
     margin-bottom: 1em;
 }
 

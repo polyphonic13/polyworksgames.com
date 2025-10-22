@@ -141,22 +141,22 @@ export default {
             ],
             screenshots: [
                 {
-                    url: require("../../../assets/images/games/crown-crunch/title.png"),
+                    url: "/assets/images/games/crown-crunch/title.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level08.png"),
+                    url: "/assets/images/games/crown-crunch/level08.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level14.png"),
+                    url: "/assets/images/games/crown-crunch/level14.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level25.png"),
+                    url: "/assets/images/games/crown-crunch/level25.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/level45.png"),
+                    url: "/assets/images/games/crown-crunch/level45.png",
                 },
                 {
-                    url: require("../../../assets/images/games/crown-crunch/settings.png"),
+                    url: "/assets/images/games/crown-crunch/settings.png",
                 },
             ],
         };
