@@ -14,6 +14,7 @@ import FarkleSafariPrivacyPolicy from '@/components/games/farkle-safari/FarkleSa
 import Rickle from '@/components/games/rickle/Rickle.vue';
 import RickleSocial from '@/components/games/rickle/RickleSocial.vue';
 import RicklePrivacyPolicy from '@/components/games/rickle/RicklePrivacyPolicy.vue';
+import FallenMetal from '@/components/games/fallen-metal/FallenMetal.vue';
 import RobotsList from '@/components/robots/RobotsList.vue';
 import Jorge5000 from '@/components/robots/jorge5000/Jorge5000.vue';
 import NewsWatch from '@/components/news-watch/NewsWatch.vue';
@@ -188,6 +189,23 @@ export default new Router({
     {
         path: '/games/rickle/privacy/',
         redirect: '/games/rickle/privacy',
+    },
+    {
+        path: '/fallen-metal',
+        redirect: '/games/fallen-metal',
+    },
+    {
+        path: '/fallen_metal',
+        redirect: '/games/fallen-metal',
+    },
+    {
+        path: '/fallenmetal',
+        redirect: '/games/fallen-metal',
+    },
+    {
+        path: '/games/fallen-metal',
+        name: 'fallenMetal',
+        component: FallenMetal,
     },
     {
         path: '/robots',

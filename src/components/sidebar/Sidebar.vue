@@ -33,6 +33,7 @@ export default {
                     isActive: false,
                     activeRoutes: [
                         "gamesList",
+                        "fallenMetal",
                         "rickle",
                         "farkleSafari",
                         "crownCrunch",

@@ -8,19 +8,6 @@
                 />
             </section>
             <section>
-                <p class="store-links">
-                    <a
-                        v-for="(link, l) in storeLinks"
-                        :key="l"
-                        :href="link.url"
-                        target="_blank"
-                        class="store-link"
-                    >
-                        <img :src="link.image" />
-                    </a>
-                </p>
-            </section>
-            <section>
                 <h2 class="text-xl">Build your Rickle of stones!</h2>
                 <p class="text-lg">Top your high score, earn gems, buy power-ups and unlock new locations while building the highest RICKLE of stones! In this simple, ultra-casual game, your goal is to drop stones into towering piles. A single tap is all you need to sit back, relax and stack. Or, aim higher with the Precision, Grow and Slow power-ups. Collect gems every round, trading them in for refills of your favorite power-ups.</p>
                 <h2 class="text-xl">Charities</h2>
@@ -111,18 +98,6 @@ export default {
                 {
                     name: "Union of Concerned Scientists",
                     link: "https://www.ucsusa.org/",
-                },
-            ],
-            storeLinks: [
-                {
-                    name: "google",
-                    image: require("../../../assets/images/store-logos-google.png"),
-                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.Rickle",
-                },
-                {
-                    name: "apple",
-                    image: require("../../../assets/images/store-logos-apple.png"),
-                    url: "https://apps.apple.com/us/app/rickle/id1560862955",
                 },
             ],
             privacyLink: "http://www.polyworksgames.com/games/rickle/privacy",
@@ -230,35 +205,7 @@ section,
     padding: 0.5em;
 }
 
-.store-links {
-    width: 100%;
-    min-height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.store-link {
-    width: 33%;
-    max-width: 300px;
-    margin: 1em 0;
-    height: auto;
-}
-
-.store-link > img {
-    /* border: 2px solid #abcdef; */
-    width: 100%;
-    height: auto;
-}
-
 .privacy {
     margin-bottom: 1em;
-}
-
-@media screen and (max-width: 700px) {
-    .store-link {
-        width: 50%;
-    }
 }
 </style>

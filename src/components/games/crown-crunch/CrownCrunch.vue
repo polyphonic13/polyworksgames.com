@@ -8,19 +8,6 @@
                 />
             </section>
             <section>
-                <p class="store-links">
-                    <a
-                        v-for="(link, l) in storeLinks"
-                        :key="l"
-                        :href="link.url"
-                        target="_blank"
-                        class="store-link"
-                    >
-                        <img :src="link.image" />
-                    </a>
-                </p>
-            </section>
-            <section>
                 <h2 class="text-xl">Smash, slash and CRUNCH the invading CROWN Monsters!</h2>
                 <p class="text-xl">Don't let them reach the ground. Tap, swipe and double-tap your way to through these enemies. Save the city, town, farm and beyond. Great fun for young and old. Take a journey around the world in this simple, arcade style casual game.</p>
                 <h2 class="text-xl">Charities</h2>
@@ -131,18 +118,6 @@ export default {
                     link: "https://donate.pih.org/page/contribute/coronavirus-response?utm_content=corona3&source=20200511_pdgg_glb_em_DELVE_allidgePlan_COVID_fnd__donation_0_0_all&gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxWnQDp6Vk-w0g6tRWuwKDB8P2AkwYFj1wqdaonj88-IbTYArs-TKDUaAmQCEALw_wcB",
                 },
             ],
-            storeLinks: [
-                {
-                    name: "google",
-                    image: require("../../../assets/images/store-logos-google.png"),
-                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.CrownCrunch",
-                },
-                {
-                    name: "apple",
-                    image: require("../../../assets/images/store-logos-apple.png"),
-                    url: "https://apps.apple.com/us/app/id1518914882",
-                },
-            ],
             privacyLink:
                 "http://www.polyworksgames.com/games/crown-crunch/privacy",
             challengesLink: "/challenges",
@@ -237,28 +212,6 @@ section,
 
 .charity {
     padding: 0.5em;
-}
-
-.store-links {
-    width: 100%;
-    min-height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.store-link {
-    width: 33%;
-    max-width: 300px;
-    margin: 1em 0;
-    height: auto;
-}
-
-.store-link > img {
-    /* border: 2px solid #abcdef; */
-    width: 100%;
-    height: auto;
 }
 
 .privacy {

@@ -8,19 +8,6 @@
                 />
             </section>
             <section>
-                <p class="store-links">
-                    <a
-                        v-for="(link, l) in storeLinks"
-                        :key="l"
-                        :href="link.url"
-                        target="_blank"
-                        class="store-link"
-                    >
-                        <img :src="link.image" />
-                    </a>
-                </p>
-            </section>
-            <section>
                 <h2 class="text-xl">Play dice against animals from around the world in Farkle Safari!</h2>
                 <p class="text-xl">Play the dice game, Farkle, against all of the animals of the world. Travel to the Forest, Jungle, Ocean and Savanna. Become the Farkle Grand Champion in this fun, new game from Polyworks Games. Earn trophies, win custom dice sets and gain powers to help defeat your opponents!</p>
                 <h2 class="text-xl">Charities</h2>
@@ -111,18 +98,6 @@ export default {
                 {
                     name: "RAINFOREST ACTION NETWORK",
                     link: "https://act.ran.org/page/24255/donate/1?en_og_source=ad_gad&gclid=Cj0KCQiAoab_BRCxARIsANMx4S65k3O7HP0k9aknhEpRZFNiS-Pz1jIthuHLkfdo9JvYYt2gme1S7t0aAtPwEALw_wcB",
-                },
-            ],
-            storeLinks: [
-                {
-                    name: "google",
-                    image: require("../../../assets/images/store-logos-google.png"),
-                    url: "https://play.google.com/store/apps/details?id=com.polyworksgames.farklesafari",
-                },
-                {
-                    name: "apple",
-                    image: require("../../../assets/images/store-logos-apple.png"),
-                    url: "https://apps.apple.com/us/app/farkle-safari/id1546560307",
                 },
             ],
             privacyLink:
@@ -242,35 +217,7 @@ section,
     padding: 0.5em;
 }
 
-.store-links {
-    width: 100%;
-    min-height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.store-link {
-    width: 33%;
-    max-width: 300px;
-    margin: 1em 0;
-    height: auto;
-}
-
-.store-link > img {
-    /* border: 2px solid #abcdef; */
-    width: 100%;
-    height: auto;
-}
-
 .privacy {
     margin-bottom: 1em;
-}
-
-@media screen and (max-width: 700px) {
-    .store-link {
-        width: 50%;
-    }
 }
 </style>

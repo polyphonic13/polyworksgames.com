@@ -32,6 +32,12 @@ export default {
         return {
             games: [
                 {
+                    name: "FALLEN METAL",
+                    logo: require("../../assets/images/games/fallen-metal/fallen-metal-logo04a.png"),
+                    path: "games/fallen-metal/",
+                    isActive: true,
+                },
+                {
                     name: "Rickle",
                     logo: require("../../assets/images/games/rickle/logo01.png"),
                     path: "games/rickle/",
