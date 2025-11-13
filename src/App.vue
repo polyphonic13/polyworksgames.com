@@ -343,6 +343,7 @@ section {
         width: 100vw;
         top: 130px;
         justify-content: flex-start;
+        padding-bottom: 3em;
     }
 
     .text-xl {

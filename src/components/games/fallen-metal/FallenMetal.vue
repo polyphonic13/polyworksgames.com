@@ -5,7 +5,7 @@
             <section class="text-center logo-section">
                 <img
                     class="game-title-logo fallen-metal-logo"
-                    src="../../../assets/images/games/fallen-metal/fallen-metal-logo04a.png"
+                    src="/assets/images/games/fallen-metal/fallen-metal-logo04a.png"
                 />
             </section>
 
@@ -251,31 +251,49 @@ export default {
             ],
             heroScreenshots: [
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-09_at_1.10.00_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot10.png",
                 },
             ],
             featureScreenshots1: [
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.19.07_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot02.png",
                 },
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.19.41_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot03.png",
+                },
+                {
+                    url: "/assets/images/games/fallen-metal/screenshot11.png",
                 },
             ],
             featureScreenshots2: [
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.20.00_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot04.png",
                 },
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.20.24_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot05.png",
+                },
+                {
+                    url: "/assets/images/games/fallen-metal/screenshot12.png",
                 },
             ],
             remainingScreenshots: [
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-09_at_1.10.20_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot06.png",
                 },
                 {
-                    url: "/assets/images/games/fallen-metal/Screenshot_2025-10-12_at_4.21.59_PM.png",
+                    url: "/assets/images/games/fallen-metal/screenshot07.png",
+                },
+                {
+                    url: "/assets/images/games/fallen-metal/screenshot08.png",
+                },
+                {
+                    url: "/assets/images/games/fallen-metal/screenshot09.png",
+                },
+                {
+                    url: "/assets/images/games/fallen-metal/screenshot13.png",
+                },
+                {
+                    url: "/assets/images/games/fallen-metal/screenshot14.png",
                 },
             ],
         };
@@ -435,6 +453,10 @@ export default {
 
 .main {
     padding-bottom: 100vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 section,
@@ -443,6 +465,8 @@ section,
 .feature-screenshots {
     background-color: rgba(20, 20, 25, 0.85);
     border: 1px solid rgba(130, 200, 255, 0.25);
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .game-info {
@@ -739,44 +763,63 @@ p {
 /* Hero Screenshots - Large display at top */
 .hero-screenshots {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1em;
     align-items: center;
     justify-content: center;
-    padding: 1em;
 }
 
 .hero-screenshot {
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
     border: 2px solid #82c8ff;
     box-shadow: 0 0 20px rgba(130, 200, 255, 0.4);
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    object-fit: cover;
 }
 
 /* Feature Screenshots - Paired with features */
 .feature-screenshots {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1em;
     align-items: center;
     justify-content: center;
-    padding: 1em;
 }
 
 .feature-screenshot {
-    width: 48%;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
     border: 2px solid #82c8ff;
     box-shadow: 0 0 15px rgba(130, 200, 255, 0.3);
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    object-fit: cover;
 }
 
 /* Regular screenshots gallery */
 .screenshots {
-    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
-.screenshot {
+.fallen-metal .screenshot {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
     border: 2px solid #82c8ff;
     box-shadow: 0 0 15px rgba(130, 200, 255, 0.3);
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    object-fit: cover;
 }
 
 .final-note {
@@ -802,13 +845,10 @@ a:hover {
     }
 
     .hero-screenshots,
-    .feature-screenshots {
-        flex-direction: column;
-    }
-
-    .hero-screenshot,
-    .feature-screenshot {
-        width: 100%;
+    .feature-screenshots,
+    .screenshots {
+        padding: 1em;
+        box-sizing: border-box;
     }
 }
 </style>

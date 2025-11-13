@@ -171,7 +171,7 @@ export default {
     .item-inner1 {
         width: 16vw;
         height: 16vw;
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
 
     .item-inner2 {
@@ -200,7 +200,7 @@ export default {
     .item-inner1 {
         width: 20vw;
         height: 20vw;
-        font-size: 0.575em;
+        font-size: 0.85em;
     }
 
     .item-inner2 {
