@@ -1,7 +1,7 @@
 {
   "name": "polyworksgames",
   "version": "2.0.0",
-  "description": "A Vue 3 project",
+  "description": "official website for Polyworks Games",
   "author": "Paul Hoover <polyphonic13@gmail.com>",
   "private": true,
   "type": "module",
@@ -17,5 +17,11 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
     "vite": "^5.0.11"
+  },
+  "pnpm": {
+    "overrides": {
+      "node-forge": "^1.3.2",
+      "esbuild": "^0.25.0"
+    }
   }
 }
